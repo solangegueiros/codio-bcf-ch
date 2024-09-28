@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answer is \"Providing a centralized authority to oversee all financial transactions\" because this goes against the fundamental principle of decentralization in DeFi. \n\nBlockchain technology in DeFi aims to eliminate centralized authorities and intermediaries. The other options are all valid use cases of blockchain in DeFi: peer-to-peer lending platforms (like Aave and Compound), decentralized exchanges (like Uniswap), stablecoins (like USDT and USDC), and asset tokenization are all key applications of blockchain in the DeFi ecosystem. These use cases leverage blockchain's ability to provide transparent, secure, and decentralized financial services without the need for traditional intermediaries.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze and differentiate between various blockchain use cases in decentralized finance (DeFi)"
-	},
-	"linkedId": "09509742-471e-4153-b8e4-debf08648878",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

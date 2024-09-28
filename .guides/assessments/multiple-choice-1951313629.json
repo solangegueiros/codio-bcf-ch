@@ -48,7 +48,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -76,8 +76,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify and explain the key benefits of decentralization in blockchain technology"
-	},
-	"linkedId": "00fba36c-b107-4754-ab5f-e9df7c168368",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 3
+	}
 }

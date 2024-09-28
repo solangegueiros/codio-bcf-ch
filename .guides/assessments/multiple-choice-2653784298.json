@@ -53,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT identify and analyze the various oracle services provided by Chainlink"
-	},
-	"linkedId": "7492419f-f00b-4d53-aa22-0164f32073fa",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	}
 }

@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers are:\n1. Backing up seed phrases or private keys in multiple offline locations is crucial for wallet recovery.\n2. Verifying website authenticity helps protect against phishing attacks.\n3. Keeping devices secure and updated reduces the risk of malware compromising your wallet.\n\nUsing the same wallet for all transactions is not recommended; it's better to segregate wallets for different purposes. Storing large amounts in hot wallets increases risk; cold storage is preferable for long-term holdings.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify and apply best practices for cryptocurrency wallet security"
-	},
-	"linkedId": "0af7713b-46ad-4c7c-b856-5953b22a2337",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

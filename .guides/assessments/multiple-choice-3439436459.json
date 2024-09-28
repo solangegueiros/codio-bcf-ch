@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of ERC-20 token characteristics and functions. The correct options highlight key features of the ERC-20 standard: the `transfer` function for moving tokens, the `approve` function for delegating spending rights, and the `Transfer` event for tracking token movements. The incorrect options address common misconceptions: `totalSupply` returns the current total supply, not the maximum possible, and ERC-20 tokens are typically divisible (though this can vary based on implementation). This question encourages critical thinking about the fundamental aspects of ERC-20 tokens and their implementation in smart contracts.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify and understand the key characteristics and functions of ERC-20 tokens"
-	},
-	"linkedId": "5922e816-d0f7-47d4-9618-2b71363396a9",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

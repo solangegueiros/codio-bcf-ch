@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify and analyze specific use cases for oracles in NFT applications"
-	},
-	"linkedId": "40f0d9a0-0408-4666-9190-97ce00a555e8",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	}
 }

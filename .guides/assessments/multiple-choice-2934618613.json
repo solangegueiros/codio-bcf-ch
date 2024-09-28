@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answer is \"Public key\". In digital wallets, the public key is used to generate blockchain addresses. This is a fundamental aspect of how cryptocurrency transactions work. The other options are incorrect for the following reasons:\n\n1. Private key: While crucial for signing transactions, it is not directly used to generate addresses. It should be kept secret.\n2. Mnemonic phrase: This is used to generate both public and private keys, but not directly for address generation.\n3. Digital signature: This is created using the private key to authorize transactions, but is not involved in address generation.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify the correct component used to generate a blockchain address in a digital wallet"
-	},
-	"linkedId": "404201e3-c1a1-4011-a448-242fb15bdde1",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 4
+	}
 }

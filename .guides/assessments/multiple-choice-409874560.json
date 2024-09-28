@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answer is that a block explorer is a **website that enables users to view and search blockchain data in real-time**. \n\nThis accurately reflects the definition provided in the topic, which states that a block explorer is an online tool or web application allowing users to view, search, and track information on a blockchain. It serves as a \"window\" into the blockchain, providing access to details about transactions, blocks, addresses, and other relevant data. \n\nThe other options are incorrect as they describe different blockchain-related concepts or tools, not the specific function of a block explorer.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT explain the purpose and functionality of block explorers in blockchain technology"
-	},
-	"linkedId": "1875bd38-9773-44df-9326-26bc9aa1c208",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

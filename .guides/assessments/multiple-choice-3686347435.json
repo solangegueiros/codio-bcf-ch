@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers highlight key benefits of tokenization as described in the topic. Tokenization enhances liquidity for traditionally illiquid assets, reduces administrative costs in trading, and allows assets to participate in DeFi. The incorrect options are misleading: tokenization doesn't eliminate all risks of asset ownership, nor does it guarantee profits for all tokenized assets. These are common misconceptions that the question aims to address.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify the key benefits of asset tokenization in blockchain technology"
-	},
-	"linkedId": "6eb41806-3097-4421-9fa7-bc85515b5b68",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

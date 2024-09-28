@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the potential applications of blockchain technology in digital identity management"
-	},
-	"linkedId": "2119f1ee-ec7b-4525-a7fd-fc4ac3a2cd91",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers are:\n1. Faucets are typically used to obtain testnet tokens for development and testing purposes.\n2. To get SepoliaETH, you would use a Sepolia testnet faucet.\n3. Faucets require users to provide a wallet address to receive tokens.\n\nThese statements accurately describe cryptocurrency faucets as presented in the topic. Faucets are indeed used to distribute small amounts of testnet tokens for free, which are used for development and testing. Specifically, SepoliaETH would be obtained from a Sepolia testnet faucet. Users need to provide their wallet address to receive tokens from a faucet.\n\nThe incorrect options state that faucets distribute large amounts of cryptocurrency with real monetary value (faucets typically distribute small amounts of testnet tokens with no real value) and that users can claim an unlimited amount of tokens each day (faucets usually have daily limits on the amount that can be claimed).",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify key characteristics and uses of cryptocurrency faucets, particularly in the context of testnets"
-	},
-	"linkedId": "312672ba-9725-40ee-a455-8984c308d8af",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 3
+	}
 }

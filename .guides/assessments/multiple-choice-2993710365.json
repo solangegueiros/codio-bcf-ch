@@ -36,7 +36,8 @@
 		],
 		"guidance": "Digital wallets serve multiple functions in managing cryptocurrencies and digital assets. \n\n**The correct answers are**:\n\n1. Store cryptocurrencies: Digital wallets allow users to securely store their crypto assets.\n2. Check cryptocurrency balance: Users can view their current cryptocurrency holdings.\n3. Transfer cryptocurrencies: Digital wallets facilitate sending and receiving crypto assets.\n4. Sign messages to prove address ownership: This is a key feature for verifying ownership of a wallet address.\n\n**The incorrect option ** is:Mine new cryptocurrencies. While digital wallets are essential for managing cryptocurrencies, they are not used for mining new coins. Mining is a separate process that requires specialized hardware and software.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "SWBAT identify the key functions of a digital wallet"
-	},
-	"linkedId": "a18d27e8-caa5-4306-9de9-3727b32360b1",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	}
 }

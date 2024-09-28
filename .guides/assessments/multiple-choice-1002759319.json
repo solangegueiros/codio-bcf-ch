@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of fungible tokens in blockchain technology. The correct options highlight key characteristics: fungible tokens have identical value and function for each unit, are suitable for use as digital currencies or trading assets, and can be divided into smaller units. The incorrect options address common misconceptions: fungible tokens are not unique or non-interchangeable (that describes non-fungible tokens), and their value can fluctuate based on market conditions. This question encourages critical thinking about the nature and applications of fungible tokens in blockchain ecosystems.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze and evaluate the characteristics and applications of fungible tokens in blockchain ecosystems"
-	},
-	"linkedId": "3264b71b-2755-4530-bd2f-dfa2b4b780f7",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

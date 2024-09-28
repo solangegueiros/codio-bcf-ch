@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct options highlight key aspects of smart contracts and blockchain in asset tokenization: smart contracts can reduce (but not eliminate) the need for intermediaries, blockchain provides transparent and immutable records, and these technologies can enhance trust. The incorrect options address common misconceptions: while smart contracts and blockchain improve security, they don't completely eliminate the possibility of fraud, and they typically reduce rather than increase the need for intermediaries. This question assesses understanding of both the capabilities and limitations of these technologies in asset tokenization, encouraging critical thinking about their real-world applications and impacts.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT evaluate the role and impact of smart contracts and blockchain technology in asset tokenization"
-	},
-	"linkedId": "eb3c267e-8b72-4798-a8b3-0cfa4298518e",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

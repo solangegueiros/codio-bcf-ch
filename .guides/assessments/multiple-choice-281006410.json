@@ -21,7 +21,8 @@
 		],
 		"guidance": "**The statement is true**. Digital wallets store private key of a user account. The private key is a crucial component of the wallet, allowing users to sign transactions and prove ownership of their assets on the blockchain. While the actual cryptocurrency assets remain on the blockchain, the private keys that control access to these assets are stored securely within the wallet software (for software wallets) or hardware (for hardware wallets). This is a key function of digital wallets and is essential for their operation and security.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -37,7 +38,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -69,8 +70,5 @@
 		},
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "SWBAT understand the role of private keys in digital wallets"
-	},
-	"linkedId": "7d9c6d50-346b-4a3d-bdab-38a2a080e002",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	}
 }

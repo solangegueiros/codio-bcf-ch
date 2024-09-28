@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify and analyze specific use cases for oracles in Decentralized Finance (DeFi)"
-	},
-	"linkedId": "8d53135b-309a-4970-a615-6e5516a974de",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

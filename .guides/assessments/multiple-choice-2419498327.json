@@ -53,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify the key characteristics and purposes of a Merkle Tree"
-	},
-	"linkedId": "0ab564d9-1c49-4832-bb1c-168ec9539ce1",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 8
+	}
 }

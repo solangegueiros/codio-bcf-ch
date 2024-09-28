@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the advantages of cross-chain oracles for enterprise blockchain integration"
-	},
-	"linkedId": "0cd620c1-f3e9-4656-a7e9-6881d1796c6e",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

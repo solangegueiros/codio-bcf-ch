@@ -48,7 +48,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -76,8 +76,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the key characteristics and purpose of the Proof of Work consensus mechanism in blockchain networks"
-	},
-	"linkedId": "1e7fbe79-dfc5-428f-a0a8-abae1a9da085",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 3
+	}
 }

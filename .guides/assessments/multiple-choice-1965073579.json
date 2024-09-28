@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers are:\n1. Hardware wallets are physical devices that store cryptocurrency keys offline.\n2. Some hardware wallets use a random number generator to create public and private keys.\n3. Hardware wallets are recommended for long-term storage or large amounts of cryptocurrency.\n\nThese statements accurately describe characteristics of hardware wallets as presented in the topic. Hardware wallets are indeed physical devices that store keys offline, enhancing security. Some use random number generators for key creation, and they are recommended for long-term or high-value storage due to their enhanced security features.\n\nThe incorrect options are:\n3. Hardware wallets are generally considered MORE secure than software wallets, not less secure.\n4. Not all hardware wallets need constant internet connection. In fact, many can be used offline, only connecting when necessary for transactions.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -80,8 +81,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT analyze and evaluate the key features and security aspects of hardware wallets"
-	},
-	"linkedId": "2280b835-4fce-4399-a040-d59d1b5e5639",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of the security and trust features in asset tokenization. The correct options highlight key aspects: enhanced security through decentralization, immutable ownership records, and easy verification of ownership claims. The incorrect options address common misconceptions: while tokenization enhances security, it doesn't make assets immune to all cyber attacks, and it doesn't completely eliminate the need for third-party verification in all cases. This question encourages critical thinking about the security benefits and limitations of tokenized assets.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT evaluate the security and trust features of asset tokenization"
-	},
-	"linkedId": "53284e39-a9d9-4613-823e-fe736c9c1759",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

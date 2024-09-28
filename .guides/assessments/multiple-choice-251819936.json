@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses the ability to apply knowledge of non-fungible token (NFT) standards to real-world scenarios. NFTs are suitable for scenarios requiring unique, indivisible tokens like digital art, individual real estate properties, and specific event tickets. ERC-20 or similar fungible token standards are more appropriate for divisible and interchangeable assets like in-game currencies and loyalty points. Understanding these distinctions is crucial for choosing the right token standard for specific use cases in blockchain development.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT evaluate and distinguish appropriate use cases for non-fungible token (NFT) standards based on their properties"
-	},
-	"linkedId": "331bd5e7-8e02-4303-be0a-61a290ea2f64",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

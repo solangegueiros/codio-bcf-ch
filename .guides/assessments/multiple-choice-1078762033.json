@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answer is \"A crop insurance smart contract that automatically pays farmers based on data from weather sensors and satellite imagery.\" This scenario uniquely demonstrates the value of oracles in insurance smart contracts by showcasing their ability to bridge off-chain data (weather information and satellite imagery) with on-chain smart contracts. Oracles enable automatic and objective claim processing based on real-world data, which is a key advantage in parametric insurance. The other options, while potentially utilizing blockchain technology, do not specifically require or showcase the unique capabilities of oracles in facilitating data-driven, automated insurance processes.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze and identify the most appropriate use of oracles in insurance smart contracts"
-	},
-	"linkedId": "d951d4dd-f2b2-4b6a-8fa3-f006790c3db5",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

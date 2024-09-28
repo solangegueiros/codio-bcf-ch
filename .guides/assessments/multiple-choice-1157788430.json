@@ -58,7 +58,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -86,8 +86,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze and evaluate the key characteristics of the Ethereum Virtual Machine (EVM) and its role in state transitions"
-	},
-	"linkedId": "ebfa101c-800c-4031-9d70-4e80bca10b60",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	}
 }

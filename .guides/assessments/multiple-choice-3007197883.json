@@ -48,7 +48,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -80,8 +80,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify the structure and properties of a Merkle Tree"
-	},
-	"linkedId": "6883f663-d7e9-4316-a4c6-bb35e97f816d",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 7
+	}
 }

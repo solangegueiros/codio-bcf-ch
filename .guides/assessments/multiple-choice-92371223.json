@@ -48,7 +48,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -76,8 +76,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the key characteristics and purpose of the Proof of Authority consensus mechanism in blockchain networks"
-	},
-	"linkedId": "123f764f-7b61-4eec-a118-1d05680b7944",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 3
+	}
 }

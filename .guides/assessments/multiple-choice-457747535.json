@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers reflect the accurate understanding of cryptographic elements in digital wallets:\n\n1. A public key is used to generate blockchain addresses: This is correct, as public keys are used to derive addresses for various blockchains.\n2. An address is a specific \"location\" on the blockchain where coins can be sent: This accurately describes the function of a blockchain address.\n3. A mnemonic phrase can be used to generate public and private keys: This is true, as mnemonic phrases are often used as a seed to generate key pairs.\n\nThe incorrect options are:\n1. 'A private key should be shared to receive cryptocurrency': This is false and dangerous. Private keys should never be shared; only public addresses derived from public keys should be shared to receive funds.\n2. 'The public key is used to sign transactions': This is incorrect. The private key, not the public key, is used to sign transactions.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify and distinguish between the key cryptographic elements used in digital wallets"
-	},
-	"linkedId": "30e28e9d-0a24-464c-9d87-73457e785fb4",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 3
+	}
 }

@@ -53,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT understand the roles and uses of public and private keys in blockchain cryptography"
-	},
-	"linkedId": "a76fcb38-384a-40d2-863e-367f43534dfd",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 7
+	}
 }

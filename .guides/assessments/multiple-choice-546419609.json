@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers are:\n1. Hot wallets are always connected to the Internet.\n2. Mobile wallets and web wallets are examples of hot wallets.\n3. Hot wallets provide easy access for frequent transactions and active trading.\n\nThese statements accurately describe characteristics of hot wallets as presented in the topic. Hot wallets are defined by their constant Internet connection, which includes mobile and web wallets. They are designed for easy access and frequent use.\n\nThe incorrect options are:\n3. Hot wallets are NOT more suitable for long-term storage of large amounts of cryptocurrency. This is actually a characteristic of cold wallets, which are more secure for long-term storage.\n5. Hot wallets are NOT considered more secure than cold wallets. Due to their constant Internet connection, they are generally considered less secure than cold wallets.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -80,8 +81,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT differentiate between hot and cold wallets and identify key characteristics of hot wallets"
-	},
-	"linkedId": "7df064c7-1225-4d1f-90f9-a75bfedd642e",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

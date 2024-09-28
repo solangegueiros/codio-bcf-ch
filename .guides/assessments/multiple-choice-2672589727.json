@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers are:\n1. Multisig wallets require multiple signatures or approvals to send a transaction.\n2. Some service providers offer shared control of multisig wallets.\n4. Multisig wallets can enhance security by distributing control among multiple parties.\n\nThese statements accurately describe characteristics of multisig wallets as presented in the topic. Multisig wallets are defined by their requirement for multiple signatures, can be offered with shared control by service providers, and enhance security through distributed control.\n\nThe incorrect options are:\n3. Multisig wallets do not always require exactly three signatures. The number of required signatures can vary.\n5. Not all cryptocurrency wallets are multisig by default. Multisig is a specific type of wallet configuration.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -80,8 +81,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify key features and use cases of multisig wallets"
-	},
-	"linkedId": "498ac16d-b540-48b7-8f36-08f8fbb0a614",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

@@ -31,7 +31,8 @@
 		],
 		"guidance": "**The correct answer is**: To store and manage cryptocurrencies and other digital assets. \n\nThis accurately describes the primary purpose of a digital wallet as presented in the topic. Digital wallets are designed to securely store and manage various digital assets, including cryptocurrencies, digital identities, and other valuable digital information. \n\nThe incorrect options either misrepresent the main function of digital wallets or describe activities that are not typically associated with basic digital wallet functionality.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -47,7 +48,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -79,8 +80,5 @@
 		},
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "SWBAT identify the primary functions of a digital wallet"
-	},
-	"linkedId": "48b5fc34-5b8b-43c5-ab1e-e3904f291cff",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 3
+	}
 }

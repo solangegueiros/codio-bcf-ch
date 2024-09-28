@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the security architecture of Chainlink's Cross-Chain Interoperability Protocol (CCIP)"
-	},
-	"linkedId": "9c3a39e7-ec0e-4206-96f4-7e7b33103f7d",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	}
 }

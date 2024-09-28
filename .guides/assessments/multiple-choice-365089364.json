@@ -21,7 +21,8 @@
 		],
 		"guidance": "**This statement is true**. \n\nUsing different wallets for different purposes, such as one for everyday transactions and another for long-term storage, is a recommended security practice in cryptocurrency management. \n\nThis approach helps to limit exposure and reduce risk by segregating funds based on their intended use. It aligns with the principle of not keeping all assets in one place, which is a fundamental security strategy in both traditional and digital finance.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -37,7 +38,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -69,8 +70,5 @@
 		},
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "SWBAT understand basic wallet security practices"
-	},
-	"linkedId": "704081ee-0bab-4028-b48a-4a7b51b24c06",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

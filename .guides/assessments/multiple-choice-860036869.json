@@ -21,7 +21,8 @@
 		],
 		"guidance": "**This statement is true**. \n\n**Cold wallets**, which are offline storage methods like hardware wallets or paper wallets, are generally considered more secure for long-term storage of large amounts of cryptocurrency compared to hot wallets (online wallets).\n\nCold wallets are not connected to the internet, which significantly reduces the risk of online attacks, hacking, or unauthorized access. This aligns with the security principle of limiting online exposure for valuable digital assets.\n\n**Hot wallets**, while more convenient for frequent transactions, are more vulnerable to cyber threats due to their constant internet connection.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -37,7 +38,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -69,8 +70,5 @@
 		},
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "SWBAT understand the security benefits of cold wallets for cryptocurrency storage"
-	},
-	"linkedId": "ae70067c-d935-49aa-8ff2-cfbe2061eea0",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

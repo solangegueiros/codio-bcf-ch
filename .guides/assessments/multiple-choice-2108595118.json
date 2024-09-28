@@ -53,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze and evaluate the key characteristics and functionality of smart contracts on the Ethereum blockchain"
-	},
-	"linkedId": "b9c18cd1-0df8-4e00-9afe-e16daf4a2d9b",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	}
 }

@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of ERC-20 token applications. ERC-20 tokens are fungible and suitable for use cases where tokens need to be interchangeable and divisible. Stablecoins, governance tokens, and utility tokens are common ERC-20 applications as they require fungibility. Unique digital artworks are typically non-fungible tokens (NFTs) and use different standards like ERC-721. Tokenizing specific real estate properties also usually involves non-fungible tokens, as each property is unique. Understanding these distinctions is crucial for identifying appropriate use cases for ERC-20 tokens in blockchain ecosystems.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT evaluate and distinguish appropriate use cases for ERC-20 tokens in blockchain ecosystems"
-	},
-	"linkedId": "ff66d6a4-9bab-4b50-ba44-3a07c2123661",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT evaluate the impact of blockchain technology on traditional financial services"
-	},
-	"linkedId": "6eb9f80f-6471-49a8-8872-88d716ea9dd2",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

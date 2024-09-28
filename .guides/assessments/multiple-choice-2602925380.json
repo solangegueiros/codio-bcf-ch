@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of the appropriate use cases for ERC-20 and ERC-721 tokens based on their characteristics. ERC-20 tokens are suitable for scenarios requiring fungibility, divisibility, and uniform value, such as cryptocurrencies and loyalty points. These are represented in options 1 and 3. ERC-721 tokens are more appropriate for unique, indivisible assets like digital artwork, individual real estate properties, and unique game items, as seen in options 2, 4, and 5. The question encourages students to think critically about the nature of different digital assets and how they align with the properties of each token standard.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT differentiate between appropriate use cases for ERC-20 and ERC-721 tokens based on their characteristics"
-	},
-	"linkedId": "1edf4b6c-53a4-4d61-8206-d94004ed1f1a",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

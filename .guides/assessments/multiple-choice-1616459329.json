@@ -48,7 +48,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -76,8 +76,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT compare and contrast the key features of Proof of Stake (PoS) consensus mechanism with other blockchain consensus mechanisms"
-	},
-	"linkedId": "b67733bc-144e-4bad-b89b-532f31917c53",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 4
+	}
 }

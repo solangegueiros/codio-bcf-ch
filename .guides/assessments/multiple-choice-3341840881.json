@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers are:\n1. Cold wallets are not connected to the Internet.\n2. Hardware wallets and paper wallets are examples of cold wallets.\n4. Cold wallets provide enhanced security for long-term storage of large amounts of cryptocurrency.\n\nThese statements accurately describe characteristics of cold wallets as presented in the topic. Cold wallets are defined by their lack of Internet connection, which includes hardware and paper wallets. They are designed for secure, long-term storage of large amounts of cryptocurrency.\n\nThe incorrect options are:\n3. Cold wallets are NOT more suitable for frequent transactions and active trading. This is actually a characteristic of hot wallets, which are designed for easy access and frequent use.\n5. Cold wallets are NOT less secure than hot wallets. Due to their offline nature, they are generally considered more secure than hot wallets.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -80,8 +81,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT differentiate between hot and cold wallets and identify key characteristics of cold wallets"
-	},
-	"linkedId": "be179d15-143b-4557-83c6-5701b30528de",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

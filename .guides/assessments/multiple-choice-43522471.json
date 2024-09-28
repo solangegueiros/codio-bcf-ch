@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers are:\n1. Desktop wallets are software installed and executed locally on your computer.\n2. Mobile wallets generally allow you to send and receive crypto using QR codes.\n\nThese statements accurately describe characteristics of software wallets as presented in the topic. Desktop wallets are indeed installed and run locally on your computer. Mobile wallets, typically smartphone apps, offer the convenience of using QR codes for transactions.\n\nThe incorrect options are:\n3. Web wallets don't always require downloads; some are accessed through a browser interface without installation.\n4. Browser extension wallets actually store keys locally on your computer, not on a remote server.\n5. It's not recommended to let service providers manage your private keys. The phrase \"Not your keys, not your coins!\" emphasizes the importance of controlling your own private keys.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -80,8 +81,5 @@
 		},
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "SWBAT distinguish between different types of software wallets and their characteristics"
-	},
-	"linkedId": "edc763ad-2cfc-49eb-8937-40c8d3740f6a",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

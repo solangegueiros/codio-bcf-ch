@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze and evaluate scenarios involving cross-chain token transfers in DAOs"
-	},
-	"linkedId": "4d7bb11d-6b39-4f6f-9712-2b7a5d753a63",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

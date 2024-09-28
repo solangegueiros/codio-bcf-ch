@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses the understanding of NFT applications across various industries. The correct options highlight the versatility of NFTs beyond just digital art. NFTs can indeed represent virtual land ownership in games and tokenize real-world assets like real estate, potentially improving liquidity in these markets. They can also be used for digital identity verification. The incorrect options include using NFTs for fungible currencies (which is not appropriate as NFTs are non-fungible) and limiting NFTs to just digital art (which understates their broad applicability). Understanding these diverse applications is crucial for grasping the full potential of NFT technology in different sectors.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze and evaluate potential applications of NFTs across different industries"
-	},
-	"linkedId": "039fa24a-8f22-4d49-b80e-701753ef3819",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

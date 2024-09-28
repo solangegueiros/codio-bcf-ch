@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of ERC-721 token characteristics and functions. The correct options highlight key features of the ERC-721 standard: non-fungibility, ownership tracking with `ownerOf`, and the ability to include metadata. The incorrect options address common misconceptions: ERC-721 tokens are not divisible like ERC-20 tokens, and `balanceOf` returns the number of tokens owned by an address, not the total supply. This question encourages critical thinking about the fundamental aspects of ERC-721 tokens and how they differ from other token standards.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify and understand the key characteristics and functions of ERC-721 tokens"
-	},
-	"linkedId": "d69aea39-f558-430a-89b5-bba61a74dbcb",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

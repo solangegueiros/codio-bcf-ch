@@ -31,7 +31,8 @@
 		],
 		"guidance": "The correct answer is that **backing up your seed phrase is essential for wallet recovery and should be stored securely offline in multiple locations**. This is crucial because the seed phrase is the only way to recover your wallet and access your funds if you lose access to your wallet or device. \n\nStoring it online exposes it to potential hacking risks, so offline storage is recommended. It's necessary for both hot and cold wallets, not just hot wallets. Lastly, it's not optional and is needed for more than just forgotten passwords - it's the key to recovering your entire wallet in various scenarios.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -47,7 +48,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -79,8 +80,5 @@
 		},
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "SWBAT understand the importance of securely backing up a seed phrase for cryptocurrency wallets"
-	},
-	"linkedId": "e391ecb3-313c-40eb-be2a-6d6c88fa30a2",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers reflect accurate understanding of private keys in digital wallets:\n\n1. The private key is used to sign transactions on the blockchain: This is correct, as private keys are essential for authorizing transactions.\n2. A private key gives access to your cryptocurrencies, regardless of which wallet you use: This is true, as the private key is the fundamental element that proves ownership of crypto assets.\n3. Keeping your private key secure is crucial for maintaining control over your digital assets: This is correct and emphasizes the importance of private key security.\n\nThe incorrect options are:\n1. 'A private key should be shared with trusted friends for backup purposes': This is false and dangerous. Private keys should never be shared with anyone.\n2. 'If you lose your private key, you can easily recover it by contacting the blockchain support': This is incorrect. There is no central authority or 'blockchain support' that can recover lost private keys.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT understand the importance of private key security and its role in digital wallets"
-	},
-	"linkedId": "287eed53-7e2b-488d-82c1-ce88a2e521f6",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

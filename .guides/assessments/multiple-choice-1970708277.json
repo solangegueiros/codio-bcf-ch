@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of fungible token use cases. Fungible tokens are suitable for assets that are divisible and interchangeable, such as company stocks, carbon credits, and in-game currencies. These can be easily divided and exchanged without losing value. Unique digital collectibles and specific real estate properties are non-fungible, as each item is distinct and not interchangeable, making them unsuitable for fungible tokenization. Understanding these distinctions is crucial for choosing the appropriate token type in blockchain applications.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT identify and evaluate appropriate use cases for fungible tokens in blockchain applications"
-	},
-	"linkedId": "6a191feb-26ca-4ad4-881c-d645e1b8b41e",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

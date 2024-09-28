@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of various applications and characteristics of asset tokenization. The correct options highlight key aspects: the ability to tokenize real-world assets, the tokenization of purely digital assets (including in-game assets), and the potential for fractional ownership. The incorrect options address common misconceptions: not all tokenized digital assets represent claims on physical assets, and tokenized assets can often be traded across different blockchain networks. This question encourages critical thinking about the diverse applications and features of asset tokenization in both physical and digital contexts.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze different applications and characteristics of asset tokenization"
-	},
-	"linkedId": "37120723-058e-4e80-b0df-2acca5bb13e0",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

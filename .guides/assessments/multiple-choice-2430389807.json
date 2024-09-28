@@ -53,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT identify and evaluate appropriate use cases for Chainlink's Cross-Chain Interoperability Protocol (CCIP) in blockchain applications"
-	},
-	"linkedId": "6067b4aa-aa4b-4ef0-aab8-f0b18273fdfc",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 5
+	}
 }

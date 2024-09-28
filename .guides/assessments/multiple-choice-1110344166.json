@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of the flexibility and customization features in asset tokenization. The correct options highlight key aspects: programmability of tokens with specific rights and restrictions, creation of customizable financial instruments, and diverse use cases like serving as collateral in DeFi. The incorrect options address misconceptions: tokenized assets are not limited to traditional trading, and tokenization does not eliminate regulatory compliance needs. Instead, it offers new ways to approach these aspects. This question encourages critical thinking about the adaptability and potential applications of tokenized assets.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the flexibility and customization features of asset tokenization"
-	},
-	"linkedId": "885fdf91-5da4-4ac8-b6ef-81c0196204ce",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

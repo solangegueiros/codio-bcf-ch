@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers are:\n1. Sepolia is one of Ethereum's active testnets.\n2. Sepolia is primarily used for dApp stress tests and smart contract experiments.\n3. Sepolia allows developers to experiment with EVM functions.\n\nThese statements accurately describe the Sepolia testnet as presented in the topic. Sepolia is indeed one of Ethereum's active testnets, along with Holesky. It is primarily used for DApp stress tests, smart contract experiments, and other Ethereum Virtual Machine (EVM) functions.\n\nThe incorrect options state that Sepolia coins have real monetary value (testnet coins have no real value and can be obtained freely) and that Sepolia is designed specifically for testing staking designs (this is a characteristic of the Holesky testnet, not Sepolia).",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify key characteristics and uses of the Sepolia testnet in Ethereum"
-	},
-	"linkedId": "4197200a-f301-46fd-8bda-420a704a34d8",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

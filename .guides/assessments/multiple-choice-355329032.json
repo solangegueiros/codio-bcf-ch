@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct options highlight key impacts of tokenization: increased accessibility to illiquid assets, potential reduction of intermediaries, and enabling new DeFi possibilities. The incorrect options address common misconceptions: tokenization doesn't guarantee high liquidity for all assets, nor does it make investments risk-free. These choices test understanding of both the benefits and limitations of tokenization.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the impacts and limitations of tokenization in blockchain technology"
-	},
-	"linkedId": "51774dad-532a-4154-94c1-fb4859159128",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

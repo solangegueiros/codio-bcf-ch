@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers highlight the similarities and differences between blockchain and traditional banking:\n\n1. Sharing the public key or account number to receive funds is safe in both systems.\n2. The private key in blockchain and a bank account password are both critical for account security and authorizing transactions.\n3. Blockchain offers less privacy, as knowing a public address allows viewing of balance and transaction history, unlike traditional banking.\n\n**The incorrect options are**:\n1. 'Both blockchain and traditional banking systems offer the same level of transaction privacy': This is false. Blockchain transactions are generally more transparent.\n2. 'Bank account details and blockchain public keys both give others the ability to withdraw funds': This is false. While public keys allow viewing of information in blockchain, they don't permit withdrawals, similar to how bank account numbers alone don't allow withdrawals.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT compare and contrast blockchain account management with traditional banking systems"
-	},
-	"linkedId": "99e65643-21d2-4ad8-b674-22d5273d4ef2",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answer is: **A mnemonic phrase can be used to restore a wallet on different devices or applications**. \n\nThis is a key feature of mnemonic phrases, allowing users to recover their wallets across various platforms. \n\n**The other options are incorrect because**: sharing mnemonic phrases with anyone, including support staff, compromises security; mnemonic phrases are used for various cryptocurrencies, not just Bitcoin; lost mnemonic phrases cannot be regenerated for existing wallets; and mnemonic phrases typically consist of 12 or 24 words, not 5-10.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT understand the importance and proper handling of mnemonic phrases in cryptocurrency wallets"
-	},
-	"linkedId": "2b0b7e84-47bd-46b2-99fa-4135faf4f13f",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

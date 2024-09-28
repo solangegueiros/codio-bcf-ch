@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify real-world use cases of blockchain interoperability"
-	},
-	"linkedId": "338ba3d3-0419-4416-83a5-8faeeb9bdc81",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 3
+	}
 }

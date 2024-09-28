@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of NFTs in the digital art context. The correct options highlight key benefits: proving ownership/authenticity, potential for royalties from secondary sales, and access to global markets without traditional intermediaries. The incorrect options address misconceptions: NFTs can be resold on secondary markets, and their value is influenced by factors beyond just the artwork quality (e.g., artist reputation, market trends). Understanding these concepts is crucial for grasping the transformative potential of NFTs in the digital art world.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the effects and implications of NFTs in the digital art market"
-	},
-	"linkedId": "aa86e5ca-a926-4e5b-a7e0-260704d048c1",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

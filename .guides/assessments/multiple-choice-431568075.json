@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of the efficiency and cost reduction benefits of asset tokenization. The correct options highlight key advantages: reduced transaction costs through streamlined processes, automation of complex tasks via smart contracts, and improved accuracy in record-keeping. The incorrect options address common misconceptions: tokenization doesn't completely eliminate all intermediaries, and cost reduction isn't guaranteed in every scenario. This encourages critical thinking about the practical applications and limitations of tokenization in improving efficiency and reducing costs.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the efficiency and cost reduction benefits of asset tokenization"
-	},
-	"linkedId": "95c6a0ce-9f2e-4798-a3f0-b8d1a04ea40b",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

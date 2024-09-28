@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze and evaluate the capabilities and limitations of Chainlink's Cross-Chain Interoperability Protocol (CCIP) in facilitating cross-chain operations"
-	},
-	"linkedId": "af261c72-aeb1-49c7-8329-3ef48f4b75a0",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 5
+	}
 }

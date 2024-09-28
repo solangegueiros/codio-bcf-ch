@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT evaluate the importance of multiple independent key holders in Chainlink's Cross-Chain Interoperability Protocol (CCIP) for network security"
-	},
-	"linkedId": "d5908b67-9af5-4d5c-a4ef-cb5d9da02963",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 3
+	}
 }

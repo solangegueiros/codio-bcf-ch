@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT evaluate scenarios demonstrating practical applications of blockchain interoperability in enterprise settings"
-	},
-	"linkedId": "5e99a4d1-a19e-40a1-8838-0e55c1f6b0a5",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

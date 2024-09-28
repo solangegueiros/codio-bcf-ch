@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses the ability to apply knowledge of ERC-20 token standard to real-world scenarios. ERC-20 is suitable for scenarios requiring fungible, divisible tokens like cryptocurrencies, loyalty points, and tokens for easy exchange. ERC-721 is appropriate for unique, non-fungible assets like digital art and individual real estate properties. Understanding these distinctions is crucial for choosing the right token standard for specific use cases in blockchain development.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT evaluate and distinguish appropriate use cases for ERC-20 token standards based on their properties"
-	},
-	"linkedId": "da4970bd-eac3-4691-8dcd-e683ad33106e",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 4
+	}
 }

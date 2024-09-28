@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct options highlight key benefits of tokenization: 24/7 trading increasing liquidity, reduced geographical barriers, and enabling fractional ownership. These accurately reflect the potential of blockchain-based asset tokenization to transform markets. The incorrect options address common misconceptions: while smart contracts can enhance security, they don't eliminate all fraud risks, and tokenization doesn't guarantee high trading volumes for all assets. This question tests understanding of both the advantages and limitations of tokenization, encouraging critical thinking about its real-world applications.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT evaluate the benefits and limitations of asset tokenization on blockchain"
-	},
-	"linkedId": "c7b0d6a7-bdf6-487a-b4d0-0621dffc9c5c",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

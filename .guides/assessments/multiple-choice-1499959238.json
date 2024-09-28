@@ -85,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the impact of blockchain technology on supply chain management and product authenticity verification"
-	},
-	"linkedId": "3541b022-64ea-436d-9792-68d82f1b1cce",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

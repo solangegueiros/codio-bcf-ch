@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of stablecoin characteristics and use cases. Stablecoins aim to provide price stability, making them less volatile than traditional cryptocurrencies. While many stablecoins are pegged to fiat currencies, not all are - some are pegged to commodities like gold (e.g., PAXG). USDC is indeed known for its transparency and regular audits. Decentralized stablecoins like USDS are often collateralized by other cryptocurrencies rather than fiat currency. Understanding these distinctions is crucial for grasping the diverse landscape of stablecoins and their roles in the cryptocurrency ecosystem.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT differentiate between various types of stablecoins and their underlying mechanisms"
-	},
-	"linkedId": "f98e44f1-9c7f-4619-9122-1fda88e18a47",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	}
 }

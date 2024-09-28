@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answer is: **They can modify blockchain data if errors are found**. This statement is false because block explorers are read-only tools that allow users to view and search blockchain data, but they cannot modify the blockchain itself. \n\nAll other options are true statements about block explorers based on the provided information. Block explorers allow users to view transaction details, provide real-time information about blocks and addresses, serve as a \"window\" into the blockchain, and their functionality does not affect the blockchain itself.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify the key functions and limitations of block explorers in blockchain technology"
-	},
-	"linkedId": "ff802a15-7894-452a-8b2b-13de1add2d87",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

@@ -21,7 +21,8 @@
 		],
 		"guidance": "**The statement is true**. \n\nThe mnemonic phrase is indeed the most crucial component of a cryptocurrency wallet. It serves as the foundation for generating multiple key pairs and addresses. If lost, the user loses access to all funds associated with that wallet. The mnemonic can be used to recover the wallet on different devices or applications, making it the ultimate backup. Its importance is underscored by the fact that anyone who knows the mnemonic can access and transfer all cryptocurrencies from all addresses generated from it. \n\nTherefore, keeping the mnemonic phrase secure and private is of utmost importance for maintaining control over one's digital assets.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -37,7 +38,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -69,8 +70,5 @@
 		},
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "SWBAT understand the importance of mnemonic phrases in digital wallets"
-	},
-	"linkedId": "0952d7ac-300d-4d8c-9dcc-57e704f8e4c5",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

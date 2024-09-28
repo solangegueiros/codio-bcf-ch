@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct options highlight key impacts of tokenization: increased market accessibility through lower investment thresholds, enabling global participation in local markets, and potential reduction in administrative costs. These accurately reflect the transformative potential of blockchain-based asset tokenization. The incorrect options address common misconceptions: while tokenization can improve liquidity, it doesn't guarantee higher liquidity for all assets, and while it can reduce the need for some intermediaries, it doesn't completely eliminate all intermediaries in every transaction. This question assesses understanding of both the potential benefits and limitations of tokenization, encouraging critical thinking about its real-world applications and impacts.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the impacts and limitations of asset tokenization in blockchain technology"
-	},
-	"linkedId": "1fe5a5f3-9f34-4cc8-abfd-534c776a020b",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

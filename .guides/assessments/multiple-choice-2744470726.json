@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of transparency and compliance aspects in asset tokenization. The correct options highlight key features: real-time tracking enabled by blockchain, embedding of compliance rules, and improved transaction verification. The incorrect options address misconceptions: tokenization doesn't automatically ensure compliance with all regulations globally, and it doesn't eliminate the need for auditing. Instead, it can enhance these processes. This question encourages critical thinking about how tokenization can improve transparency and compliance while recognizing its limitations.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT evaluate the transparency and compliance aspects of asset tokenization"
-	},
-	"linkedId": "fbfc783c-4088-41b1-a902-80d86db811db",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

@@ -36,7 +36,8 @@
 		],
 		"guidance": "**The correct answers reflect the true nature and functions of digital wallets**:\n\n1. Digital wallets allow users to interact with their blockchain accounts: This is a primary function of digital wallets.\n2. Users can authorize transactions using their digital wallet: This is another key function, enabling users to send and receive cryptocurrencies.\n3. A digital wallet can be used to prove ownership of a blockchain address: This is correct, as wallets can sign messages to verify ownership.\n\n**The incorrect options are**:\n1. 'A digital wallet stores cryptocurrencies directly within the application': This is a common misconception. Digital wallets don't store cryptocurrencies; they interact with the blockchain where the assets are recorded.\n2. 'Digital wallets give custody of funds to the wallet provider': This is false. Wallet providers don't have custody of funds; they only provide tools to manage blockchain accounts.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT distinguish between the core functions of a digital wallet and misconceptions about its capabilities"
-	},
-	"linkedId": "55a81ad0-af96-4123-91e2-abbb846ea7d0",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	}
 }

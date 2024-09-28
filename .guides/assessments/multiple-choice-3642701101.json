@@ -36,7 +36,8 @@
 		],
 		"guidance": "This question assesses understanding of token standards in blockchain technology. The correct options highlight key aspects: token standards ensure compatibility with existing infrastructure, can specify functions to be declared (even if not implemented), and contribute to interoperability. The incorrect options address common misconceptions: token standards are not mandatory rules, and different blockchain networks may use different standards. This question encourages critical thinking about the role and characteristics of token standards in blockchain ecosystems.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT evaluate the characteristics and applications of different token standards"
-	},
-	"linkedId": "deb40b77-b180-42c7-9618-a65a2697d26f",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	}
 }

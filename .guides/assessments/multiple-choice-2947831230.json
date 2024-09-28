@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers are:\n1. Developers use testnet faucets to obtain tokens for testing smart contracts.\n2. Testnet faucets often have daily limits on the amount of tokens that can be claimed.\n\nThese statements accurately reflect the purpose and characteristics of cryptocurrency testnet faucets. Developers indeed use testnet tokens obtained from faucets to test their smart contracts and applications without using real cryptocurrency. Most faucets implement daily limits to prevent abuse and ensure fair distribution.\n\nThe incorrect options state that testnet faucets provide tokens that can be exchanged for real cryptocurrency (testnet tokens have no real-world value), that faucets allow unlimited token claims (which would lead to abuse), and that SepoliaETH can be used on the Ethereum mainnet (testnet tokens are only valid on their respective testnets, not on the main network).",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT evaluate the purpose and characteristics of cryptocurrency testnet faucets"
-	},
-	"linkedId": "71256f1b-c87e-4060-80ad-192b29b9848b",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	}
 }

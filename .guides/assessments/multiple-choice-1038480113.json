@@ -38,7 +38,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -70,8 +70,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify a key characteristic of Merkle Trees in relation to blockchain technology"
-	},
-	"linkedId": "eaba3240-2aca-4f18-9c27-c2dcc2d37078",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 8
+	}
 }

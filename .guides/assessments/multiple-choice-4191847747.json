@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answer is that to receive tokens, you must connect your wallet, accept terms of service, and verify your identity using a GitHub account. This accurately reflects the process described in the topic, where users need to connect their wallet, accept the Chainlink Foundation Terms of Service, and verify their identity using a GitHub account to protect against spam requests. \n\nThe other options are incorrect: there are limits on the amount of Sepolia ETH you can receive, the faucet can distribute both Sepolia ETH and Sepolia LINK, and you need to use a testnet-compatible wallet address, not a regular Ethereum address.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+            "passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -52,7 +53,7 @@
 				},
 				{
 					"name": "Content",
-					"value": "BFT"
+					"value": "BCF"
 				},
 				{
 					"name": "Programming Language",
@@ -84,8 +85,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT explain the process and requirements for obtaining testnet tokens from a cryptocurrency faucet"
-	},
-	"linkedId": "9abb504d-f96c-4602-b377-32c216e6585e",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	}
 }
