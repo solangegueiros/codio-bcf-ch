@@ -4,7 +4,7 @@
 	"source": {
 		"name": "DeFi Oracle Use Cases",
 		"showName": false,
-		"instructions": "Which of the following is NOT a primary use case for oracles in Decentralized Finance (DeFi)?",
+		"instructions": "Which of the following is NOT a use case for oracles in Decentralized Finance (DeFi)?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -26,7 +26,7 @@
 			{
 				"_id": "3f9578f4-1a42-0047-5ad8-1ff2e6c5d8e9",
 				"correct": true,
-				"answer": "Executing trades on decentralized exchanges"
+				"answer": "Storing wallet keys"
 			},
 			{
 				"_id": "3115e077-769e-fbbf-09fe-08decf939eff",
@@ -34,9 +34,10 @@
 				"answer": "Triggering liquidations in collateralized lending"
 			}
 		],
-		"guidance": "The correct answer is \"Executing trades on decentralized exchanges.\" While oracles play a crucial role in DeFi by providing external data, they do not directly execute trades. Oracles supply price data and other information that decentralized exchanges use, but the actual execution of trades is handled by the exchange's smart contracts. The other options are all valid use cases for oracles in DeFi: they provide real-time price data for various assets, help in calculating interest rates on lending platforms, assist in maintaining stablecoin pegs, and provide data that can trigger liquidations in collateralized lending scenarios. This question tests the student's understanding of the specific roles oracles play in DeFi applications, distinguishing between data provision (which oracles do) and transaction execution (which they don't).",
+		"guidance": "The correct answer is \"Storing wallet keys.\" Oracles do not manage a users private and public keys. \n\n The other options are all valid use cases for oracles in DeFi: they provide real-time price data for various assets, help in calculating interest rates on lending platforms, assist in maintaining stablecoin pegs, and provide data that can trigger liquidations in collateralized lending scenarios. This question tests the student's understanding of the specific roles oracles play in DeFi applications, distinguishing between data provision (which oracles do) and transaction execution (which they don't).",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "8d53135b-309a-4970-a615-6e5516a974de",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

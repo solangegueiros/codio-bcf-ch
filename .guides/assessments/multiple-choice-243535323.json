@@ -34,9 +34,10 @@
 				"answer": "Bitcoin Lightning Network"
 			}
 		],
-		"guidance": "The correct answers are State Channels, Plasma Chains, and Rollups. These are all examples of Layer 2 solutions built on top of Ethereum to improve scalability and efficiency. State channels allow for off-chain transactions with only the final state recorded on-chain. Plasma chains are separate blockchains anchored to the main Ethereum chain. Rollups perform transaction execution outside the main Ethereum chain but post transaction data on layer 1. Solana is an independent blockchain, not a Layer 2 solution for Ethereum. The Bitcoin Lightning Network is a Layer 2 solution, but for Bitcoin, not Ethereum.",
+		"guidance": "The correct answers are State Channels, Plasma Chains, and Rollups. These are all examples of Layer 2 solutions built on top of Ethereum.\n\n Solana is an independent blockchain, not a Layer 2 solution for Ethereum. The Bitcoin Lightning Network is a Layer 2 solution, but for Bitcoin, not Ethereum.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "2f052e74-d449-4967-a56a-f03ab49e9c84",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	"version": 2
 }

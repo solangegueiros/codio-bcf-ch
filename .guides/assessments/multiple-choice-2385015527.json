@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Digital Wallet Purpose",
 		"showName": false,
-		"instructions": "A digital wallet primarily serves as a key manager for cryptocurrencies and other digital assets, allowing users to store, manage, and transfer various types of digital valuables.",
+		"instructions": "True or False: a digital wallet primarily serves as a key manager for blockchain account owners who handle cryptocurrencies and other digital assets, allowing users to store, manage and transfer various types of digital assets.",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -19,7 +19,7 @@
 				"answer": "False"
 			}
 		],
-		"guidance": "The statement is true. A digital wallet, also known as a crypto wallet, primarily serves as a key manager for cryptocurrencies and other digital assets. It allows users to store, manage, and transfer various digital assets, including cryptocurrencies, digital identities (represented by non-fungible tokens), membership cards, and digital certificates. Digital wallets also enable users to check balances, receive assets, and sign messages to prove ownership of associated addresses.",
+		"guidance": "**The statement is true**. \n\nA digital wallet, also known as a crypto wallet, primarily serves as a key manager for cryptocurrencies and other digital assets. It allows users to store, manage, and transfer various digital assets, including cryptocurrencies, digital identities (represented by non-fungible tokens), membership cards, and digital certificates. Digital wallets also enable users to check balances, receive assets, and sign messages to prove ownership of associated addresses.",
 		"showGuidanceAfterResponseOption": {
 			"type": "Never"
 		},
@@ -72,5 +72,5 @@
 	},
 	"linkedId": "0844d2a3-36c6-468e-9d58-d2bc353e76a3",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 4
 }

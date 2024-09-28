@@ -2,21 +2,21 @@
 	"type": "multiple-choice",
 	"taskId": "multiple-choice-2419498327",
 	"source": {
-		"name": "Merkle Tree Understanding",
+		"name": "Merkle Tree 01-Describe",
 		"showName": false,
-		"instructions": "Which of the following statements accurately describe the Merkle Tree? Select all that apply.",
+		"instructions": "Which of the following statements accurately describe what a Merkle Tree is? Select all that apply.",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "02b72f14-4fba-02d6-684e-7392002b5ac7",
 				"correct": true,
-				"answer": "It is a fundamental part of blockchain technology."
+				"answer": "It is a fundamental data structure component in blockchain technology."
 			},
 			{
 				"_id": "f39cd364-8227-20a1-e919-ed3fc4735900",
 				"correct": true,
-				"answer": "It allows for efficient verification of large datasets."
+				"answer": "It allows for efficient verification of data integrity in large datasets."
 			},
 			{
 				"_id": "c8b64cd1-8d7f-e6f0-90e4-61efb8ae5829",
@@ -26,17 +26,18 @@
 			{
 				"_id": "c2475c97-5d14-d6ba-7435-08463f18be2b",
 				"correct": false,
-				"answer": "It is used to store the entire blockchain data."
+				"answer": "It is used to store all the data contained in transactions"
 			},
 			{
 				"_id": "36ba076a-5b4a-280b-35fb-e3710f7ffd61",
 				"correct": false,
-				"answer": "It is a linear data structure like an array."
+				"answer": "It is a \"flat\" data structure like an array."
 			}
 		],
-		"guidance": "The correct answers are:\n\n1. It is a fundamental part of blockchain technology.\n2. It allows for efficient verification of large datasets.\n3. Every leaf node is labeled with the cryptographic hash of a data block.\n\nThese statements accurately describe the Merkle Tree as presented in the topic. Merkle Trees are indeed used in blockchain, they allow for efficient verification of large datasets, and their leaf nodes contain hashes of data blocks. The incorrect options state that it stores the entire blockchain data (it only stores summary information) and that it's a linear structure (it's actually a tree structure).",
+		"guidance": "The correct answers are:\n\n1. It is a fundamental data structure component in blockchain technology.\n2. It allows for efficient verification of data integrity in large datasets.\n3. Every leaf node is labeled with the cryptographic hash of a data block.\n\nMerkle Trees are indeed used in blockchains, they allow for efficient verification of large datasets, and their leaf nodes contain hashes of data blocks. The incorrect options state that it stores the entire transaction data (it only stores hashes of the transaction data) and that it's a flat structure (it's actually a tree structure with levels).",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "0ab564d9-1c49-4832-bb1c-168ec9539ce1",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 5
+	"version": 8
 }

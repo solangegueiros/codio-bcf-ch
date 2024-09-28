@@ -4,13 +4,13 @@
 	"source": {
 		"name": "Oracle Definition in Blockchain",
 		"showName": false,
-		"instructions": "Which of the following best defines the concept of oracles in the context of blockchain and smart contracts?",
-		"multipleResponse": false,
+		"instructions": "Which of the following best defines the concept of oracles in the context of blockchain and smart contracts? \nSelect all that apply.",
+		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "0e2a40bb-699f-bf62-407b-32f5161dea9c",
-				"correct": false,
+				"correct": true,
 				"answer": "Services that provide external data to blockchain-based smart contracts"
 			},
 			{
@@ -34,9 +34,10 @@
 				"answer": "Oracles expand the potential applications of smart contracts"
 			}
 		],
-		"guidance": "Oracles are correctly defined as services that provide external data to blockchain-based smart contracts. This definition captures their primary function in bridging the gap between on-chain and off-chain environments. The other options, while related to blockchain technology, do not accurately describe oracles. Blockchain transaction verification is typically done by nodes or miners, not oracles. Cryptographic algorithms are used in blockchain security but are not specific to oracles. Decentralized applications (dApps) are distinct from oracles, though they may utilize oracle services.",
+		"guidance": "Oracles are  services that provide external data to blockchain-based smart contracts. This definition captures their primary function in bridging the gap between on-chain and off-chain environments. The statement Oracles expand the potential applications of smart contracts is correct as well. \n\nThe other options, while related to blockchain technology, do not accurately describe oracles. Blockchain transaction verification is typically done by nodes or validators, not oracles. Cryptographic algorithms are used in blockchain security but are not specific to oracles. Decentralized applications (dApps) are distinct from oracles, though they may utilize oracle services.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "e90fb5b0-2479-4ee1-972e-9a4f160d585b",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 6
 }

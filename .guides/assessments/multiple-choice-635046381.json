@@ -31,12 +31,13 @@
 			{
 				"_id": "695b6bc3-9fb3-81f9-2b1c-a2072446246c",
 				"correct": false,
-				"answer": "Chainlink Any API"
+				"answer": "Chainlink Functions"
 			}
 		],
-		"guidance": "Chainlink VRF (Verifiable Random Function) is specifically designed to provide verifiable randomness for blockchain applications. It ensures that the random numbers generated are provably fair and tamper-proof, which is crucial for applications like gaming, NFT distribution, and other use cases requiring unpredictable outcomes. The other options are incorrect because: Chainlink Data Feeds provide real-world data like price information; Chainlink Automation handles smart contract maintenance and triggering; Proof of Reserve verifies off-chain reserves; and Any API allows connection to any external API, but isn't specifically for randomness.",
+		"guidance": "Chainlink VRF (Verifiable Random Function) is specifically designed to provide verifiable randomness for blockchain applications. It ensures that the random numbers generated are provably fair and tamper-proof, which is crucial for applications like gaming, NFT distribution, and other use cases requiring unpredictable outcomes. \n\nThe other options are incorrect because: Chainlink Data Feeds provide real-world data like price information; Chainlink Automation handles smart contract maintenance and triggering; Proof of Reserve verifies off-chain reserves; and Any API allows connection to any external API, but isn't specifically for randomness.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "2003d3af-8f7a-4080-b842-c104542f9d1c",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	"version": 4
 }

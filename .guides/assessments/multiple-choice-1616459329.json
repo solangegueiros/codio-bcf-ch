@@ -11,7 +11,7 @@
 			{
 				"_id": "078c5faa-a6ee-3413-1d60-7d67c8fde8f5",
 				"correct": true,
-				"answer": "A system where participants with the largest coin holdings have the highest chance of validating transactions and creating new blocks"
+				"answer": "A system where participants with the most staked tokens have the highest chance of validating transactions and creating new blocks"
 			},
 			{
 				"_id": "a69f9eac-3d51-d7ef-f074-329a853e90e7",
@@ -29,9 +29,10 @@
 				"answer": "A technique where transaction validation is performed by a small group of pre-selected, trusted nodes"
 			}
 		],
-		"guidance": "The correct answer is \"A system where participants with the largest coin holdings have the highest chance of validating transactions and creating new blocks\". This accurately describes the Proof of Stake mechanism, where the likelihood of being chosen to validate transactions and create new blocks is proportional to the amount of cryptocurrency a participant holds and \"stakes\". The other options are incorrect because: the second option describes Proof of Work, not Proof of Stake; the third option describes an impractical consensus method that would severely limit blockchain efficiency; and the fourth option more closely resembles a permissioned blockchain system, which is different from the PoS mechanism used in public blockchains.",
+		"guidance": "The correct answer is \"A system where participants with the most staked tokens have the highest chance of validating transactions and creating new blocks\". \n\nThis accurately describes the Proof of Stake mechanism, where the likelihood of being chosen to validate transactions and create new blocks is proportional to the amount of cryptocurrency a participant \"stakes\". \n\nThe other options are incorrect because: the second option describes Proof of Work, not Proof of Stake; the third option describes an impractical consensus method that would severely limit blockchain efficiency; and the fourth option more closely resembles a Proof of Authority (PoA), which is different from the PoS mechanism used in public blockchains.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -78,5 +79,5 @@
 	},
 	"linkedId": "b67733bc-144e-4bad-b89b-532f31917c53",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	"version": 4
 }

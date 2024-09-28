@@ -9,17 +9,17 @@
 		"isRandomized": false,
 		"answers": [
 			{
-				"_id": "756b833c-8004-66ba-96b8-9014cb8978a1",
+				"_id": "47de59e0-c91a-ebc4-8896-fc4d9ff1700e",
 				"correct": false,
 				"answer": "True"
 			},
 			{
-				"_id": "afd14d37-7f78-2b84-6a83-623004954b2c",
+				"_id": "f977d096-6814-382e-0665-4d8a4ee5b07e",
 				"correct": true,
 				"answer": "False"
 			}
 		],
-		"guidance": "The statement is false. Each block in a blockchain contains the hash of the previous block, not the next block. This is a crucial aspect of blockchain's structure that ensures the integrity and immutability of the chain. The hash of the previous block creates a link between blocks, forming the 'chain' in blockchain.",
+		"guidance": "The statement is false. Each block in a blockchain contains the hash of the *previous* block, not the next block. This is a crucial aspect of blockchain's structure that ensures the integrity and immutability of the chain. The hash of the previous block creates a link between blocks, forming the 'chain' in blockchain.",
 		"showGuidanceAfterResponseOption": {
 			"type": "Attempts",
 			"passedFrom": 1
@@ -41,8 +41,8 @@
 					"value": "BFT"
 				},
 				{
-					"name": "Programming Language",
-					"value": "None"
+					"name": "Exam",
+					"value": "SG"
 				},
 				{
 					"name": "Lesson",
@@ -53,8 +53,8 @@
 					"value": "Easy"
 				},
 				{
-					"name": "Exam",
-					"value": "SG"
+					"name": "Programming Language",
+					"value": "None"
 				},
 				{
 					"name": "Topic",
@@ -71,7 +71,7 @@
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "Blockchain Structure"
 	},
-	"linkedId": "72e349fe-d966-4544-9ba1-6a9a90cb2825",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 6
+	"linkedId": "46b5ec07-685d-4fa2-8adf-19888c42c405",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

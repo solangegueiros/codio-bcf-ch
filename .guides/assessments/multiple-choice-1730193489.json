@@ -2,9 +2,9 @@
 	"type": "multiple-choice",
 	"taskId": "multiple-choice-1730193489",
 	"source": {
-		"name": "Blockchain 01",
+		"name": "Blockchain 01 Ch",
 		"showName": false,
-		"instructions": "What characteristic is true when we define Blockchain?",
+		"instructions": "What is a Blockchain?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -16,7 +16,7 @@
 			{
 				"_id": "5997f6c8-ae53-8d94-d0c2-f50431efeda2",
 				"correct": true,
-				"answer": "A blockchain is a decentralized and distributed database that maintains a continuously growing list of ordered records, called blocks"
+				"answer": "A blockchain is a decentralized and distributed database that maintains a continuously growing list of ordered records in structures called blocks"
 			},
 			{
 				"_id": "c3a9462f-9d04-8fa9-3fdd-5845524eb7e7",
@@ -29,9 +29,10 @@
 				"answer": "A programming language used for smart contracts"
 			}
 		],
-		"guidance": "",
+		"guidance": "A blockchain is a decentralized and distributed database that maintains a continuously growing list of ordered records in structures called blocks",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -80,7 +81,7 @@
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "What is Blockchain"
 	},
-	"linkedId": "a38543ba-8657-4a99-9641-b4e394b666a2",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 10
+	"linkedId": "e01f6a20-2ede-4c6d-883a-1c97ca8e6bdc",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 1
 }

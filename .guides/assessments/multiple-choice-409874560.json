@@ -11,30 +11,30 @@
 			{
 				"_id": "27780b08-0eeb-3e41-b979-dccde6a94f52",
 				"correct": false,
-				"answer": "It is a tool that allows users to mine new blocks on a blockchain"
+				"answer": "It is a tool that allows users to mine new blocks on a blockchain."
 			},
 			{
 				"_id": "a9475d8d-382c-1527-9110-95c362a3e842",
 				"correct": true,
-				"answer": "It is a web application that enables users to view and search blockchain data in real-time"
+				"answer": "It is a website that enables users to view and search blockchain data in real-time."
 			},
 			{
 				"_id": "c0713bc6-36cc-b42c-cfa4-e1168b91ec6b",
 				"correct": false,
-				"answer": "It is a software that manages cryptocurrency wallets and transactions"
+				"answer": "It is a software that manages cryptocurrency wallets and transactions."
 			},
 			{
 				"_id": "8fb1c39c-4f26-7ac6-a587-3b897703efaa",
 				"correct": false,
-				"answer": "It is a platform for creating and deploying smart contracts"
+				"answer": "It is a platform designed for creating and deploying smart contracts."
 			},
 			{
 				"_id": "ea0fe341-6013-8473-3db7-791b9e319bfe",
 				"correct": false,
-				"answer": "It is a consensus mechanism used to validate blockchain transactions"
+				"answer": "It is a consensus mechanism used to validate blockchain transactions."
 			}
 		],
-		"guidance": "The correct answer is that a block explorer is a web application that enables users to view and search blockchain data in real-time. This accurately reflects the definition provided in the topic, which states that a block explorer is an online tool or web application allowing users to view, search, and track information on a blockchain. It serves as a \"window\" into the blockchain, providing access to details about transactions, blocks, addresses, and other relevant data. The other options are incorrect as they describe different blockchain-related concepts or tools, not the specific function of a block explorer.",
+		"guidance": "The correct answer is that a block explorer is a **website that enables users to view and search blockchain data in real-time**. \n\nThis accurately reflects the definition provided in the topic, which states that a block explorer is an online tool or web application allowing users to view, search, and track information on a blockchain. It serves as a \"window\" into the blockchain, providing access to details about transactions, blocks, addresses, and other relevant data. \n\nThe other options are incorrect as they describe different blockchain-related concepts or tools, not the specific function of a block explorer.",
 		"showGuidanceAfterResponseOption": {
 			"type": "Never"
 		},
@@ -76,7 +76,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],

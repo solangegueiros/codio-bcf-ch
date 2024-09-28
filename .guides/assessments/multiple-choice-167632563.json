@@ -31,12 +31,13 @@
 			{
 				"_id": "3188dfc4-077a-9613-87db-a2fa940d51b5",
 				"correct": true,
-				"answer": "It powers the cryptocurrency called ether (ETH)"
+				"answer": "Its native token is called ether (ETH)"
 			}
 		],
-		"guidance": "The correct answers are:\n\n1. It is a decentralized, open-source blockchain platform\n2. It enables the creation and deployment of smart contracts\n3. It powers the cryptocurrency called ether (ETH)\n\nThese statements accurately describe Ethereum as presented in the topic. Ethereum is indeed a decentralized, open-source platform that allows for smart contract deployment and powers the ETH cryptocurrency. The incorrect options state that it is controlled by a single central authority (it is actually decentralized and community-run) and that it only supports cryptocurrency transactions (it supports a wide range of decentralized applications beyond just transactions).",
+		"guidance": "The correct answers are:\n\n1. It is a decentralized, open-source blockchain platform\n2. It enables the creation and deployment of smart contracts\n3. Its native token is called ether (ETH)\n\nThese statements accurately describe Ethereum as presented in the topic. Ethereum is indeed a decentralized, open-source platform that allows for smart contract deployment and powers the ETH cryptocurrency. The incorrect options state that it is controlled by a single central authority (it is actually decentralized and community-run) and that it only supports cryptocurrency transactions (it supports a wide range of decentralized applications beyond just transactions).",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "8640ae8a-57a3-4472-a587-ac1cfce3a2f9",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	"version": 2
 }

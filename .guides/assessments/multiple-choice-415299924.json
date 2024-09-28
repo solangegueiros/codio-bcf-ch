@@ -34,9 +34,10 @@
 				"answer": "Facilitating private, off-chain computations for sensitive smart contract data"
 			}
 		],
-		"guidance": "Chainlink's Data Feeds are primarily designed to provide decentralized and high-quality data for various applications, including DeFi, sports, and weather. The main use case is providing real-time price data for decentralized exchanges and DeFi applications, which is crucial for many blockchain-based financial services. The other options are incorrect because they represent different Chainlink services or unrelated blockchain concepts: cross-chain token transfers are handled by Chainlink's CCIP, generating random numbers is done through Chainlink VRF, automating smart contracts is a function of Chainlink Automation, and facilitating private computations is not a specific Chainlink service.",
+		"guidance": "Chainlink's Data Feeds are primarily designed to provide decentralized and high-quality data for various applications, including DeFi, sports, and weather. The main use case is providing real-time price data for decentralized exchanges and DeFi applications, which is crucial for many blockchain-based financial services. \n\nThe other options are incorrect because they represent different Chainlink services or unrelated blockchain concepts: cross-chain token transfers are handled by Chainlink's CCIP, generating random numbers is done through Chainlink VRF, automating smart contracts is a function of Chainlink Automation, and facilitating private computations is not a specific Chainlink service.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "437ad1aa-343c-4dfa-8096-44482de3056f",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

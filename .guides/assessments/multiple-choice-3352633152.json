@@ -11,7 +11,7 @@
 			{
 				"_id": "1227f232-9fcc-7740-0e07-16819a8986b2",
 				"correct": true,
-				"answer": "They process transactions off the main Ethereum chain"
+				"answer": "They process transactions outside of the main Ethereum chain"
 			},
 			{
 				"_id": "919c167d-cb7b-03ce-0514-5893cb7631c3",
@@ -34,9 +34,10 @@
 				"answer": "They can improve transaction speed and reduce fees"
 			}
 		],
-		"guidance": "Layer 2 solutions in the Ethereum ecosystem process transactions off the main Ethereum chain, which is correct. They inherit security from the Ethereum main chain, as they rely on Ethereum for final settlement and security. Layer 2 solutions can improve transaction speed and reduce fees, which is one of their main benefits. However, they don't always have their own native cryptocurrency; many use ETH or other existing tokens. They are also not completely independent blockchains, as they are built on top of and depend on the Ethereum main chain. Side chains, which are independent but connected blockchains, should not be confused with Layer 2 solutions.",
+		"guidance": "Correct Answers:\n- They process transactions outside of the main Ethereum chain.\n- They inherit security from the Ethereum main chain, as they rely on Ethereum for final settlement and security. \n\nLayer 2 solutions can improve transaction speed and reduce fees, which is one of their main benefits. \n\nHowever, they don't always have their own native cryptocurrency; many use ETH or other existing tokens. \n\nThey are also not completely independent blockchains, as they are built on top of and depend on the Ethereum main chain.\n\nSide chains, which are independent but connected blockchains, should not be confused with Layer 2 solutions.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "c75a7899-1167-45de-ad2d-ce68dd777e4d",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	"version": 2
 }

@@ -16,7 +16,7 @@
 			{
 				"_id": "8749e76d-a18e-b752-bcbb-1e4c0be8e208",
 				"correct": true,
-				"answer": "Mobile wallets allow you to send and receive crypto using QR codes."
+				"answer": "Mobile wallets generally allow you to send and receive crypto using QR codes."
 			},
 			{
 				"_id": "96e75783-677f-b573-cd06-9a0fc72a326c",
@@ -34,7 +34,7 @@
 				"answer": "It's recommended to let service providers manage your private keys for convenience."
 			}
 		],
-		"guidance": "The correct answers are:\n1. Desktop wallets are software installed and executed locally on your computer.\n2. Mobile wallets allow you to send and receive crypto using QR codes.\n\nThese statements accurately describe characteristics of software wallets as presented in the topic. Desktop wallets are indeed installed and run locally on your computer. Mobile wallets, typically smartphone apps, offer the convenience of using QR codes for transactions.\n\nThe incorrect options are:\n3. Web wallets don't always require downloads; some are accessed through a browser interface without installation.\n4. Browser extension wallets actually store keys locally on your computer, not on a remote server.\n5. It's not recommended to let service providers manage your private keys. The phrase \"Not your keys, not your coins!\" emphasizes the importance of controlling your own private keys.",
+		"guidance": "The correct answers are:\n1. Desktop wallets are software installed and executed locally on your computer.\n2. Mobile wallets generally allow you to send and receive crypto using QR codes.\n\nThese statements accurately describe characteristics of software wallets as presented in the topic. Desktop wallets are indeed installed and run locally on your computer. Mobile wallets, typically smartphone apps, offer the convenience of using QR codes for transactions.\n\nThe incorrect options are:\n3. Web wallets don't always require downloads; some are accessed through a browser interface without installation.\n4. Browser extension wallets actually store keys locally on your computer, not on a remote server.\n5. It's not recommended to let service providers manage your private keys. The phrase \"Not your keys, not your coins!\" emphasizes the importance of controlling your own private keys.",
 		"showGuidanceAfterResponseOption": {
 			"type": "Never"
 		},

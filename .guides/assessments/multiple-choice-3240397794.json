@@ -34,9 +34,10 @@
 				"answer": "Both ERC-20 and ERC-721 tokens can represent ownership of physical assets"
 			}
 		],
-		"guidance": "This question assesses understanding of the differences between ERC-20 and ERC-721 token standards. The correct options highlight key distinctions: ERC-20 tokens are fungible and interchangeable, while ERC-721 tokens are non-fungible and represent unique assets. ERC-20 tokens can be divided into smaller units, which is not possible for ERC-721 tokens without losing their uniqueness. Both standards can be used to represent ownership of physical assets through tokenization. The incorrect option addresses a common misconception: the value of tokens depends on various factors, not just the standard used. This question encourages critical thinking about the nature and applications of different token standards in blockchain ecosystems.",
+		"guidance": "This question assesses understanding of the differences between ERC-20 and ERC-721 token standards. The correct options highlight key distinctions: ERC-721 tokens represent unique assets, while ERC-20 tokens are interchangeable. ERC-20 tokens can be divided into smaller units, which is not possible for ERC-721 tokens without losing their uniqueness. Both standards can be used to represent ownership of physical assets through tokenization. The incorrect option addresses a common misconception: the value of tokens depends on various factors, not just the standard used. This question encourages critical thinking about the nature and applications of different token standards in blockchain ecosystems.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "a6bf4ff9-7474-4f1d-914d-4109952f4d58",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	"version": 2
 }

@@ -4,14 +4,14 @@
 	"source": {
 		"name": "Cross-Chain Governance in DAOs",
 		"showName": false,
-		"instructions": "Which of the following scenarios best demonstrates cross-chain governance in a Decentralized Autonomous Organization (DAO)?",
+		"instructions": "Which of the following scenarios *best* demonstrates cross-chain governance in a Decentralized Autonomous Organization (DAO)?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "02273b42-1a84-4202-e2f6-cfcb4e6fdf00",
 				"correct": true,
-				"answer": "A vote on Ethereum initiates protocol changes on another blockchain"
+				"answer": "A vote initiated on the Ethereum triggers protocol changes on another blockchain"
 			},
 			{
 				"_id": "1f49d84e-9996-23a6-5e31-ead44e48a7dc",
@@ -34,9 +34,10 @@
 				"answer": "A DAO uses off-chain voting to make decisions about on-chain actions"
 			}
 		],
-		"guidance": "The correct answer is \"A vote on Ethereum initiates protocol changes on another blockchain.\" This scenario demonstrates cross-chain governance as it involves a decision made on one blockchain (Ethereum) directly affecting operations on a different blockchain. This exemplifies true interoperability in DAO governance across multiple chains. The other options do not necessarily involve cross-chain interactions: conducting voting on a single network, using multiple wallets, storing funds across chains, or using off-chain voting can all occur without true cross-chain governance implementation. This question tests the student's understanding of how DAOs can leverage blockchain interoperability to extend their governance capabilities across different networks.",
+		"guidance": "The correct answer is \"A vote initiated on the Ethereum triggers protocol changes on another blockchain.\". This scenario demonstrates cross-chain governance as it involves a decision made on one blockchain (Ethereum) directly affecting operations on a different blockchain. This exemplifies true interoperability in DAO governance across multiple chains. \n\nThe other options do not necessarily involve cross-chain interactions: conducting voting on a single network, using multiple wallets, storing funds across chains, or using off-chain voting can all occur without true cross-chain governance implementation. This question tests the student's understanding of how DAOs can leverage blockchain interoperability to extend their governance capabilities across different networks.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -68,7 +69,7 @@
 				},
 				{
 					"name": "Level",
-					"value": "Easy"
+					"value": "Intermediate"
 				},
 				{
 					"name": "Exam",
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "c914c662-395f-4587-95ee-0ff2a93254df",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 2
 }

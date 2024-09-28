@@ -34,9 +34,10 @@
 				"answer": "Blockchain can only be applied to digital products in supply chains and cannot track physical goods or commodities"
 			}
 		],
-		"guidance": "The correct answer is \"Blockchain enables end-to-end visibility and traceability of products, enhancing transparency and authenticity verification in supply chains.\" This accurately reflects a key application of blockchain technology in supply chain management. Blockchain allows for the tracking of product origin, movement, and authenticity throughout the entire supply chain, providing transparency and traceability. This is particularly valuable in industries like pharmaceuticals, luxury goods, and electronics, where verifying product authenticity is crucial. The other options are incorrect: Blockchain's use in supply chains extends beyond financial transactions, it has practical applications already being implemented in various industries, it can benefit businesses of all sizes, and it can be applied to both digital and physical products. This question assesses students' understanding of how blockchain technology can revolutionize supply chain management, moving beyond its well-known applications in cryptocurrency and finance.",
+		"guidance": "The correct answer is \"Blockchain enables end-to-end visibility and traceability of products, enhancing transparency and authenticity verification in supply chains.\" This accurately reflects a key application of blockchain technology in supply chain management. Blockchain allows for the tracking of product origin, movement, and authenticity throughout the entire supply chain, providing transparency and traceability. This is particularly valuable in industries like pharmaceuticals, luxury goods, and electronics, where verifying product authenticity is crucial. \n\nThe other options are incorrect: Blockchain's use in supply chains extends beyond financial transactions, it has practical applications already being implemented in various industries, it can benefit businesses of all sizes, and it can be applied to both digital and physical products. This question assesses students' understanding of how blockchain technology can revolutionize supply chain management, moving beyond its well-known applications in cryptocurrency and finance.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "3541b022-64ea-436d-9792-68d82f1b1cce",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

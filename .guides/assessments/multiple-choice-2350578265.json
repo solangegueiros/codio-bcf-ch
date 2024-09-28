@@ -34,9 +34,10 @@
 				"answer": "Cardano"
 			}
 		],
-		"guidance": "The correct answers are Binance Smart Chain (BSC), Fantom, and Moonbeam. These blockchains are designed to be EVM-compatible, allowing them to run smart contracts written for Ethereum and leverage Ethereum's developer tools and ecosystem. Bitcoin and Cardano are not EVM-compatible; Bitcoin doesn't support smart contracts in the same way, and Cardano uses a different smart contract platform (Plutus) that is not EVM-compatible.",
+		"guidance": "The correct answers are Binance Smart Chain (BSC), Fantom, and Moonbeam. These blockchains are designed to be EVM-compatible, allowing them to run smart contracts written for Ethereum and leverage Ethereum's developer tools and ecosystem. \n\nBitcoin and Cardano are not EVM-compatible; Bitcoin doesn't support smart contracts in the same way, and Cardano uses a different smart contract platform (Plutus) that is not EVM-compatible.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "f318d17a-9d20-4145-8b08-ad5a43797e84",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

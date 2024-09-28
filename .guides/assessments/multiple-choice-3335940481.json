@@ -4,7 +4,7 @@
 	"source": {
 		"name": "CCIP Security Architecture",
 		"showName": false,
-		"instructions": "Which of the following best describes the security architecture of Chainlink's Cross-Chain Interoperability Protocol (CCIP)?",
+		"instructions": "Which of the following best describes the security architecture of Chainlink Cross-Chain Interoperability Protocol (CCIP)?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -21,7 +21,7 @@
 			{
 				"_id": "b9994992-ad4c-cb40-8b65-d7f24389c8fe",
 				"correct": true,
-				"answer": "Three distinct DONs: Committing, Executing, and Risk Management Network (RMN), each with separate responsibilities"
+				"answer": "Three distinct DONs: Committing, Executing, and Risk Management Network (RMN) DONs, each with separate responsibilities"
 			},
 			{
 				"_id": "0eb6507b-1414-f9eb-bc51-c0f9a143598e",
@@ -34,9 +34,10 @@
 				"answer": "A centralized network managed by Chainlink for optimal security and efficiency"
 			}
 		],
-		"guidance": "The correct answer is that CCIP uses three distinct DONs: Committing, Executing, and Risk Management Network (RMN), each with separate responsibilities. This architecture ensures a separation of duties, enhancing security and reducing the risk of collusion. The Committing DON handles transaction commitments, the Executing DON manages cross-chain transaction execution and validation, and the RMN provides an additional layer of security through 2FA validation. This structure implements the level-five interoperability standard, allowing for rapid adaptation to new risks or attacks. The other options are incorrect as they either oversimplify the architecture, suggest shared responsibilities (which goes against the principle of separation), or imply centralization, which is contrary to CCIP's decentralized nature.",
+		"guidance": "The correct answer is that CCIP uses three distinct DONs: Committing, Executing, and Risk Management Network (RMN), each with separate responsibilities. This architecture ensures a separation of duties, enhancing security and reducing the risk of collusion. The Committing DON handles transaction commitments, the Executing DON manages cross-chain transaction execution and validation, and the RMN provides an additional layer of security through 2FA validation. This structure implements the level-five interoperability standard, allowing for rapid adaptation to new risks or attacks. \n\nThe other options are incorrect as they either inaccurately describe the architecture, or suggest shared responsibilities (which goes against the principle of separation), or imply centralization, which is contrary to CCIP's decentralized nature.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "9c3a39e7-ec0e-4206-96f4-7e7b33103f7d",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 2
 }

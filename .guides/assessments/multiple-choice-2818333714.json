@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Hot Wallet Security True/False",
 		"showName": false,
-		"instructions": "Hot wallets (online wallets) are generally considered more convenient for frequent transactions but less secure for long-term storage of large amounts of cryptocurrency compared to cold wallets.",
+		"instructions": "Hot wallets (online wallets) are generally considered more convenient for frequent transactions but are less secure for long-term storage of large amounts of cryptocurrency compared to cold wallets.",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -19,7 +19,7 @@
 				"answer": "False"
 			}
 		],
-		"guidance": "This statement is true. Hot wallets, which are online storage methods, are generally considered more convenient for frequent transactions but less secure for long-term storage of large amounts of cryptocurrency compared to cold wallets. Hot wallets are connected to the internet, which makes them more vulnerable to cyber attacks, hacking, or unauthorized access. This aligns with the security principle of limiting online exposure for valuable digital assets. While hot wallets offer easier access for frequent trading or spending, their constant internet connection increases the risk of potential security breaches. Cold wallets, being offline, provide better security for long-term storage of significant cryptocurrency holdings.",
+		"guidance": "**This statement is true**. \n\nHot wallets, which are online storage methods, are generally considered more convenient for frequent transactions but less secure for long-term storage of large amounts of cryptocurrency compared to cold wallets. \n\n*Hot wallets are connected to the internet*, which makes them more vulnerable to cyber attacks, hacking, or unauthorized access. This aligns with the security principle of limiting online exposure for valuable digital assets. \n\nWhile hot wallets offer easier access for frequent trading or spending, their constant internet connection increases the risk of potential security breaches. Cold wallets, being offline, provide better security for long-term storage of significant cryptocurrency holdings.",
 		"showGuidanceAfterResponseOption": {
 			"type": "Never"
 		},

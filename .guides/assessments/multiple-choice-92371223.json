@@ -31,7 +31,8 @@
 		],
 		"guidance": "The correct answer is \"A system where pre-selected authoritative nodes validate transactions and create new blocks\". This accurately describes the Proof of Authority mechanism, which relies on a group of pre-chosen authoritative nodes (validators) to check transactions and create new blocks. The other options are incorrect because: the second option describes Proof of Work, not Proof of Authority; the third option describes Proof of Stake; and the fourth option describes a more decentralized system, which is not characteristic of PoA's permissioned nature.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -78,5 +79,5 @@
 	},
 	"linkedId": "123f764f-7b61-4eec-a118-1d05680b7944",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	"version": 3
 }

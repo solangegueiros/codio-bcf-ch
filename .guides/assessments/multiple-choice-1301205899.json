@@ -11,7 +11,7 @@
 			{
 				"_id": "6f78f7fe-6df2-3716-ec6a-63eda75d2839",
 				"correct": true,
-				"answer": "The EVM uses 'gas' to measure and limit computational resources for smart contract execution"
+				"answer": "The EVM uses 'gas' to measure computational resources for smart contract execution"
 			},
 			{
 				"_id": "d88b21df-00f9-17a1-2e75-d19e9bdc7dbe",
@@ -39,9 +39,10 @@
 				"answer": "Smart contracts in the EVM are executed in isolation and cannot interact with other contracts"
 			}
 		],
-		"guidance": "The correct answers are:\n1. The EVM uses 'gas' to measure and limit computational resources for smart contract execution\n2. The EVM ensures consistent execution of smart contracts across all Ethereum nodes\n3. The EVM allows for the creation of decentralized applications (dApps) on the Ethereum network\n\nThese statements accurately reflect the key features of the EVM. It uses gas to manage computational resources, ensures consistency across nodes, and enables dApp creation. The incorrect options state that any programming language can be used (while multiple languages are supported, not all are), that gas fees are primarily for miner rewards (they're primarily for resource management), and that smart contracts can't interact (they can indeed interact with other contracts).",
+		"guidance": "The correct answers are:\n1. The EVM uses 'gas' to measure computational resources for smart contract execution\n2. The EVM ensures consistent execution of smart contracts across all Ethereum nodes\n3. The EVM allows for the creation of decentralized applications (dApps) on the Ethereum network\n\nThese statements accurately reflect the key features of the EVM. It uses gas to manage computational resources, ensures consistency across nodes, and enables dApp creation. \n\nThe incorrect options state that any programming language can be used (while multiple languages are supported, not all are), that gas fees are primarily for validator/miner rewards (they're primarily for computational resource management), and that smart contracts can't interact (they can indeed interact with other contracts).",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -88,5 +89,5 @@
 	},
 	"linkedId": "df594aec-d194-4181-bc6c-30c30eb19639",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 3
+	"version": 7
 }

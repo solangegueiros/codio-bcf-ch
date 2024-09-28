@@ -11,7 +11,7 @@
 			{
 				"_id": "fcc8f8a9-ad5d-376b-c382-edaef9ceebb3",
 				"correct": true,
-				"answer": "Gas fees are paid in Ether and are used to compensate miners/validators for their computational work"
+				"answer": "Gas fees are paid in units of Ether"
 			},
 			{
 				"_id": "10644a1c-1a4e-282d-a6d4-ea31505f27c8",
@@ -39,9 +39,10 @@
 				"answer": "The amount of gas required for a transaction is solely determined by the amount of Ether being transferred"
 			}
 		],
-		"guidance": "The correct answers are:\n1. Gas fees are paid in Ether and are used to compensate miners/validators for their computational work\n2. Gas limits prevent smart contracts from consuming excessive computational resources\n3. Gas fees help prevent spam and potential denial-of-service attacks on the Ethereum network\n\nThese statements accurately reflect the role and implications of gas in Ethereum. Gas fees compensate miners/validators, gas limits control resource consumption, and the fee structure helps secure the network. The incorrect options state that gas fees are constant (they vary with network congestion), that out-of-gas transactions are partially executed (they are reverted entirely), and that gas is determined solely by Ether transferred (it's based on computational complexity).",
+		"guidance": "The correct answers are:\n1. Gas fees are paid in Ether\n2. Gas limits prevent smart contracts from consuming excessive computational resources\n3. Gas fees help prevent spam and potential denial-of-service attacks on the Ethereum network\n\nThese statements accurately reflect the role and implications of gas in Ethereum. Gas fees compensate miners/validators, gas limits control resource consumption, and the fee structure helps secure the network. The incorrect options state that gas fees are constant (they vary with network congestion), that out-of-gas transactions are partially executed (they are reverted entirely), and that gas is determined solely by Ether transferred (it's based on computational complexity).",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -88,5 +89,5 @@
 	},
 	"linkedId": "088222e8-d21a-4e13-b57c-9ae09a85802a",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	"version": 2
 }

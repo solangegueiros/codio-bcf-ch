@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Chainlink CCIP Use Cases",
 		"showName": false,
-		"instructions": "Which of the following is a primary use case for Chainlink's Cross-Chain Interoperability Protocol (CCIP)?",
+		"instructions": "Which of the following is a primary use case for Chainlink Cross-Chain Interoperability Protocol (CCIP)?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -34,9 +34,10 @@
 				"answer": "Securing layer-2 solutions through decentralized computation"
 			}
 		],
-		"guidance": "Chainlink's Cross-Chain Interoperability Protocol (CCIP) is primarily designed for enabling secure communication and value transfer between different blockchain networks. Its main use case is transferring tokens and executing smart contract functions across different blockchains, which is essential for building truly interconnected and interoperable blockchain ecosystems. The other options are incorrect because they represent different Chainlink services or general blockchain concepts: generating random numbers is handled by Chainlink VRF, automating smart contracts is done through Chainlink Automation, providing price data is a function of Chainlink Price Feeds, and securing layer-2 solutions is not a specific Chainlink service.",
+		"guidance": "Chainlink's Cross-Chain Interoperability Protocol (CCIP) is primarily designed for enabling secure communication and value transfer between different blockchain networks. Its main use case is transferring tokens and executing smart contract functions across different blockchains, which is essential for building truly interconnected and interoperable blockchain ecosystems. \n\nThe other options are incorrect because they represent different Chainlink services or general blockchain concepts: generating random numbers is handled by Chainlink VRF, automating smart contracts is done through Chainlink Automation, providing price data is a function of Chainlink Price Feeds, and securing layer-2 solutions is not a specific Chainlink service.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "6067b4aa-aa4b-4ef0-aab8-f0b18273fdfc",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 5
 }

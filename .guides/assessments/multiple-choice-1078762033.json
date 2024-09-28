@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Oracle Applications in Insurance Smart Contracts",
 		"showName": false,
-		"instructions": "Which of the following scenarios best demonstrates the unique value that oracles bring to insurance smart contracts?",
+		"instructions": "Which of the following scenarios *best* demonstrates the *unique* value that oracles bring to insurance smart contracts?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -68,7 +68,7 @@
 				},
 				{
 					"name": "Level",
-					"value": "Easy"
+					"value": "Intermediate"
 				},
 				{
 					"name": "Exam",
@@ -76,7 +76,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +87,5 @@
 	},
 	"linkedId": "d951d4dd-f2b2-4b6a-8fa3-f006790c3db5",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

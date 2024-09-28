@@ -16,7 +16,7 @@
 			{
 				"_id": "03cc6b4d-cfaa-86c6-9cc7-8954d0368768",
 				"correct": true,
-				"answer": "Through decentralized oracle networks that employ various security measures"
+				"answer": "Through decentralized oracle networks that employ numerous security measures"
 			},
 			{
 				"_id": "f20066b9-310f-9031-ef8d-7522e3d20952",
@@ -34,9 +34,10 @@
 				"answer": "By replacing blockchain consensus mechanisms with oracle-based verification"
 			}
 		],
-		"guidance": "Chainlink addresses the challenges of integrating oracles with blockchain technology through decentralized oracle networks (DONs) that employ various security measures. This approach ensures data integrity and reliability while maintaining the decentralized nature of blockchain systems. The other options are incorrect because: centralizing data sources would compromise decentralization; limiting smart contracts to on-chain data would defeat the purpose of oracles; using a single oracle would create a single point of failure; and replacing blockchain consensus with oracle-based verification would fundamentally alter the blockchain's security model.",
+		"guidance": "Chainlink addresses the challenges of integrating oracles with blockchain technology through decentralized oracle networks (DONs) that employ numerous security measures. This approach ensures data integrity and reliability while maintaining the decentralized nature of blockchain systems. \n\nThe other options are incorrect because: centralizing data sources would compromise decentralization; limiting smart contracts to on-chain data would defeat the purpose of oracles; using a single oracle would create a single point of failure; and replacing blockchain consensus with oracle-based verification would fundamentally alter the blockchain's security model.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "84f68fec-19d9-4955-91f7-443ca495c3fb",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 3
 }

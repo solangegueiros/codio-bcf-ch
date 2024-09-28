@@ -2,7 +2,7 @@
 	"type": "multiple-choice",
 	"taskId": "multiple-choice-114315500",
 	"source": {
-		"name": "Understanding Network Architectures",
+		"name": "Distributed Networks 01",
 		"showName": false,
 		"instructions": "Select all statements that correctly describe the characteristics of network architectures:",
 		"multipleResponse": true,
@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers are:\n1) In a centralized network, all nodes must communicate through a single central server. This is accurate as centralized networks have a single point of control and communication.\n2) Distributed networks are more resilient to node failures compared to centralized networks. This is correct because in distributed networks, the loss of any single node doesn't prevent communication between other nodes.\n3) In a distributed network, every participant can communicate directly with any other participant. This is a key characteristic of distributed (peer-to-peer) networks.\n\nThe incorrect options are:\n3) Decentralized networks always require open-source software to function. While many decentralized networks use open-source software, it's not a requirement for all decentralized networks.\n4) Peer-to-peer networks are an example of a centralized network architecture. This is incorrect as peer-to-peer networks are actually examples of distributed or decentralized architectures, not centralized ones.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -72,7 +73,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "one correct answer"
+					"value": "multiple response"
 				}
 			],
 			"files": [],
@@ -83,5 +84,5 @@
 	},
 	"linkedId": "db3739dd-4a13-4640-aec0-749bc8b51fe6",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	"version": 5
 }

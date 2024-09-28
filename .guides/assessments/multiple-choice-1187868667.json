@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Blockchain Interoperability Definition",
 		"showName": false,
-		"instructions": "Which of the following best defines blockchain interoperability in the context of Web3?",
+		"instructions": "Which of the following explains blockchain interoperability in the context of Web3?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -34,9 +34,10 @@
 				"answer": "To create a unified global cryptocurrency"
 			}
 		],
-		"guidance": "Blockchain interoperability is best defined as the ability of different blockchain networks to communicate, share, and exchange data seamlessly. This is crucial in the Web3 ecosystem as it allows for the integration of various blockchain networks and traditional systems, enabling more efficient and versatile applications. The other options, while related to blockchain technology, do not accurately capture the essence of interoperability. Converting cryptocurrencies is a use case of interoperability, not its definition. Implementing smart contracts across platforms is a feature that can be enhanced by interoperability but doesn't define it. Unifying consensus mechanisms is not necessary for interoperability and is a separate concept altogether.",
+		"guidance": "Blockchain interoperability can be explained as the ability of different blockchain networks to communicate, share, and exchange data seamlessly. This is crucial in the Web3 ecosystem as it allows for the integration of various blockchain networks and traditional systems, enabling more efficient and versatile applications. \n\nThe other options, while related to blockchain technology, do not accurately capture the essence of interoperability. Converting cryptocurrencies is a use case of interoperability, not its definition. Implementing smart contracts across platforms does not imply that the smart contracts can interact with each other across blockchains. Unifying consensus mechanisms is not necessary for interoperability and is a separate concept altogether.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "00d1fadf-6b48-40ad-8195-d12b1a25dc26",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

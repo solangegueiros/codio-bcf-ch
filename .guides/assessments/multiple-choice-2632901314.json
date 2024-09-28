@@ -31,7 +31,8 @@
 		],
 		"guidance": "The correct answer is \"To ensure all nodes agree on the state of the blockchain\". Consensus mechanisms are protocols that all participants in a blockchain network follow to maintain the integrity, security, and smooth operation of the blockchain. Their primary purpose is to ensure that all nodes in the network agree on the state of the blockchain, preventing fraud and errors. The other options are incorrect because: encrypting transactions is a separate security feature, not the main purpose of consensus mechanisms; mining new cryptocurrencies is a result of some consensus mechanisms (like Proof of Work) but not their primary purpose; and storing transaction data off-chain is not related to consensus mechanisms at all.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -82,5 +83,5 @@
 	},
 	"linkedId": "502ee2f6-9a90-4caf-a074-7b6d4d578b5a",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	"version": 3
 }

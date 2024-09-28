@@ -34,9 +34,10 @@
 				"answer": "Validating transactions within the network"
 			}
 		],
-		"guidance": "The correct answer is \"Providing external data to smart contracts.\" This is the primary function of blockchain oracles. They act as a bridge between the blockchain and the external world, supplying smart contracts with necessary off-chain information. The other options are incorrect: executing smart contracts is done by the blockchain network itself, not oracles; mining new blocks is performed by miners or validators; storing large amounts of data off-chain, while sometimes related to oracle systems, is not their primary function; and validating transactions is typically done by nodes in the network, not oracles. This question assesses the student's understanding of the fundamental role oracles play in expanding the capabilities of blockchain systems by enabling access to real-world data.",
+		"guidance": "The correct answer is \"Providing external data to smart contracts.\" This is the primary function of blockchain oracles. They act as a bridge between the blockchain and the external world, supplying smart contracts with necessary off-chain information. \n\nThe other options are incorrect: executing smart contracts is done by the blockchain network itself, not oracles; mining new blocks is performed by miners or validators; storing large amounts of data off-chain, while sometimes related to oracle systems, is not their primary function; and validating transactions is typically done by nodes in the network, not oracles. This question assesses the student's understanding of the fundamental role oracles play in expanding the capabilities of blockchain systems by enabling access to real-world data.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "f30691a9-3067-4f2f-a3cf-6796ccf7ec8b",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 3
 }

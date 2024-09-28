@@ -9,11 +9,6 @@
 		"isRandomized": true,
 		"answers": [
 			{
-				"_id": "24059210-8d42-2948-0c36-b816086a70cb",
-				"correct": false,
-				"answer": "Decentralization eliminates the need for any form of trust in the system."
-			},
-			{
 				"_id": "93ca508f-cff2-a24c-be40-43689903eeeb",
 				"correct": true,
 				"answer": "Decentralization enhances security by making it more difficult for attackers to compromise the network."
@@ -25,7 +20,7 @@
 			},
 			{
 				"_id": "9a137ae5-350e-e7d9-629a-6047736fc9aa",
-				"correct": true,
+				"correct": false,
 				"answer": "Decentralization promotes transparency while maintaining a balance with privacy."
 			},
 			{
@@ -34,9 +29,10 @@
 				"answer": "Decentralization distributes trust across the network rather than relying on a single authority."
 			}
 		],
-		"guidance": "The correct answers are:\n\n1. Decentralization enhances security by making it more difficult for attackers to compromise the network.\n2. Decentralization promotes transparency while maintaining a balance with privacy.\n3. Decentralization distributes trust across the network rather than relying on a single authority.\n\nThese statements accurately reflect the benefits of decentralization as described in the topic. Decentralization does improve security by requiring multiple nodes to be compromised simultaneously. It also promotes transparency of transactions while maintaining privacy of personal information. Finally, it distributes trust across the network rather than relying on a single authority.\n\nThe incorrect statements are:\n\n1. Decentralization eliminates the need for any form of trust in the system. This is false because trust is still required, but it's distributed across the network rather than centralized.\n2. In a decentralized system, if one node fails, the entire network becomes non-operational. This is false because one of the key benefits of decentralization is that it eliminates single points of failure, allowing the network to continue operating even if individual nodes fail.",
+		"guidance": "The correct answers are:\n\n1. Decentralization enhances security by making it more difficult for attackers to compromise the network.\n\n2. Decentralization distributes trust across the network rather than relying on a single authority.\n\nThese statements accurately reflect the benefits of decentralization as described in the topic. Decentralization does improve security by requiring multiple nodes to be compromised simultaneously. It also distributes trust across the network rather than relying on a single authority.\n\nThe incorrect statements are:\n\n1. Decentralization promotes transparency while maintaining a balance with privacy. Decentralization does not inherently enhance privacy in blockchain systems - privacy is more a function of the cryptography and public/private key architecture used in blockchains.\n\n2. In a decentralized system, if one node fails, the entire network becomes non-operational. This is false because one of the key benefits of decentralization is that it eliminates single points of failure, allowing the network to continue operating even if individual nodes fail.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -83,5 +79,5 @@
 	},
 	"linkedId": "00fba36c-b107-4754-ab5f-e9df7c168368",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	"version": 3
 }

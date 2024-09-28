@@ -11,7 +11,7 @@
 			{
 				"_id": "cc83530d-2268-ee1d-b486-5830e21122da",
 				"correct": true,
-				"answer": "Allows developers to use existing Ethereum tools and languages"
+				"answer": "Allows developers to use familiar Ethereum tools and languages"
 			},
 			{
 				"_id": "bae1610d-e35f-ba9e-9049-dfafa6914d64",
@@ -26,7 +26,7 @@
 			{
 				"_id": "34800944-1c8f-e1b0-f11f-6b3d2f6ec659",
 				"correct": true,
-				"answer": "Facilitates easier integration with Ethereum-based dApps"
+				"answer": "Facilitates easier integration with other Ethereum-based dApps"
 			},
 			{
 				"_id": "90001542-2e56-2270-2c94-912d47198533",
@@ -34,9 +34,10 @@
 				"answer": "Guarantees lower gas fees than Ethereum"
 			}
 		],
-		"guidance": "The correct answers are:\n1. Allows developers to use existing Ethereum tools and languages\n2. Enables running smart contracts designed for Ethereum\n3. Facilitates easier integration with Ethereum-based dApps\n\nThese options accurately reflect the benefits of EVM compatibility as described in the topic. EVM compatibility allows developers to leverage their existing knowledge and tools from Ethereum, run Ethereum-designed smart contracts, and easily integrate with Ethereum-based decentralized applications.\n\nThe incorrect options are:\n1. Provides faster transaction speeds than Ethereum - EVM compatibility doesn't necessarily mean faster speeds; this depends on the specific blockchain's architecture.\n2. Guarantees lower gas fees than Ethereum - While some EVM-compatible chains may have lower fees, this isn't a guaranteed feature of EVM compatibility itself.",
+		"guidance": "The correct answers are:\n1. Allows developers to use familiar Ethereum tools and languages\n2. Enables running smart contracts designed for Ethereum\n3. Facilitates easier integration with other Ethereum-based dApps\n\nThese options accurately reflect the benefits of EVM compatibility as described in the topic. EVM compatibility allows developers to leverage their existing knowledge and tools from Ethereum, run Ethereum-designed smart contracts, and easily integrate with Ethereum-based decentralized applications.\n\nThe incorrect options are:\n1. Provides faster transaction speeds than Ethereum - EVM compatibility doesn't necessarily mean faster speeds; this depends on the specific blockchain's architecture.\n2. Guarantees lower gas fees than Ethereum - While some EVM-compatible chains may have lower fees, this isn't a guaranteed feature of EVM compatibility itself.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "b06dfa5d-7d1f-4849-9bd7-61bb2ab3db13",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	"version": 3
 }

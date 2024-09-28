@@ -26,12 +26,13 @@
 			{
 				"_id": "f28abdd4-fe8c-db02-8bbd-070280a17b7b",
 				"correct": false,
-				"answer": "Developing strategies in computer science and artificial intelligence"
+				"answer": "Developing interactive systems in computer science and artificial intelligence"
 			}
 		],
-		"guidance": "The correct answer is \"Predicting weather patterns and climate change\". Game theory is primarily used to study strategic interactions and decision-making among rational agents. It has applications in economics, political science, computer science, and other social sciences, as mentioned in the topic. However, predicting weather patterns and climate change typically involves meteorology, climatology, and other earth sciences, which do not rely on game theory as a primary tool. The other options are all valid applications of game theory in their respective fields.",
+		"guidance": "\"Predicting weather patterns and climate change\" is NOT a typical use of game theory. \n\nGame theory is primarily used to study strategic interactions and decision-making among rational agents. It has applications in economics, political science, computer science, and other social sciences, as mentioned in the topic. However, predicting weather patterns and climate change typically involves meteorology, climatology, and other earth sciences, which do not rely on game theory as a primary tool. ",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -78,5 +79,5 @@
 	},
 	"linkedId": "1fb8959a-88af-46cb-a894-ef72784fb553",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	"version": 5
 }

@@ -2,7 +2,7 @@
 	"type": "multiple-choice",
 	"taskId": "multiple-choice-4228775287",
 	"source": {
-		"name": "Blockchain 02",
+		"name": "Blockchain 02 Ch",
 		"showName": false,
 		"instructions": "Which of the following are true about Blockchain technology? Select all that apply.",
 		"multipleResponse": true,
@@ -26,7 +26,7 @@
 			{
 				"_id": "a0703b3b-07d7-aba2-96e3-5323f5a99d05",
 				"correct": true,
-				"answer": "Each block contains a timestamp"
+				"answer": "Each block records a timestamp"
 			},
 			{
 				"_id": "63d64784-c756-7e03-bece-489daab8f9d6",
@@ -34,9 +34,10 @@
 				"answer": "Transactions are reversible"
 			}
 		],
-		"guidance": "A blockchain is indeed a distributed ledger where blocks are linked using cryptographic hashes. Each block contains a timestamp, and the data within blocks cannot be easily altered retroactively without changing all subsequent blocks. This makes blockchain transactions irreversible, contrary to the last option.",
+		"guidance": "A blockchain is indeed a distributed ledger where blocks are linked using cryptographic hashes. Each block contains a timestamp, and the data within blocks cannot be easily altered retroactively without changing all subsequent blocks. This makes blockchain transactions irreversible.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -81,7 +82,7 @@
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "What is Blockchain"
 	},
-	"linkedId": "8b247c6f-5073-4905-bacb-bf6aa16e2f34",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 13
+	"linkedId": "6fb7539b-2d33-4133-85f3-32b8ba1e3bff",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 1
 }

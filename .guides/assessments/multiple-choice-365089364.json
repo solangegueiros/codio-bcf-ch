@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Wallet Security True/False",
 		"showName": false,
-		"instructions": "Using different wallets for different purposes (e.g., one for everyday transactions, another for long-term storage) is a recommended security practice for cryptocurrency users.",
+		"instructions": "Using different wallets for different purposes (e.g. one for frequent transactions, another for long-term storage) is a recommended security practice for cryptocurrency users.",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -19,7 +19,7 @@
 				"answer": "False"
 			}
 		],
-		"guidance": "This statement is true. Using different wallets for different purposes, such as one for everyday transactions and another for long-term storage, is a recommended security practice in cryptocurrency management. This approach helps to limit exposure and reduce risk by segregating funds based on their intended use. It aligns with the principle of not keeping all assets in one place, which is a fundamental security strategy in both traditional and digital finance.",
+		"guidance": "**This statement is true**. \n\nUsing different wallets for different purposes, such as one for everyday transactions and another for long-term storage, is a recommended security practice in cryptocurrency management. \n\nThis approach helps to limit exposure and reduce risk by segregating funds based on their intended use. It aligns with the principle of not keeping all assets in one place, which is a fundamental security strategy in both traditional and digital finance.",
 		"showGuidanceAfterResponseOption": {
 			"type": "Never"
 		},

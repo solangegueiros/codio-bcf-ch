@@ -4,14 +4,14 @@
 	"source": {
 		"name": "Seed Phrase Backup Importance",
 		"showName": false,
-		"instructions": "Which of the following statements best describes the importance of backing up your seed phrase for a cryptocurrency wallet?",
+		"instructions": "Which of the following statements best describes the importance of backing up your seed phrase for a digital wallet?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "46375336-d714-7b79-952d-9258dfb3edd1",
 				"correct": false,
-				"answer": "It's crucial for wallet recovery, but storing it online is perfectly safe."
+				"answer": "It's crucial for wallet recovery, but storing it online is always the best way to keep it safe."
 			},
 			{
 				"_id": "b7b4e88c-04fe-f5f6-0f35-7eb32b6d7c9f",
@@ -29,7 +29,7 @@
 				"answer": "It's optional and only needed if you forget your wallet password."
 			}
 		],
-		"guidance": "The correct answer is that backing up your seed phrase is essential for wallet recovery and should be stored securely offline in multiple locations. This is crucial because the seed phrase is the only way to recover your wallet and access your funds if you lose access to your wallet or device. Storing it online exposes it to potential hacking risks, so offline storage is recommended. It's necessary for both hot and cold wallets, not just hot wallets. Lastly, it's not optional and is needed for more than just forgotten passwords - it's the key to recovering your entire wallet in various scenarios.",
+		"guidance": "The correct answer is that **backing up your seed phrase is essential for wallet recovery and should be stored securely offline in multiple locations**. This is crucial because the seed phrase is the only way to recover your wallet and access your funds if you lose access to your wallet or device. \n\nStoring it online exposes it to potential hacking risks, so offline storage is recommended. It's necessary for both hot and cold wallets, not just hot wallets. Lastly, it's not optional and is needed for more than just forgotten passwords - it's the key to recovering your entire wallet in various scenarios.",
 		"showGuidanceAfterResponseOption": {
 			"type": "Never"
 		},
@@ -71,7 +71,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "true or false"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],

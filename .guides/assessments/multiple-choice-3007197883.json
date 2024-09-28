@@ -2,7 +2,7 @@
 	"type": "multiple-choice",
 	"taskId": "multiple-choice-3007197883",
 	"source": {
-		"name": "Merkle Tree Structure",
+		"name": "Merkle Tree 02-structure",
 		"showName": false,
 		"instructions": "Which of the following best describes the structure of a Merkle Tree?",
 		"multipleResponse": false,
@@ -11,32 +11,28 @@
 			{
 				"_id": "7ac1788a-5643-d0f3-542b-05ed76b067b6",
 				"correct": true,
-				"answer": "A binary tree where each non-leaf node is the hash of its two child nodes"
+				"answer": "A binary tree (a data structure where each node has no more than 2 child nodes) where each non-leaf node is the hash of its two child nodes"
 			},
 			{
 				"_id": "5933da3b-b168-4d6b-b9f1-7d620874b5fe",
 				"correct": false,
-				"answer": "A linked list where each node contains the hash of the previous node"
-			},
-			{
-				"_id": "b156cf33-d2e7-8579-9059-6d7b163edde7",
-				"correct": false,
-				"answer": "A complete binary tree where only leaf nodes contain data"
+				"answer": "A linked list data structure where each node contains the hash of the previous node"
 			},
 			{
 				"_id": "9ed4dbe5-b936-6746-ad9a-978fd1b7d42f",
 				"correct": false,
-				"answer": "A balanced tree where each node contains both data and its hash"
+				"answer": "A binary tree where all nodes contain both transaction data and the hash of that data"
 			},
 			{
 				"_id": "1bee01e1-35fa-5a40-5945-909bd2b3be3f",
 				"correct": false,
-				"answer": "It is a linear data structure like an array."
+				"answer": "It is a flat, linear data structure like an array."
 			}
 		],
-		"guidance": "The correct answer is \"A binary tree where each non-leaf node is the hash of its two child nodes\". This accurately describes the structure of a Merkle Tree as presented in the topic. In a Merkle Tree, leaf nodes contain hashes of data blocks, and each non-leaf node is the hash of its child nodes' hashes. The other options are incorrect: a linked list is not a tree structure, a Merkle Tree is not necessarily a complete binary tree, and nodes in a Merkle Tree do not contain both data and hashes (only leaf nodes contain data hashes).",
+		"guidance": "The correct answer is \"A binary tree (a data structure where each node has no more than 2 child nodes) where each non-leaf node is the hash of its two child nodes\". \n\nThis accurately describes the structure of a Merkle Tree as presented in the topic. In a Merkle Tree, leaf nodes contain hashes of data blocks (not the actual data), and each non-leaf node is the hash of its child nodes' hashes. \n\nThe other options are incorrect: A Merkle Tree is a Tree data structure, and not a linked list. Nodes in a Merkle Tree do not contain both data and hashes (only leaf nodes contain data hashes, while parent nodes contain hashes of their child node hashes).",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -68,7 +64,7 @@
 				},
 				{
 					"name": "Level",
-					"value": "Easy"
+					"value": "Intermediate"
 				},
 				{
 					"name": "Type",
@@ -87,5 +83,5 @@
 	},
 	"linkedId": "6883f663-d7e9-4316-a4c6-bb35e97f816d",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 4
+	"version": 7
 }

@@ -21,22 +21,23 @@
 			{
 				"_id": "5dde9dea-a0ca-0ab2-bf1f-aa9f3e6c3fc2",
 				"correct": true,
-				"answer": "User accounts can interact with smart contracts by submitting transactions that execute predefined functions"
+				"answer": "Other smart contracts and uses accounts (wallets) can interact with smart contracts"
 			},
 			{
 				"_id": "eeada018-b2d4-9ccf-677c-ca391a3eefd1",
 				"correct": false,
-				"answer": "Smart contracts are controlled by individual users after deployment"
+				"answer": "Smart contracts are legal contracts"
 			},
 			{
 				"_id": "c1bc1007-8d3b-126b-cbaa-c926dffd520c",
 				"correct": true,
-				"answer": "Smart contracts can hold a balance and be the target of transactions, similar to user accounts"
+				"answer": "Smart contracts can hold a taken (value) balance similar to user accounts"
 			}
 		],
-		"guidance": "The correct answers are:\n1. Smart contracts are computer programs that reside at specific addresses on the Ethereum blockchain\n2. User accounts can interact with smart contracts by submitting transactions that execute predefined functions\n3. Smart contracts can hold a balance and be the target of transactions, similar to user accounts\n\nThese statements accurately reflect the information provided about smart contracts. Smart contracts are indeed programs on the Ethereum blockchain, can be interacted with through transactions, and can hold balances like user accounts. The incorrect options state that smart contracts can be easily deleted or modified (they cannot by default, and interactions are irreversible) and that they are controlled by individual users after deployment (they run autonomously as programmed).",
+		"guidance": "The correct answers are:\n1. Smart contracts are computer programs that reside at specific addresses on the Ethereum blockchain\n2. Other smart contracts and uses accounts (wallets) can interact with smart contracts\n3. Smart contracts can hold a token(value) balance, similar to user accounts\n\nThese statements accurately reflect the information provided about smart contracts. Smart contracts are indeed programs on the Ethereum blockchain, can be interacted with through transactions, and can hold balances like user accounts. \n\nThe incorrect options state that smart contracts can be easily deleted or modified (they cannot by default, and interactions are irreversible) and that they are legal contracts (they are inspired by binding nature of legal contracts, but they're not themselves legal contracts).",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "b9c18cd1-0df8-4e00-9afe-e16daf4a2d9b",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 2
 }

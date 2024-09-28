@@ -31,7 +31,8 @@
 		],
 		"guidance": "The correct answer is \"A system where miners solve complex mathematical puzzles to validate transactions and add new blocks\". This accurately describes the Proof of Work mechanism, which involves miners performing computational work to solve cryptographic puzzles, thereby validating transactions and creating new blocks. The other options are incorrect because: the second option describes Proof of Stake, not Proof of Work; the third option confuses PoW with encryption, which is a separate security feature; and the fourth option describes off-chain scaling solutions, which are not related to the PoW consensus mechanism.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -78,5 +79,5 @@
 	},
 	"linkedId": "1e7fbe79-dfc5-428f-a0a8-abae1a9da085",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	"version": 3
 }

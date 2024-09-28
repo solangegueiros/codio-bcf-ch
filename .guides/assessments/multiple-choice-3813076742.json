@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Blockchain 03",
 		"showName": false,
-		"instructions": "Is the following statement true or false?\n\nOnce a transaction is recorded in a blockchain, it can be easily altered without affecting other blocks.",
+		"instructions": "True or False:\n\nOnce a transaction is recorded on the blockchain, it can be easily altered without affecting other blocks.",
 		"multipleResponse": false,
 		"isRandomized": false,
 		"answers": [
@@ -19,9 +19,10 @@
 				"answer": "False"
 			}
 		],
-		"guidance": "The statement is false. One of the key features of blockchain is that once a transaction is recorded in a block, it cannot be altered retroactively without altering all subsequent blocks. This is because each block contains a cryptographic hash of the previous block, creating a chain of blocks that are securely linked together. This property ensures the immutability and integrity of the blockchain.",
+		"guidance": "The statement is false. One of the key features of blockchain is that once a transaction is recorded in a block, it cannot be altered retroactively. This is because each block contains a cryptographic hash of the previous block, creating a chain of blocks that are securely linked together. This property ensures the immutability and integrity of the blockchain.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -70,7 +71,7 @@
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "What is Blockchain"
 	},
-	"linkedId": "2158e9bd-f0d9-4378-b0a9-358db5e02307",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 8
+	"linkedId": "29c7f93f-5e1c-4c08-83c4-e20b32b3e435",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

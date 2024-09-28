@@ -34,9 +34,10 @@
 				"answer": "Rebalancing a portfolio in an automated investment strategy"
 			}
 		],
-		"guidance": "Chainlink Automation is designed for reliable, high-performance, decentralized automation of smart contracts. It's typically used for tasks like updating prices, executing orders, triggering time-based functions, and managing automated strategies. Generating random numbers is not a primary use case for Chainlink Automation. Instead, that task is specifically handled by Chainlink VRF (Verifiable Random Function). The other options are incorrect because they are all valid use cases for Chainlink Automation: regularly updating token prices, executing limit orders, triggering time-based functions, and rebalancing portfolios are all tasks that can benefit from automated, decentralized execution.",
+		"guidance": "Chainlink Automation is designed for reliable, high-performance, decentralized automation of smart contracts. It's typically used for tasks like updating prices, executing orders, triggering time-based functions, and managing automated strategies. \n\nGenerating random numbers is not a primary use case for Chainlink Automation. Instead, that task is specifically handled by Chainlink VRF (Verifiable Random Function). \n\nThe other options are incorrect because they are all valid use cases for Chainlink Automation: regularly updating token prices, executing limit orders, triggering time-based functions, and rebalancing portfolios are all tasks that can benefit from automated, decentralized execution.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "bd0c8b49-3626-444c-94ec-3be9a1a59c2a",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

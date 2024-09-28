@@ -34,9 +34,10 @@
 				"answer": "Chainlink Automation"
 			}
 		],
-		"guidance": "Chainlink provides various oracle services including CCIP, Data Feeds, VRF, and Automation. However, it does not provide a blockchain consensus mechanism, which is a core component of the blockchain itself, not an oracle service. This question tests the student's ability to distinguish between Chainlink's oracle services and fundamental blockchain components.",
+		"guidance": "Chainlink provides various oracle services including CCIP, Data Feeds, VRF, and Automation. \n\nHowever, it does not provide a consensus mechanism on blockchains directly, which is a core component of the blockchain itself. ",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "7492419f-f00b-4d53-aa22-0164f32073fa",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 2
 }

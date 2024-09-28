@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers are:\n1) Alice should never share her private key, even with trusted friends.\n2) By sharing her private key, Alice gives Bob the ability to sign transactions on her behalf.\n3) Alice can safely share her public key with Bob instead.\n\nThese statements accurately reflect the importance of private key security in blockchain. Sharing a private key, even with trusted individuals, compromises the security of the entire system. The private key allows full control over transactions and assets, so it should never be shared. Sharing the public key is safe and is actually necessary for receiving transactions. The incorrect options suggest that sharing private keys can be safe or that the damage can be easily undone, which are dangerous misconceptions in blockchain security.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": true,
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "13ed64d8-38b4-4996-98d7-1d76070dd078",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 5
+	"version": 6
 }

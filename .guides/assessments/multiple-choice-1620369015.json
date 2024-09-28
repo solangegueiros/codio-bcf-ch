@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Interoperability Use Case Identification",
 		"showName": false,
-		"instructions": "Which of the following scenarios best represents a use case for blockchain interoperability?",
+		"instructions": "Which of the following scenarios *best* represents a use case for blockchain interoperability?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -34,9 +34,10 @@
 				"answer": "Verifying transactions within a single blockchain network"
 			}
 		],
-		"guidance": "The correct answer is \"Transferring Bitcoin to the Ethereum network for use in DeFi applications.\" This scenario exemplifies blockchain interoperability as it involves moving assets (Bitcoin) from one blockchain to another (Ethereum) for cross-chain utility. The other options do not involve interaction between different blockchain networks: mining tokens, storing data, creating smart contracts, and verifying transactions can all occur within a single blockchain ecosystem. This question tests the student's ability to recognize practical applications of blockchain interoperability in the context of cross-chain asset transfers and DeFi use cases.",
+		"guidance": "The correct answer is \"Transferring Bitcoin to the Ethereum network for use in DeFi applications.\" This scenario exemplifies blockchain interoperability as it involves moving assets (Bitcoin) from one blockchain (Bitcoin network) to another (Ethereum) for cross-chain utility. \n\nThe other options do not involve interaction between different blockchain networks: mining tokens, storing data, creating smart contracts, and verifying transactions can all occur within a single blockchain ecosystem. ",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "338ba3d3-0419-4416-83a5-8faeeb9bdc81",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	"version": 3
 }

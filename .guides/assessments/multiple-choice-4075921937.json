@@ -34,9 +34,10 @@
 				"answer": "Chainlink Automation"
 			}
 		],
-		"guidance": "Chainlink is best described as a decentralized oracle network that connects smart contracts with real-world data and services. It is not a blockchain platform itself, nor a cryptocurrency exchange or consensus mechanism. Chainlink's primary function is to provide reliable, tamper-proof inputs and outputs for complex smart contracts on any blockchain, enabling them to interact with external data sources, APIs, and traditional bank payment systems.",
+		"guidance": "Chainlink is best described as a decentralized oracle network that connects smart contracts with real-world data and services. \n\nIt is not a blockchain itself, nor a cryptocurrency exchange or consensus mechanism. Chainlink's primary function is to provide reliable, tamper-proof inputs and outputs for complex smart contracts on any blockchain, enabling them to interact with external data sources, APIs, and traditional bank payment systems.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "0f0e50b7-e987-42f9-ba91-6de0c2305f43",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 4
 }

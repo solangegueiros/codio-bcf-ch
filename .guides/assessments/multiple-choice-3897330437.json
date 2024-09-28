@@ -34,9 +34,10 @@
 				"answer": "Oracles expand the potential applications of smart contracts"
 			}
 		],
-		"guidance": "Oracles play a crucial role in expanding the capabilities of smart contracts by enabling them to access off-chain data, which is correct. They act as middleware, facilitating communication between on-chain and off-chain environments, which is also accurate. By providing external data to smart contracts, oracles indeed expand their potential applications. However, smart contracts cannot directly interact with external data sources without oracles; this limitation is precisely why oracles are necessary. Lastly, while oracles introduce some additional considerations for security, they do not inherently compromise the security of blockchain networks when implemented properly.",
+		"guidance": "Oracles play a crucial role in expanding the capabilities of smart contracts by enabling them to access off-chain data, which is correct. They act as middleware, facilitating communication between on-chain and off-chain environments, which is also accurate. By providing external data to smart contracts, oracles indeed expand their potential applications. \n\nSmart contracts cannot directly interact with external data sources without oracles; this limitation is precisely why oracles are necessary. \n\nLastly, oracles do not compromise the security of blockchain networks when implemented properly.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "41c9d245-21a2-4637-ae63-6c1131588c79",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 2
 }

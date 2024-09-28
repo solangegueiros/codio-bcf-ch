@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Enterprise Blockchain Interoperability Use Case",
 		"showName": false,
-		"instructions": "Which of the following scenarios best illustrates the use of blockchain interoperability for enterprise blockchain integration?",
+		"instructions": "Which of the following scenarios *best* illustrates the use of blockchain interoperability for enterprise blockchain integration?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -34,9 +34,10 @@
 				"answer": "A technology company develops a new cryptocurrency on a standalone blockchain with no cross-chain functionality"
 			}
 		],
-		"guidance": "The correct answer demonstrates blockchain interoperability in an enterprise setting by showing how a private enterprise blockchain (used by the pharmaceutical company) interacts with a public blockchain. This scenario illustrates the integration of different blockchain systems to enable broader data sharing and verification across platforms, which is a key aspect of enterprise blockchain integration. The other options either involve single blockchain usage, non-blockchain technologies, or scenarios that don't demonstrate interoperability between different blockchain systems.",
+		"guidance": "The correct answer demonstrates blockchain interoperability in an enterprise setting by showing how a private enterprise blockchain (used by the pharmaceutical company) interacts with a public blockchain. This scenario illustrates the integration of different blockchain systems to enable broader data sharing and verification across platforms, which is a key aspect of enterprise blockchain integration. \n\nThe other options either involve single blockchain usage, non-blockchain technologies, or scenarios that don't demonstrate interoperability between different blockchain systems.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "5e99a4d1-a19e-40a1-8838-0e55c1f6b0a5",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

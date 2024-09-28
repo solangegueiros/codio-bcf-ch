@@ -34,9 +34,10 @@
 				"answer": "The use of blockchain technology in non-financial sectors is still purely theoretical"
 			}
 		],
-		"guidance": "The correct answer is \"Blockchain enables decentralized applications (dApps) across various industries, including finance, supply chain, and healthcare.\" This statement accurately reflects the broad applicability of blockchain technology beyond cryptocurrencies. While cryptocurrencies were an early and remain a significant use case, blockchain's potential extends far beyond financial transactions. It enables the creation of decentralized applications in diverse sectors, leveraging its core features of transparency, security, and decentralization. The other options are incorrect: Blockchain is not exclusively used for cryptocurrency transactions, its applications are not limited to the financial sector, it's used for much more than just data storage, and its use in non-financial sectors is already a reality, not just theoretical. This question assesses students' understanding of blockchain's versatility and its impact across multiple industries.",
+		"guidance": "The correct answer is \"Blockchain enables decentralized applications (dApps) across various industries, including finance, supply chain, and healthcare.\" This statement accurately reflects the broad applicability of blockchain technology beyond cryptocurrencies. While cryptocurrencies were an early and remain a significant use case, blockchain's potential extends far beyond financial transactions. It enables the creation of decentralized applications in diverse sectors, leveraging its core features of transparency, security, and decentralization. \n\nThe other options are incorrect: Blockchain is not exclusively used for cryptocurrency transactions, its applications are not limited to the financial sector, it's used for much more than just data storage, and its use in non-financial sectors is already a reality, not just theoretical. This question assesses students' understanding of blockchain's versatility and its impact across multiple industries.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "89d535db-7d58-4cfc-b71a-b2d94a9149d5",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

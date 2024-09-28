@@ -2,7 +2,7 @@
 	"type": "multiple-choice",
 	"taskId": "multiple-choice-2009967781",
 	"source": {
-		"name": "Private Key Security",
+		"name": "Private Keys 02",
 		"showName": false,
 		"instructions": "Which of the following statements is true regarding private keys in cryptocurrency wallets?",
 		"multipleResponse": false,
@@ -11,30 +11,30 @@
 			{
 				"_id": "3bfbc659-3366-3dbf-c261-92fd28b6451c",
 				"correct": false,
-				"answer": "Private keys should be shared with trusted friends for backup purposes"
+				"answer": "Private keys should always be shared with trusted friends for backup purposes."
 			},
 			{
 				"_id": "96c87863-97da-58b6-2d13-786fa8f7ce65",
 				"correct": false,
-				"answer": "Private keys can be safely stored in cloud storage services"
+				"answer": "Private keys should be stored in cloud storage services, not offline."
 			},
 			{
 				"_id": "0a2a175c-b9dd-952b-28ed-b92d9c22e1f0",
 				"correct": false,
-				"answer": "Private keys are used to generate public wallet addresses"
+				"answer": "Private keys are used unilaterally to generate public wallet addresses."
 			},
 			{
 				"_id": "f2146601-3cb4-f22c-fc56-7e3489051942",
 				"correct": true,
-				"answer": "Private keys must be kept confidential to maintain control over funds"
+				"answer": "Private keys must be kept confidential to maintain control over funds."
 			},
 			{
 				"_id": "14158d64-8b9f-0d01-796a-24065215e2f8",
 				"correct": false,
-				"answer": "Private keys can be regenerated if lost using the public key"
+				"answer": "Private keys can be regenerated if lost just by using the public key."
 			}
 		],
-		"guidance": "The correct answer is \"Private keys must be kept confidential to maintain control over funds\". This is a fundamental principle of cryptocurrency security. Private keys grant full access to the associated cryptocurrency funds, and if compromised, can lead to loss of assets. The other options are incorrect because: sharing private keys, even with trusted individuals, compromises security; storing them in cloud services risks unauthorized access; private keys are not directly used to generate public addresses (public keys are); and private keys cannot be regenerated from public keys due to the nature of asymmetric cryptography.",
+		"guidance": "The correct answer is: **Private keys must be kept confidential to maintain control over funds**. \n\nThis is a fundamental principle of cryptocurrency security. Private keys grant full access to the associated cryptocurrency funds, and if compromised, can lead to loss of assets. \n\n**The other options are incorrect because**: sharing private keys, even with trusted individuals, compromises security; storing them in cloud services risks unauthorized access; private keys are not directly used to generate public addresses (public keys are); and private keys cannot be regenerated from public keys due to the nature of asymmetric cryptography.",
 		"showGuidanceAfterResponseOption": {
 			"type": "Never"
 		},
@@ -76,7 +76,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +87,5 @@
 	},
 	"linkedId": "62e11981-1c02-4ef1-b5cc-c7737290c67a",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 2
 }

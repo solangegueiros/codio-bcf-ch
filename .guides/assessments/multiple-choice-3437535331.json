@@ -11,7 +11,7 @@
 			{
 				"_id": "12320130-bc38-ddf6-9dbb-70ec4051bbf9",
 				"correct": true,
-				"answer": "It encourages participants to act honestly to maximize their rewards"
+				"answer": "It is used to incentivize participants to act honestly to maximize their rewards"
 			},
 			{
 				"_id": "5b71217c-0a66-7694-518c-f313964ec0d6",
@@ -21,7 +21,7 @@
 			{
 				"_id": "ffc9dac8-45c7-404c-4811-a6df1b391d7c",
 				"correct": true,
-				"answer": "It helps design incentive structures that align individual interests with network security"
+				"answer": "It helps design incentive structures that align participant interests with network security"
 			},
 			{
 				"_id": "eb7736c9-3446-b0d0-8982-e127bf8435f7",
@@ -31,12 +31,13 @@
 			{
 				"_id": "62cc665c-ed16-1b7f-f94e-5e8afccac521",
 				"correct": true,
-				"answer": "It models the decision-making process of validators in choosing whether to validate transactions honestly"
+				"answer": "It models the decision-making process of blockchain node validators in choosing whether to validate transactions honestly"
 			}
 		],
-		"guidance": "The correct answers are:\n\n1. It encourages participants to act honestly to maximize their rewards\n2. It helps design incentive structures that align individual interests with network security\n3. It models the decision-making process of validators in choosing whether to validate transactions honestly\n\nThese statements accurately reflect how game theory is applied in blockchain consensus mechanisms. Game theory is used to create systems where honest behavior is rewarded and dishonest behavior is discouraged, aligning individual incentives with the overall security and integrity of the network. It applies to various consensus mechanisms, not just PoW. The incorrect options suggest that game theory promotes cheating (which is false) or that it's limited to only one type of consensus mechanism (which is also incorrect).",
+		"guidance": "The correct answers are:\n\n1. It is used to incentivize participants to act honestly to maximize their rewards\n2. It helps design incentive structures that align participant interests with network security\n3. It models the decision-making process of blockchain node validators in choosing whether to validate transactions honestly\n\nThese statements accurately reflect how game theory is applied in blockchain consensus mechanisms. Game theory is used to create systems where honest behavior is rewarded and dishonest behavior is discouraged, aligning individual incentives with the overall security and integrity of the network. It applies to various consensus mechanisms, not just PoW. The incorrect options suggest that game theory promotes cheating (which is false) or that it's limited to only one type of consensus mechanism (which is also incorrect).",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -83,5 +84,5 @@
 	},
 	"linkedId": "ce643c4b-9c34-4fa1-8d51-89f75ba4523e",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 4
+	"version": 6
 }

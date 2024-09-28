@@ -34,9 +34,10 @@
 				"answer": "They can have their own native cryptocurrencies"
 			}
 		],
-		"guidance": "Side chains in the Ethereum ecosystem run parallel to the Ethereum main chain, which is correct. They are connected to Ethereum via bridges, allowing for asset transfers between chains. Side chains can have their own native cryptocurrencies, as seen with examples like Polygon. However, they do not always use the same consensus mechanism as Ethereum; they can have their own. Additionally, side chains do not inherit their security directly from Ethereum; they have their own security models, which is a key difference from Layer 2 solutions.",
+		"guidance": "Side chains in the Ethereum ecosystem run parallel to the Ethereum main chain, which is correct. They are connected to Ethereum via bridges, allowing for asset transfers between chains. \n\nSide chains can have their own native cryptocurrencies, as seen with examples like Polygon. However, they do not always use the same consensus mechanism as Ethereum; they can have their own.\n Additionally, side chains do not inherit their security directly from Ethereum; they have their own security models, which is a key difference from Layer 2 solutions.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "43df8fca-56d3-43b2-8cad-6bc49b0a723a",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	"version": 3
 }

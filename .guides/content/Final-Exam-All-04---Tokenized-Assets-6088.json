@@ -1,0 +1,17 @@
+{
+	"id": "60882c4e-f965-6f64-1db7-504c0358df99",
+	"title": "Final Exam All 04 - Tokenized Assets",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel",
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

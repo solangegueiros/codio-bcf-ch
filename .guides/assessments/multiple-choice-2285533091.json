@@ -34,9 +34,10 @@
 				"answer": "Blockchain technology is making financial services less secure and more prone to hacks"
 			}
 		],
-		"guidance": "The correct answer is \"Blockchain is enabling more efficient and transparent financial transactions while reducing the need for intermediaries.\" This statement accurately reflects the transformative impact of blockchain on financial services. Blockchain technology improves efficiency by allowing for faster, direct transactions without the need for traditional intermediaries like banks. It enhances transparency through its distributed ledger system, where all transactions are recorded and can be verified by network participants. The other options are incorrect: Blockchain is not completely replacing traditional banking, but rather complementing and improving existing systems. It has many applications beyond just cryptocurrency transactions. Blockchain actually reduces centralized control rather than increasing government oversight, and it generally improves security rather than making systems more vulnerable to hacks.",
+		"guidance": "The correct answer is \"Blockchain is enabling more efficient and transparent financial transactions while reducing the need for intermediaries.\" This statement accurately reflects the transformative impact of blockchain on financial services. Blockchain technology improves efficiency by allowing for faster, direct transactions without the need for traditional intermediaries like banks. It enhances transparency through its distributed ledger system, where all transactions are recorded and can be verified by network participants. \n\nThe other options are incorrect: Blockchain is not completely replacing traditional banking, but rather complementing and improving existing systems. It has many applications beyond just cryptocurrency transactions. Blockchain actually reduces centralized control rather than increasing government oversight, and it generally improves security rather than making systems more vulnerable to hacks.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "6eb9f80f-6471-49a8-8872-88d716ea9dd2",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

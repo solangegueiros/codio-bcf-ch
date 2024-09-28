@@ -4,7 +4,7 @@
 	"source": {
 		"name": "CCIP Key Holders and Network Security",
 		"showName": false,
-		"instructions": "Which of the following statements best describes the role of multiple independent key holders in Chainlink's Cross-Chain Interoperability Protocol (CCIP) and its impact on network security?",
+		"instructions": "Which of the following statements best describes the role of multiple independent key holders in Chainlink Cross-Chain Interoperability Protocol (CCIP) and its impact on network security?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -16,7 +16,7 @@
 			{
 				"_id": "720fde6e-0e20-00f4-09aa-414f9183aa70",
 				"correct": true,
-				"answer": "Independent key holders prevent centralized control and reduce the risk of collusion, enhancing network security"
+				"answer": "Independent key holders prevent centralized control of oracle nodes and reduce the risk of collusion, enhancing network security"
 			},
 			{
 				"_id": "ed6327e3-bc76-7aa3-0632-786f99378ea5",
@@ -34,9 +34,10 @@
 				"answer": "Key holders in CCIP are centrally managed to ensure consistent security protocols across the network"
 			}
 		],
-		"guidance": "The correct answer is that independent key holders prevent centralized control and reduce the risk of collusion, enhancing network security. This is fundamental to CCIP's design, as it distributes control across multiple independent parties, eliminating single points of failure and reducing the risk of malicious activities. The other options are incorrect because they either misrepresent the role of key holders (e.g., suggesting they only affect transaction speed or are centrally managed) or understate their importance to network security and decentralization.",
+		"guidance": "The correct answer is that independent key holders prevent centralized control of oracle nodes, which reduces the risk of collusion, enhancing network security. This is fundamental to CCIP's design, as it distributes control across multiple independent parties, eliminating single points of failure and reducing the risk of malicious activities. \n\nThe other options are incorrect because they either misrepresent the role of key holders (e.g., suggesting they only affect transaction speed or are centrally managed) or include incorrect statements regarding network security and decentralization.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "d5908b67-9af5-4d5c-a4ef-cb5d9da02963",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 3
 }

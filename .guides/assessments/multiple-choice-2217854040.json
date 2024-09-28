@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers are:\n1. Nick Szabo proposed the concept of smart contracts in 1994\n2. Szabo's vision included reducing the need for trusted intermediaries in transactions\n3. The launch of Ethereum in 2015 made smart contracts a practical reality\n\nThese statements accurately reflect the information provided about Nick Szabo and smart contracts. Szabo indeed proposed the concept in 1994, aiming to reduce the need for intermediaries. The practical implementation of smart contracts became possible with Ethereum's launch in 2015. The incorrect options state that smart contracts were immediately implementable (they weren't due to technological limitations) and that Szabo's concept was limited to cryptocurrency transactions (his vision was broader, encompassing various types of digital transactions and agreements).",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -83,5 +84,5 @@
 	},
 	"linkedId": "89cf07cf-459e-42f5-a3a7-2cbefdd8fa0f",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	"version": 2
 }

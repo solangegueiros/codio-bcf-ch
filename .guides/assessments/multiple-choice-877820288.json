@@ -34,9 +34,10 @@
 				"answer": "Blockchain-based identity solutions are purely theoretical and have no practical applications yet"
 			}
 		],
-		"guidance": "The correct answer is \"Blockchain enables self-sovereign identity, allowing users to control and securely share their personal data.\" This accurately reflects one of the key applications of blockchain in digital identity management. Blockchain technology allows for the creation of decentralized identity systems where users have control over their personal information and can choose how and when to share it. This concept of self-sovereign identity is being implemented in real-world projects like uPort and Sovrin. The other options are incorrect: Blockchain's use in identity management goes beyond cryptocurrency addresses, it actually enhances privacy rather than conflicting with it, its applications extend far beyond financial transactions, and blockchain-based identity solutions are already being implemented, not just theoretical. This question assesses students' understanding of how blockchain technology can revolutionize digital identity management, moving beyond its well-known applications in cryptocurrency.",
+		"guidance": "The correct answer is \"Blockchain enables self-sovereign identity, allowing users to control and securely share their personal data.\" This accurately reflects one of the key applications of blockchain in digital identity management. Blockchain technology allows for the creation of decentralized identity systems where users have control over their personal information and can choose how and when to share it. This concept of self-sovereign identity is being implemented in real-world projects like uPort and Sovrin. \n\nThe other options are incorrect: Blockchain's use in identity management goes beyond cryptocurrency addresses, it actually enhances privacy rather than conflicting with it, its applications extend far beyond financial transactions, and blockchain-based identity solutions are already being implemented, not just theoretical. This question assesses students' understanding of how blockchain technology can revolutionize digital identity management, moving beyond its well-known applications in cryptocurrency.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "2119f1ee-ec7b-4525-a7fd-fc4ac3a2cd91",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

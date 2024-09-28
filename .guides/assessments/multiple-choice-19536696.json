@@ -9,37 +9,37 @@
 		"isRandomized": true,
 		"answers": [
 			{
-				"_id": "0ed6a682-bcf1-98a8-cc71-6ca7be8db40a",
+				"_id": "f3a16270-814c-b3d6-51d5-3596c37bb7a9",
 				"correct": true,
 				"answer": "Transactions"
 			},
 			{
-				"_id": "411a21c8-f42f-b13b-5c94-4a73dec41089",
+				"_id": "4f3ca9f2-77ec-148f-f7ef-67e6fa637888",
 				"correct": true,
 				"answer": "Timestamp"
 			},
 			{
-				"_id": "6025b618-5864-f82e-f2a9-0fcd4ea6d916",
+				"_id": "651de69e-6761-d10e-c63e-a2a42a7f866c",
 				"correct": true,
 				"answer": "Hash of the previous block"
 			},
 			{
-				"_id": "b2cdf1e6-cda7-0fbd-fe1a-31869e1fd385",
+				"_id": "d9fcac6e-68bd-2753-d99f-eb8943412616",
 				"correct": true,
 				"answer": "Nonce"
 			},
 			{
-				"_id": "50f59182-5c9f-35ec-f2fb-ef47cb5e7056",
+				"_id": "ff632fdc-b292-e184-6a58-957cafa13642",
 				"correct": false,
 				"answer": "Smart contract"
 			},
 			{
-				"_id": "5cec1915-2b6f-419d-eef0-0db5f5fb4d87",
+				"_id": "1b4e6d1a-418b-b528-9ebb-fd22aa6e45a7",
 				"correct": false,
 				"answer": "Validator's address"
 			}
 		],
-		"guidance": "The correct answers are Transactions, Timestamp, Hash of the previous block, and Nonce. These are the essential components of a block in a blockchain as described in the topic. Smart contracts and miner's addresses, while related to blockchain technology, are not core components of every block.",
+		"guidance": "The correct answers are Transactions, Timestamp, Hash of the previous block, and Nonce. These are the essential components of a block in a blockchain as described in the topic. Smart contracts and Validator's addresses, while related to blockchain technology, are not core components of every block.",
 		"showGuidanceAfterResponseOption": {
 			"type": "Attempts",
 			"passedFrom": 1
@@ -61,16 +61,16 @@
 					"value": "BFT"
 				},
 				{
-					"name": "Programming Language",
-					"value": "None"
-				},
-				{
 					"name": "Lesson",
 					"value": "Introduction to Blockchain and Ethereum"
 				},
 				{
 					"name": "Level",
 					"value": "Easy"
+				},
+				{
+					"name": "Programming Language",
+					"value": "None"
 				},
 				{
 					"name": "Topic",
@@ -87,7 +87,7 @@
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "Blockchain Structure"
 	},
-	"linkedId": "4804736f-8b7b-4764-b1ac-0b5116670383",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 8
+	"linkedId": "787b4472-4f11-4117-8b1c-f7c813e62540",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

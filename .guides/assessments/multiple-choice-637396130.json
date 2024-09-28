@@ -4,19 +4,19 @@
 	"source": {
 		"name": "Programmable Token Bridges in Cross-Chain Transactions",
 		"showName": false,
-		"instructions": "Which of the following scenarios best demonstrates a practical application of programmable token bridges in cross-chain transactions?",
+		"instructions": "Which of the following scenarios *best* demonstrates a practical application of programmable token transfers in cross-chain transactions?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "4e1f89b0-5a8b-0cfe-a536-cc344696ce87",
 				"correct": true,
-				"answer": "A user transfers tokens from Ethereum to Avalanche and automatically stakes them in a yield farming protocol on Avalanche in a single transaction"
+				"answer": "A user transfers tokens from Ethereum to Avalanche and automatically stakes them in a yield-farming protocol on Avalanche in a single transaction"
 			},
 			{
 				"_id": "f6809598-5fd5-2e61-c39e-e4a46c37f382",
 				"correct": false,
-				"answer": "A user manually bridges tokens from Ethereum to Polygon, then separately interacts with a DeFi protocol on Polygon"
+				"answer": "A user manually sends tokens from Ethereum to Polygon, then separately interacts with a DeFi protocol on Polygon"
 			},
 			{
 				"_id": "c2cd6542-0c67-5f1b-b7b2-894b40a15eef",
@@ -34,9 +34,10 @@
 				"answer": "A user swaps tokens on one chain for a different token on the same chain using a decentralized exchange"
 			}
 		],
-		"guidance": "The correct answer is \"A user transfers tokens from Ethereum to Avalanche and automatically stakes them in a yield farming protocol on Avalanche in a single transaction.\" This scenario demonstrates the key feature of programmable token bridges: combining token bridging with arbitrary messaging to execute a contract call on the destination chain in a single transaction. It showcases the ability to not just transfer tokens cross-chain, but also to immediately use them in a specific way (staking in this case) on the destination chain. The other options either involve separate manual steps, don't involve cross-chain transactions, or don't demonstrate the programmable aspect of modern token bridges.",
+		"guidance": "The correct answer is \"A user transfers tokens from Ethereum to Avalanche and automatically stakes them in a yield farming protocol on Avalanche in a single transaction.\" This scenario demonstrates the key feature of programmable token transfers: combining token transfer with data messaging to execute a smart contract call on the destination chain - all in a single transaction. It showcases the ability to not just transfer tokens cross-chain, but also to immediately use them in a specific way (staking in this case) on the destination chain. \n\nThe other options either involve separate manual steps, don't involve cross-chain transactions, or don't demonstrate the programmable aspect of modern token transfer technologies.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -68,7 +69,7 @@
 				},
 				{
 					"name": "Level",
-					"value": "Easy"
+					"value": "Intermediate"
 				},
 				{
 					"name": "Exam",
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "6bb8239f-ca05-49f8-839f-c793e199db67",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

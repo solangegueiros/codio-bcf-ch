@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Understanding Decentralization in Blockchain",
 		"showName": false,
-		"instructions": "Consider the following scenarios in a blockchain network. Which of these accurately represent the effects of decentralization?",
+		"instructions": "Consider the following scenarios in a blockchain network. Which of these accurately represent the effects of decentralization? Select all that apply.",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
@@ -36,7 +36,8 @@
 		],
 		"guidance": "The correct answers illustrate key aspects of decentralization in blockchain:\n\n1. A hacker successfully attacking one node doesn't compromise the entire network, demonstrating resilience.\n2. Equal authority for transaction validation reflects the distributed nature of trust and control.\n3. Transaction visibility with protected identities shows the balance between transparency and privacy.\n\nThe incorrect options are:\n\n1. The network becoming more efficient with more nodes. In reality, more nodes can increase security but may decrease efficiency.\n2. A central authority being required for dispute resolution. This contradicts the principle of decentralization, where consensus mechanisms typically resolve disputes.\n\nThis question requires students to apply their understanding of decentralization to practical scenarios, assessing their ability to recognize its effects in a blockchain context.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -83,5 +84,5 @@
 	},
 	"linkedId": "32051839-1a37-4c0c-b6c1-0cdc02c38d65",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 1
+	"version": 3
 }

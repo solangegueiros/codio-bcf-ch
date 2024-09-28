@@ -34,9 +34,10 @@
 				"answer": "Blockchain tokenization is limited to digital assets and cannot be applied to physical assets like real estate or commodities"
 			}
 		],
-		"guidance": "The correct answer is \"Blockchain enables the tokenization of real-world assets, creating new markets and democratizing access to investment opportunities.\" This accurately reflects one of the key applications of blockchain in asset management. Blockchain technology allows for the tokenization of various real-world assets, including real estate, commodities, and intellectual property. This process creates new markets for traditionally illiquid assets and enables fractional ownership, thus democratizing access to investment opportunities. The other options are incorrect: Blockchain's use in asset tokenization extends beyond cryptocurrencies, it has practical applications already being implemented in various markets, it benefits both retail and institutional investors, and it can be applied to both digital and physical assets. This question assesses students' understanding of how blockchain technology can revolutionize asset management and investment accessibility, moving beyond its well-known applications in cryptocurrency.",
+		"guidance": "The correct answer is \"Blockchain enables the tokenization of real-world assets, creating new markets and democratizing access to investment opportunities.\" This accurately reflects one of the key applications of blockchain in asset management. Blockchain technology allows for the tokenization of various real-world assets, including real estate, commodities, and intellectual property. This process creates new markets for traditionally illiquid assets and enables fractional ownership, thus democratizing access to investment opportunities. \n\nThe other options are incorrect: Blockchain's use in asset tokenization extends beyond cryptocurrencies, it has practical applications already being implemented in various markets, it benefits both retail and institutional investors, and it can be applied to both digital and physical assets. This question assesses students' understanding of how blockchain technology can revolutionize asset management and investment accessibility, moving beyond its well-known applications in cryptocurrency.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "0949dbfe-fd76-4c5c-a599-08a5f53dac76",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

@@ -2,29 +2,29 @@
 	"type": "multiple-choice",
 	"taskId": "multiple-choice-3279559499",
 	"source": {
-		"name": "Blockchain Transactions",
+		"name": "Blockchain Structure 03 (Tx)",
 		"showName": false,
 		"instructions": "Which of the following is NOT a common use for transactions in a blockchain?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
-				"_id": "8d86e8f8-b9d9-d597-18b9-c022aa2eb532",
+				"_id": "4d3113c5-a6ab-722e-a767-347e03cdd5dd",
 				"correct": false,
-				"answer": "Transferring value"
+				"answer": "Transferring assets with value"
 			},
 			{
-				"_id": "59c2ddbf-0b74-38c3-e0ab-2eaa90e82179",
+				"_id": "94898571-4ba3-7c3a-36af-d808a4538fa3",
 				"correct": false,
 				"answer": "Deploying smart contracts"
 			},
 			{
-				"_id": "0a2975fe-ae1a-a412-698b-532ce8a38ef1",
+				"_id": "b4808075-d35c-f37e-2f21-685e1827b202",
 				"correct": true,
-				"answer": "Storing large amounts of data"
+				"answer": "Storing large files like movies and images"
 			},
 			{
-				"_id": "4addfcf5-2fae-3e3e-940f-43fc4683c64b",
+				"_id": "59dd62ac-5366-c926-4acd-b0b5abdf8db0",
 				"correct": false,
 				"answer": "Interacting with smart contracts"
 			}
@@ -51,8 +51,8 @@
 					"value": "BFT"
 				},
 				{
-					"name": "Programming Language",
-					"value": "None"
+					"name": "Exam",
+					"value": "SG"
 				},
 				{
 					"name": "Lesson",
@@ -63,8 +63,8 @@
 					"value": "Intermediate"
 				},
 				{
-					"name": "Exam",
-					"value": "SG"
+					"name": "Programming Language",
+					"value": "None"
 				},
 				{
 					"name": "Topic",
@@ -81,7 +81,7 @@
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "Blockchain Structure"
 	},
-	"linkedId": "57bca56b-2501-46b1-9e76-2b3c3eeb67d4",
-	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 4
+	"linkedId": "8c792df7-4f5a-4d18-8c23-fa6f4d4c5398",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

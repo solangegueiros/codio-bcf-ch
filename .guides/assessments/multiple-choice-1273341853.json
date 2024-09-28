@@ -34,7 +34,7 @@
 				"answer": "To create a unified global cryptocurrency"
 			}
 		],
-		"guidance": "Blockchain interoperability standards are primarily designed to enable seamless interaction between different blockchain networks and traditional systems. They serve as the foundation for building blockchain abstraction layers, allowing both Web3 dApps and traditional Web2 systems to interact with multiple blockchain networks through a single middleware solution. This eliminates the need for separate implementations for each cross-chain interaction, saving time and resources. The other options, while important in their own right, are not the primary purpose of interoperability standards. Increasing transaction speed, reducing energy consumption, enhancing privacy, and creating a unified cryptocurrency are separate concerns addressed by other blockchain technologies and initiatives.",
+		"guidance": "Blockchain interoperability standards are primarily designed to enable seamless interaction between different blockchain networks and traditional systems. They serve as the foundation for building blockchain abstraction layers, allowing both Web3 dApps and traditional Web2 systems to interact with multiple blockchain networks through a single middleware solution. This eliminates the need for separate implementations for each cross-chain interaction, saving time and resources. \n\n\nThe other options, while important in their own right, are not the primary purpose of interoperability standards. Increasing transaction speed, reducing energy consumption, enhancing privacy, and creating a unified cryptocurrency are separate concerns addressed by other blockchain technologies and initiatives.",
 		"showGuidanceAfterResponseOption": {
 			"type": "Never"
 		},
@@ -76,7 +76,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +87,5 @@
 	},
 	"linkedId": "be1cf8d7-c661-40e6-9648-dbc314a61839",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

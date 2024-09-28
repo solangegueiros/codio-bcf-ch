@@ -11,30 +11,30 @@
 			{
 				"_id": "c2ba76bc-0c7a-bbef-de26-fefca8084653",
 				"correct": false,
-				"answer": "Allowing users to reverse confirmed transactions"
+				"answer": "Allowing users to reverse confirmed transactions."
 			},
 			{
 				"_id": "aebbd596-06f6-8707-734c-77be920b3f0c",
 				"correct": false,
-				"answer": "Modifying smart contract code after deployment"
+				"answer": "Modifying smart contract code after deployment."
 			},
 			{
 				"_id": "4a92f882-c543-ffe9-79c5-0943e3759355",
 				"correct": true,
-				"answer": "Providing real-time information about transaction fees and network hash rates"
+				"answer": "Providing real-time information about transaction fees and network hash rates."
 			},
 			{
 				"_id": "9663a33c-c748-4e9c-8285-0b4816add0f1",
 				"correct": false,
-				"answer": "Creating new native cryptocurrency "
+				"answer": "Creating new native cryptocurrency."
 			},
 			{
 				"_id": "b2a4417e-92ff-d98e-8de2-d8ec83bf0edf",
 				"correct": false,
-				"answer": "Storing users' private keys for easy access"
+				"answer": "Storing users' private keys for easy access."
 			}
 		],
-		"guidance": "The correct answer is \"Providing real-time information about transaction fees and network hash rates\". Block explorers offer various analytics and insights, including transaction fees and network hash rates, which are crucial for understanding blockchain performance. The other options are incorrect because block explorers cannot reverse transactions, modify deployed smart contracts, create new tokens, or store private keys. They are read-only tools designed for viewing and analyzing blockchain data, not for modifying the blockchain or managing user accounts.",
+		"guidance": "The correct answer is: **Providing real-time information about transaction fees and network hash rates**. \n\nBlock explorers offer various analytics and insights, including transaction fees and network hash rates, which are crucial for understanding blockchain performance. \n\nThe other options are incorrect because block explorers cannot reverse transactions, modify deployed smart contracts, create new tokens, or store private keys. They are read-only tools designed for viewing and analyzing blockchain data, not for modifying the blockchain or managing user accounts.",
 		"showGuidanceAfterResponseOption": {
 			"type": "Never"
 		},
@@ -76,7 +76,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],

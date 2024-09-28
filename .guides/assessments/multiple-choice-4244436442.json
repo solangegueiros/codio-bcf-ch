@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Understanding Web3 Concepts",
 		"showName": false,
-		"instructions": "Which of the following is a fundamental concept of Web3?",
+		"instructions": "Which of the following is a core design principle of Web3?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -20,23 +20,19 @@
 			},
 			{
 				"_id": "e86b2b2c-6b8f-a676-a2e8-1a0a87931c54",
-				"correct": false,
+				"correct": true,
 				"answer": "Decentralization using blockchain technologies"
 			},
 			{
 				"_id": "d6b264dd-f07c-67bc-aaba-437d7b659f94",
 				"correct": false,
 				"answer": "Focus on user-generated content without tokenization"
-			},
-			{
-				"_id": "8111a0f7-bfc9-f893-f1f1-319323d17ffe",
-				"correct": true,
-				"answer": "Decentralization distributes trust across the network rather than relying on a single authority."
 			}
 		],
-		"guidance": "The correct answer is \"Decentralization using blockchain technologies.\" This is a fundamental concept of Web3 as described in the topic. Web3 incorporates decentralization and blockchain technologies, moving away from the centralized model of Web 2.0. The other options are incorrect because: centralized data storage is characteristic of Web 2.0, not Web3; emphasis on static content delivery was a feature of Web 1.0; and while user-generated content was a key aspect of Web 2.0, Web3 adds the element of tokenization and blockchain-based economics to this concept.",
+		"guidance": "The correct answer is \"Decentralization using blockchain technologies.\" This is a fundamental concept of Web3 as described in the topic. Web3 incorporates decentralization and blockchain technologies, moving away from the centralized model of Web 2.0. \n\nThe other options are incorrect because: centralized data storage is characteristic of Web 2.0, not Web3; emphasis on static content delivery was a feature of Web 1.0; and while user-generated content was a key aspect of Web 2.0, Web3 adds the element of tokenization and blockchain-based economics to this concept.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -87,5 +83,5 @@
 	},
 	"linkedId": "ae04f4b9-2d4d-4f8e-931e-58979d59869a",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 2
+	"version": 5
 }

@@ -2,9 +2,9 @@
 	"type": "multiple-choice",
 	"taskId": "multiple-choice-1038480113",
 	"source": {
-		"name": "Merkle Tree 03",
+		"name": "Merkle Tree 03-data",
 		"showName": false,
-		"instructions": "True or False: Merkle Trees store the entire blockchain data.",
+		"instructions": "True or False: \nMerkle Trees store the entire blockchain data.",
 		"multipleResponse": false,
 		"isRandomized": false,
 		"answers": [
@@ -19,9 +19,10 @@
 				"answer": "False"
 			}
 		],
-		"guidance": "The statement is false. Merkle Trees do not store the entire blockchain data. Instead, they store summary information about the data in the form of cryptographic hashes. This allows for efficient verification of large datasets without storing all the data. Merkle Trees are used to summarize and verify the integrity of data blocks, not to store the entire blockchain.",
+		"guidance": "The statement is false. Merkle Trees do not store the entire blockchain data. Instead, leaf nodes store hashes of data and all parent nodes contain hashes of their child node hashes.\n\nThis allows for efficient verification of the integrity of large datasets without having to store all the data.\n\n Merkle Trees are used to summarize and verify the integrity of data blocks, not to store the entire blockchain.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -72,5 +73,5 @@
 	},
 	"linkedId": "eaba3240-2aca-4f18-9c27-c2dcc2d37078",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 4
+	"version": 8
 }

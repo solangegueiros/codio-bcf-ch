@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Digital Wallet Blockchain Interaction",
 		"showName": false,
-		"instructions": "Digital wallets interact with the blockchain by storing the actual cryptocurrency or token assets within the wallet itself.",
+		"instructions": "True or False: Digital wallets interact with the blockchain by storing the actual assets within the wallet itself.",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -19,7 +19,7 @@
 				"answer": "False"
 			}
 		],
-		"guidance": "The statement is false. Digital wallets do not store the actual cryptocurrency or token assets within the wallet itself. Instead, they serve as a key manager and interface to interact with the blockchain. The assets remain on the blockchain, and the wallet allows users to manage their blockchain accounts, authorize transactions, and interact with decentralized applications. The wallet provides a way to view and manage assets that are recorded on the blockchain, but it doesn't physically store the assets.",
+		"guidance": "**The statement is false**. \n\nDigital wallets do not store the actual cryptocurrency or token assets within the wallet itself. Instead, they serve as a key manager and interface to interact with the blockchain. \n\nThe assets remain on the blockchain, and the wallet allows users to manage their blockchain accounts, authorize transactions, and interact with decentralized applications. \n\nThe wallet provides a way to view and manage assets that are recorded on the blockchain, but *it doesn't physically store the assets*.",
 		"showGuidanceAfterResponseOption": {
 			"type": "Never"
 		},
@@ -72,5 +72,5 @@
 	},
 	"linkedId": "095661e7-d1cc-44c1-a502-bce1ed92cc56",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 1
 }

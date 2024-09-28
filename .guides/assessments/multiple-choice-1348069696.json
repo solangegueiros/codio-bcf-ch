@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Oracle Applications in NFT Ecosystem",
 		"showName": false,
-		"instructions": "Which of the following scenarios best demonstrates the unique value that oracles bring to NFT applications?",
+		"instructions": "Which of the following scenarios *best* demonstrates the *unique* functionality that oracles bring to NFT applications?",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
@@ -16,7 +16,7 @@
 			{
 				"_id": "7b1ca472-23b4-f222-325b-eb72c4a0df20",
 				"correct": false,
-				"answer": "A marketplace smart contract that facilitates the buying and selling of NFTs using cryptocurrency"
+				"answer": "A marketplace smart contract that facilitates the buying and selling of NFTs"
 			},
 			{
 				"_id": "12a1fa79-86a3-8fad-93a1-a321bc9ece0d",
@@ -34,9 +34,10 @@
 				"answer": "An NFT collection that uses a random number generator to determine trait rarity during minting"
 			}
 		],
-		"guidance": "The correct answer is \"An NFT representing a digital artwork that automatically changes its appearance based on real-time weather data.\" This scenario uniquely demonstrates the value of oracles in NFT applications by showcasing their ability to bridge off-chain data (weather information) with on-chain assets (the NFT). Oracles enable this dynamic interaction between real-world data and blockchain-based NFTs, allowing for the creation of evolving digital assets. The other options, while important aspects of NFT technology, do not specifically require or showcase the unique capabilities of oracles. Marketplace smart contracts, minting processes, ownership verification, and random number generation for trait rarity can all be accomplished using on-chain data or built-in blockchain functionalities without the need for external data provided by oracles.",
+		"guidance": "The correct answer is \"An NFT representing a digital artwork that automatically changes its appearance based on real-time weather data.\" \n\nThis, more than the other scenarios, best demonstrates the value of oracles in NFT applications by showcasing their unique ability to bridge off-chain data (weather information) with on-chain assets (the NFT). Oracles enable this dynamic interaction between real-world data and blockchain-based NFTs, allowing for the creation of evolving digital assets. \n\n\nThe other options, while important aspects of NFT technology, do not specifically require oracles. Marketplace smart contracts, minting processes, ownership verification, and random number generation for trait rarity can all be accomplished using on-chain data or built-in blockchain functionalities without the need for external data provided by oracles.",
 		"showGuidanceAfterResponseOption": {
-			"type": "Never"
+			"type": "Attempts",
+			"passedFrom": 1
 		},
 		"maxAttemptsCount": 1,
 		"showExpectedAnswer": false,
@@ -68,7 +69,7 @@
 				},
 				{
 					"name": "Level",
-					"value": "Easy"
+					"value": "Intermediate"
 				},
 				{
 					"name": "Exam",
@@ -76,7 +77,7 @@
 				},
 				{
 					"name": "Type",
-					"value": "multiple response"
+					"value": "one correct answer"
 				}
 			],
 			"files": [],
@@ -87,5 +88,5 @@
 	},
 	"linkedId": "0174139b-2e41-4e62-811b-40793f1db34c",
 	"libraryId": "3b61def1-4a5c-4d46-b6a5-3ac64cf98050",
-	"version": 0
+	"version": 2
 }
