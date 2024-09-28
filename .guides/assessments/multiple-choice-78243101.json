@@ -2,7 +2,7 @@
 	"type": "multiple-choice",
 	"taskId": "multiple-choice-78243101",
 	"source": {
-		"name": "Web1 to web3 Evolution",
+		"name": "Web1 to web3 Evolution ch",
 		"showName": false,
 		"instructions": "Which of the following statements accurately describes the evolution of the web from Web 1.0 to Web3?",
 		"multipleResponse": false,
@@ -80,8 +80,5 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT differentiate between Web 1.0, Web 2.0, and Web3"
-	},
-	"linkedId": "d388b725-6552-4989-9acc-f37632f885f0",
-	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
-	"version": 5
+	}
 }
