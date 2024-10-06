@@ -4,39 +4,39 @@
 	"source": {
 		"name": "Decentralized Applications (dApps) Characteristics",
 		"showName": false,
-		"instructions": "Based on the information provided about decentralized applications (dApps), select all statements that accurately describe their characteristics:",
+		"instructions": "根据提供的有关去中心化应用程序 (dApp) 的信息，选择所有准确描述其特征的陈述：",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "f931772a-d060-1f2d-a8ca-2c77cdd165b4",
 				"correct": false,
-				"answer": "dApps run on centralized servers controlled by a single entity"
+				"answer": "dApp 在由单个实体控制的集中式服务器上运行。"
 			},
 			{
 				"_id": "94a0e897-998e-3143-4308-e25d055203f4",
 				"correct": true,
-				"answer": "The backend code of dApps runs on a decentralized peer-to-peer network of blockchain nodes"
+				"answer": "dApp 的后端代码运行在区块链节点的去中心化点对点网络上。"
 			},
 			{
 				"_id": "d1ffdb35-c9f3-1115-4449-3aaae3604d46",
 				"correct": true,
-				"answer": "dApps can include smart contracts written by other developers"
+				"answer": "dApp 可以包含其他开发人员编写的智能合约。"
 			},
 			{
 				"_id": "cc79e3e9-2b9c-1a5c-a1e6-c6f19bddb455",
 				"correct": false,
-				"answer": "The frontend of a dApp must only be hosted on decentralized storage"
+				"answer": "dApp 的前端只能托管在去中心化存储上。"
 			},
 			{
 				"_id": "9afdfa36-51c7-39bc-292c-fc7ae85a8a8d",
 				"correct": true,
-				"answer": "Decentralized applications (dApps) on Ethereum are deterministic (they produce the same result every time given the same inputs) regardless of the environment in which they run."
+				"answer": "以太坊上的去中心化应用程序 (dApp) 是确定性的（每次给定相同的输入，它们都会产生相同的结果），无论它们运行的​​环境如何。"
 			},
 			{
 				"_id": "6f97f122-cebf-e5df-72c5-db1d774364e1",
 				"correct": true,
-				"answer": "a dApp's backend smart contract code is executed in the Ethereum Virtual Machine"
+				"answer": "dApp 的后端智能合约代码在以太坊虚拟机中执行。"
 			}
 		],
 		"guidance": "The correct answers are:\n1. The backend code of dApps runs on a decentralized peer-to-peer network of blockchain nodes\n2. dApps can include smart contracts written by other developers\n3. Decentralized applications (dApps) on Ethereum are deterministic (they produce the same result every time given the same inputs) regardless of the environment in which they run.\n4. a dApp's backend smart contract code is executed in the Ethereum Virtual Machine\n\nThese statements accurately reflect the characteristics of dApps as described in the topic. dApps operate on decentralized networks, can use smart contracts from various sources, are deterministic in their execution, and run in isolated environments like the Ethereum Virtual Machine. \n\nThe incorrect options state that dApps run on centralized servers (they don't, they're decentralized) and that the frontend of a dApp must only be hosted on decentralized storage (it can be, but it's not a requirement).",
@@ -90,5 +90,8 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze and evaluate the key characteristics of decentralized applications (dApps) and their relationship to blockchain technology"
-	}
+	},
+	"linkedId": "b85848e2-9582-4416-934f-d656cea39ee2",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

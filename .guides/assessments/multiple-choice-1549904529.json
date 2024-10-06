@@ -4,34 +4,34 @@
 	"source": {
 		"name": "Public key and Private Keys 02",
 		"showName": false,
-		"instructions": "Consider the following scenario:\n\nAlice is new to blockchain and wants to share her private key with her friend Bob to help her manage her cryptocurrency. Which of the following statements are true? Select all that apply.",
+		"instructions": "考虑下列场景：\n\nAlice 刚刚了解区块链，她想要将她的私钥分享给她的朋友 Bob，来让 Bob 管理她的加密货币。下面哪一个叙述是正确的？请选出所有正确的选项。",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "45af1a01-347e-98a7-8f1c-71730581ab96",
 				"correct": false,
-				"answer": "Sharing her private key with Bob is safe as long as she trusts him."
+				"answer": "只要 Alice 信任 Bob，她将私钥分享给 Bob 就是安全的。"
 			},
 			{
 				"_id": "1babc7d4-7b89-1555-5b00-50dc3eeccca9",
 				"correct": true,
-				"answer": "Alice should never share her private key, even with trusted friends."
+				"answer": "Alice 永远都不该分享她的私钥，甚至是她最信任的朋友。"
 			},
 			{
 				"_id": "4c1b74ec-4012-289e-8d86-03308cf3896b",
 				"correct": true,
-				"answer": "By sharing her private key, Alice gives Bob the ability to sign transactions on her behalf."
+				"answer": "如果 Alice 分享了她的私钥，那么 Bob 就可以以 Alice 的身份对交易进行签名。"
 			},
 			{
 				"_id": "0667b99b-df70-7c65-dd8a-5fd1f7306c34",
 				"correct": true,
-				"answer": "Alice can safely share her public key with Bob instead."
+				"answer": "Alice 给 Bob 分享她的公钥是安全的。"
 			},
 			{
 				"_id": "5ded1452-ecd7-0fca-2fe0-cf0fc43c6d5e",
 				"correct": false,
-				"answer": "If Alice shares her private key, she can always generate a new one to regain exclusive control."
+				"answer": "就算 Alice 分享了她的私钥，她还是可以生成一个新的私钥来重新获得资产的独立控制权。"
 			}
 		],
 		"guidance": "The correct answers are:\n1) Alice should never share her private key, even with trusted friends.\n2) By sharing her private key, Alice gives Bob the ability to sign transactions on her behalf.\n3) Alice can safely share her public key with Bob instead.\n\nThese statements accurately reflect the importance of private key security in blockchain. Sharing a private key, even with trusted individuals, compromises the security of the entire system. The private key allows full control over transactions and assets, so it should never be shared. Sharing the public key is safe and is actually necessary for receiving transactions. The incorrect options suggest that sharing private keys can be safe or that the damage can be easily undone, which are dangerous misconceptions in blockchain security.",
@@ -85,5 +85,8 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT evaluate the importance of private key security in blockchain systems"
-	}
+	},
+	"linkedId": "8cbc0b10-69e6-460c-8c82-3fc20eb937dd",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 1
 }

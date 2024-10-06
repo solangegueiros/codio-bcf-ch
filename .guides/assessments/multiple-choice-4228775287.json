@@ -2,36 +2,36 @@
 	"type": "multiple-choice",
 	"taskId": "multiple-choice-4228775287",
 	"source": {
-		"name": "Blockchain 02 Ch",
+		"name": "Blockchain 02",
 		"showName": false,
-		"instructions": "Which of the following are true about Blockchain technology? Select all that apply.",
+		"instructions": "下面哪一个关于区块链技术的选项是正确的？选出所有符合的选项。",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "c4bab443-00f0-41db-25b6-c8da55275122",
 				"correct": true,
-				"answer": "It is a distributed ledger"
+				"answer": "它是一个分布式账本"
 			},
 			{
 				"_id": "a2aa6dfd-e07a-e6f6-d564-e539125535a2",
 				"correct": true,
-				"answer": "Blocks are linked using cryptographic hashes"
+				"answer": "区块和区块通过加密算法哈希连接在一起"
 			},
 			{
 				"_id": "828327fc-e15f-8859-c999-b333841b86c7",
 				"correct": false,
-				"answer": "Data in blocks can be easily altered retroactively"
+				"answer": "区块中的数据很容易被修改"
 			},
 			{
 				"_id": "a0703b3b-07d7-aba2-96e3-5323f5a99d05",
 				"correct": true,
-				"answer": "Each block records a timestamp"
+				"answer": "每一个区块，都会存储时间戳"
 			},
 			{
 				"_id": "63d64784-c756-7e03-bece-489daab8f9d6",
 				"correct": false,
-				"answer": "Transactions are reversible"
+				"answer": "交易是可以被撤销的"
 			}
 		],
 		"guidance": "A blockchain is indeed a distributed ledger where blocks are linked using cryptographic hashes. Each block contains a timestamp, and the data within blocks cannot be easily altered retroactively without changing all subsequent blocks. This makes blockchain transactions irreversible.",
@@ -84,5 +84,5 @@
 	},
 	"linkedId": "6fb7539b-2d33-4133-85f3-32b8ba1e3bff",
 	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
-	"version": 1
+	"version": 5
 }

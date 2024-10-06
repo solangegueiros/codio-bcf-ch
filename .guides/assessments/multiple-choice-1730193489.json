@@ -2,31 +2,31 @@
 	"type": "multiple-choice",
 	"taskId": "multiple-choice-1730193489",
 	"source": {
-		"name": "Blockchain 01 Ch",
+		"name": "Blockchain 01",
 		"showName": false,
-		"instructions": "What is a Blockchain?",
+		"instructions": "什么是区块链？",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "ca85f320-cb97-91cf-b727-1a5f2e4b3151",
 				"correct": false,
-				"answer": "A centralized database managed by a single entity"
+				"answer": "一个由中心化控制的中心化数据库"
 			},
 			{
 				"_id": "5997f6c8-ae53-8d94-d0c2-f50431efeda2",
 				"correct": true,
-				"answer": "A blockchain is a decentralized and distributed database that maintains a continuously growing list of ordered records in structures called blocks"
+				"answer": "区块链是一个去中心化和分布式的数据库，这个数据库存储着一个持续增长的有序记录，这个记录的数据结构叫做区块。"
 			},
 			{
 				"_id": "c3a9462f-9d04-8fa9-3fdd-5845524eb7e7",
 				"correct": false,
-				"answer": "A type of cryptocurrency"
+				"answer": "一种加密货币"
 			},
 			{
 				"_id": "5ab63e8b-848b-170b-b6d3-01bb986a2d22",
 				"correct": false,
-				"answer": "A programming language used for smart contracts"
+				"answer": "智能合约所使用的一种编程语言"
 			}
 		],
 		"guidance": "A blockchain is a decentralized and distributed database that maintains a continuously growing list of ordered records in structures called blocks",
@@ -83,5 +83,5 @@
 	},
 	"linkedId": "e01f6a20-2ede-4c6d-883a-1c97ca8e6bdc",
 	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
-	"version": 1
+	"version": 5
 }

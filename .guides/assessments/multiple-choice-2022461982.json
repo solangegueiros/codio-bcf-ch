@@ -4,34 +4,34 @@
 	"source": {
 		"name": "Hash Function 01",
 		"showName": false,
-		"instructions": "Which of the following are characteristics of a hash function? Select all that apply!",
+		"instructions": "下面哪些选项是哈希函数的特性？选出所有正确的选项。",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "3dd92477-d2f2-acf6-e87e-2a133a804249",
 				"correct": true,
-				"answer": "Deterministic: the same input always produces the same output"
+				"answer": "确定性：相同的输入总是生成相同的哈希值"
 			},
 			{
 				"_id": "b26f1792-f03c-5d74-da0f-f1987b4836be",
 				"correct": false,
-				"answer": "Reversible: the original input can be derived from the hash"
+				"answer": "可以反推：原始的输入数据可以从哈希值倒推出来"
 			},
 			{
 				"_id": "7536c7f9-70ce-79d7-fbad-3701c1a1e9af",
 				"correct": true,
-				"answer": "Fast computation of hashed outputs"
+				"answer": "数据的哈希值可以被很快地计算出来"
 			},
 			{
 				"_id": "56cef6e1-3f18-fa5d-07da-ee1ac1d7db33",
 				"correct": true,
-				"answer": "Collision resistant: different inputs rarely produce the same hash"
+				"answer": "碰撞抵抗：不同的数据极少产生相同的哈希值"
 			},
 			{
 				"_id": "affba6d6-5736-2251-9078-292461cc4c55",
 				"correct": false,
-				"answer": "Only produce outputs of variable length"
+				"answer": "智能产生长度可变的哈希值"
 			}
 		],
 		"guidance": "Hash functions are characterized by being deterministic (same input always produces same output), fast to compute, and collision resistant. They are designed to be one-way functions, meaning they are not reversible. While some hash functions support variable-length output, typically they map data to fixed-size values.",
@@ -85,5 +85,8 @@
 		},
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "SWBAT identify key characteristics of hash functions"
-	}
+	},
+	"linkedId": "144dc86e-01bf-4473-a821-eaa9a4d38df1",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 2
 }

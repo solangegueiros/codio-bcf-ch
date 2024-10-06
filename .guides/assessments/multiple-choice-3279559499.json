@@ -4,29 +4,29 @@
 	"source": {
 		"name": "Blockchain Structure 03 (Tx)",
 		"showName": false,
-		"instructions": "Which of the following is NOT a common use for transactions in a blockchain?",
+		"instructions": "下列哪个选项不是区块链中的交易的常见用途？",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "4d3113c5-a6ab-722e-a767-347e03cdd5dd",
 				"correct": false,
-				"answer": "Transferring assets with value"
+				"answer": "转移有价值的资产"
 			},
 			{
 				"_id": "94898571-4ba3-7c3a-36af-d808a4538fa3",
 				"correct": false,
-				"answer": "Deploying smart contracts"
+				"answer": "部署智能合约"
 			},
 			{
 				"_id": "b4808075-d35c-f37e-2f21-685e1827b202",
 				"correct": true,
-				"answer": "Storing large files like movies and images"
+				"answer": "存储像是电影或者图片这样的大型文件"
 			},
 			{
 				"_id": "59dd62ac-5366-c926-4acd-b0b5abdf8db0",
 				"correct": false,
-				"answer": "Interacting with smart contracts"
+				"answer": "与智能合约交互"
 			}
 		],
 		"guidance": "The correct answer is 'Storing large amounts of data'. While blockchains can store data, they are not typically used for storing large amounts of data due to scalability and cost concerns. Transactions in blockchains are commonly used for transferring value, deploying smart contracts, and interacting with smart contracts, as mentioned in the topic content.",
@@ -83,5 +83,5 @@
 	},
 	"linkedId": "8c792df7-4f5a-4d18-8c23-fa6f4d4c5398",
 	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
-	"version": 0
+	"version": 1
 }

@@ -4,29 +4,29 @@
 	"source": {
 		"name": "Proof of Stake Consensus Mechanism",
 		"showName": false,
-		"instructions": "Which of the following statements best describes the Proof of Stake (PoS) consensus mechanism in blockchain networks?",
+		"instructions": "下面哪一个选项最好地描述了在区块链网络中的权益证明（PoS）共识机制？",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "078c5faa-a6ee-3413-1d60-7d67c8fde8f5",
 				"correct": true,
-				"answer": "A system where participants with the most staked tokens have the highest chance of validating transactions and creating new blocks"
+				"answer": "一个系统，在这个系统中，质押最多token的参与者有最大的机率验证交易并且创建新的区块。"
 			},
 			{
 				"_id": "a69f9eac-3d51-d7ef-f074-329a853e90e7",
 				"correct": false,
-				"answer": "A method where miners compete to solve complex mathematical puzzles to add new blocks to the blockchain"
+				"answer": "一种方法，这种方法可以使矿工互相竞争来解决复杂的数学难题，从而将新的区块添加到区块链中。"
 			},
 			{
 				"_id": "b79e7244-1004-32b0-c64f-52c6c623a25e",
 				"correct": false,
-				"answer": "A protocol that requires all network participants to agree unanimously before any transaction can be processed"
+				"answer": "一个协议，在任何一笔交易被处理前，这个协议要求所有的网络参与者都要一致同意。"
 			},
 			{
 				"_id": "b7fd8a58-970a-ca68-3c62-7d8321549a02",
 				"correct": false,
-				"answer": "A technique where transaction validation is performed by a small group of pre-selected, trusted nodes"
+				"answer": "一种由一小群预先选择的可信节点所执行交易验证的技术。"
 			}
 		],
 		"guidance": "The correct answer is \"A system where participants with the most staked tokens have the highest chance of validating transactions and creating new blocks\". \n\nThis accurately describes the Proof of Stake mechanism, where the likelihood of being chosen to validate transactions and create new blocks is proportional to the amount of cryptocurrency a participant \"stakes\". \n\nThe other options are incorrect because: the second option describes Proof of Work, not Proof of Stake; the third option describes an impractical consensus method that would severely limit blockchain efficiency; and the fourth option more closely resembles a Proof of Authority (PoA), which is different from the PoS mechanism used in public blockchains.",
@@ -76,5 +76,8 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT compare and contrast the key features of Proof of Stake (PoS) consensus mechanism with other blockchain consensus mechanisms"
-	}
+	},
+	"linkedId": "464be4ea-50da-4272-960a-8d01345507cb",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

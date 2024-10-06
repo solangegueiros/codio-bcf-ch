@@ -4,29 +4,29 @@
 	"source": {
 		"name": "Proof of Work Consensus Mechanism",
 		"showName": false,
-		"instructions": "Which of the following best describes the Proof of Work (PoW) consensus mechanism in blockchain networks?",
+		"instructions": "下面哪一项最好地描述了在区块链网络中，工作量证明（PoW）的共识机制？",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "0a7ce474-a035-5bae-a6ea-7a7693a2a710",
 				"correct": true,
-				"answer": "A system where miners solve complex mathematical puzzles to validate transactions and add new blocks"
+				"answer": "是一个系统，在这个系统中，矿工解决复杂的数学难题来验证交易并且添加新的区块。"
 			},
 			{
 				"_id": "b05add69-3ba7-d3e9-42ab-d01270423f51",
 				"correct": false,
-				"answer": "A protocol where the richest participants have the most influence in validating transactions"
+				"answer": "一个协议，在这个协议中资产最多的参与者在验证交易中拥有最大的影响力。"
 			},
 			{
 				"_id": "4d1fc40c-5f0c-0584-858e-6344d41e66f0",
 				"correct": false,
-				"answer": "A method to encrypt all transactions on the blockchain for enhanced privacy"
+				"answer": "一个方法，这个方法对链上所有的交易加密来提升隐私性。"
 			},
 			{
 				"_id": "aca5c2e8-4b2b-1237-3d7b-634c096b81e7",
 				"correct": false,
-				"answer": "A technique to store large amounts of transaction data off-chain to improve scalability"
+				"answer": "一种技术，这个技术用来在链下存储大量的数据来提升可扩展性。"
 			}
 		],
 		"guidance": "The correct answer is \"A system where miners solve complex mathematical puzzles to validate transactions and add new blocks\". This accurately describes the Proof of Work mechanism, which involves miners performing computational work to solve cryptographic puzzles, thereby validating transactions and creating new blocks. The other options are incorrect because: the second option describes Proof of Stake, not Proof of Work; the third option confuses PoW with encryption, which is a separate security feature; and the fourth option describes off-chain scaling solutions, which are not related to the PoW consensus mechanism.",
@@ -76,5 +76,8 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the key characteristics and purpose of the Proof of Work consensus mechanism in blockchain networks"
-	}
+	},
+	"linkedId": "f6dd0bd7-7aea-4a9d-a5d2-b4f8eb6618c0",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

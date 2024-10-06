@@ -1,6 +1,7 @@
 ##
 # Introduction to Solidity
 
+
 ## Smart Contract Language
 
 

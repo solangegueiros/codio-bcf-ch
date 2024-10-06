@@ -4,34 +4,34 @@
 	"source": {
 		"name": "Distributed Networks 01",
 		"showName": false,
-		"instructions": "Select all statements that correctly describe the characteristics of network architectures:",
+		"instructions": "选择所有正确描述网络架构特点的选项：",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "37e676ad-26a7-1633-c687-e950638bfe55",
 				"correct": true,
-				"answer": "In a centralized network, all nodes must communicate through a single central server"
+				"answer": "在集中式网络中，所有节点通过单个中央服务器进行通信。"
 			},
 			{
 				"_id": "bde5c549-fb7b-5d08-d280-dc814abe637b",
 				"correct": true,
-				"answer": "Distributed networks are more resilient to node failures compared to centralized networks"
+				"answer": "与中心化网络相比，分布式网络对节点故障的恢复能力更强。"
 			},
 			{
 				"_id": "d0eb3c2e-2632-32cf-86a4-18e22dde93fc",
 				"correct": false,
-				"answer": "Decentralized networks always require open-source software to function"
+				"answer": "去中心化网络始终需要开源软件才能运行。"
 			},
 			{
 				"_id": "4d074f4d-3f63-92bf-f54c-8252c5b6c89b",
 				"correct": false,
-				"answer": "Peer-to-peer networks are an example of a centralized network architecture"
+				"answer": "点对点（P2P）网络是中心化网络架构的一个例子"
 			},
 			{
 				"_id": "59068fbf-3bcc-4420-be2e-180d7ab82b18",
 				"correct": true,
-				"answer": "In a distributed network, every participant can communicate directly with any other participant"
+				"answer": "在分布式网络中，每个参与者都可以直接与任何其他参与者通信"
 			}
 		],
 		"guidance": "The correct answers are:\n1) In a centralized network, all nodes must communicate through a single central server. This is accurate as centralized networks have a single point of control and communication.\n2) Distributed networks are more resilient to node failures compared to centralized networks. This is correct because in distributed networks, the loss of any single node doesn't prevent communication between other nodes.\n3) In a distributed network, every participant can communicate directly with any other participant. This is a key characteristic of distributed (peer-to-peer) networks.\n\nThe incorrect options are:\n3) Decentralized networks always require open-source software to function. While many decentralized networks use open-source software, it's not a requirement for all decentralized networks.\n4) Peer-to-peer networks are an example of a centralized network architecture. This is incorrect as peer-to-peer networks are actually examples of distributed or decentralized architectures, not centralized ones.",
@@ -81,5 +81,8 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT differentiate between centralized, decentralized, and distributed network architectures"
-	}
+	},
+	"linkedId": "9b5bcb98-6fad-4817-9d39-0ed88eb580eb",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

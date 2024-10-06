@@ -4,34 +4,34 @@
 	"source": {
 		"name": "Understanding Decentralization in Blockchain",
 		"showName": false,
-		"instructions": "Consider the following scenarios in a blockchain network. Which of these accurately represent the effects of decentralization? Select all that apply.",
+		"instructions": "考虑区块链网络中的以下场景。哪些准确地体现了去中心化的影响？选择所有适用的选项。",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "edec8438-7a50-9fdc-e69b-abf296f34312",
 				"correct": true,
-				"answer": "A hacker successfully attacks one node in the network, but the blockchain continues to operate normally."
+				"answer": "黑客成功攻击网络中的一个节点，但区块链继续正常运行。"
 			},
 			{
 				"_id": "6f5c1d15-2d0a-6d48-cf52-349c07fff2b8",
 				"correct": true,
-				"answer": "All participants in the network have equal authority to validate transactions."
+				"answer": "网络中的所有参与者都有机会去验证交易。"
 			},
 			{
 				"_id": "6615a860-d989-9e14-a6bd-ef5761699ecc",
 				"correct": false,
-				"answer": "The network becomes more efficient as more nodes are added."
+				"answer": "随着节点数量的增加，网络变得更加高效。"
 			},
 			{
 				"_id": "39e1f539-0f3f-2140-15ee-fdf3a734a497",
 				"correct": true,
-				"answer": "Transaction data is visible to all participants, but personal identities remain protected."
+				"answer": "所有参与者都可以看到交易数据，但个人身份仍然受到保护。"
 			},
 			{
 				"_id": "066cfa08-aa51-b4ff-4a88-47fc78d0cb0b",
 				"correct": false,
-				"answer": "A central authority is required to resolve disputes between nodes."
+				"answer": "需要一个中央权威来解决节点之间的争议。"
 			}
 		],
 		"guidance": "The correct answers illustrate key aspects of decentralization in blockchain:\n\n1. A hacker successfully attacking one node doesn't compromise the entire network, demonstrating resilience.\n2. Equal authority for transaction validation reflects the distributed nature of trust and control.\n3. Transaction visibility with protected identities shows the balance between transparency and privacy.\n\nThe incorrect options are:\n\n1. The network becoming more efficient with more nodes. In reality, more nodes can increase security but may decrease efficiency.\n2. A central authority being required for dispute resolution. This contradicts the principle of decentralization, where consensus mechanisms typically resolve disputes.\n\nThis question requires students to apply their understanding of decentralization to practical scenarios, assessing their ability to recognize its effects in a blockchain context.",
@@ -81,5 +81,8 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze and evaluate the implications of decentralization in blockchain technology"
-	}
+	},
+	"linkedId": "c77fa62a-75bf-48d2-bf3f-daa6c863066b",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

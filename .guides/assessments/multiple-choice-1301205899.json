@@ -4,39 +4,39 @@
 	"source": {
 		"name": "EVM Execution and Smart Contracts",
 		"showName": false,
-		"instructions": "Consider the following statements about the Ethereum Virtual Machine (EVM) and smart contract execution. Select all that are correct:",
+		"instructions": "考虑以下有关以太坊虚拟机（EVM）和智能合约执行的陈述。选择所有正确的选项：",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "6f78f7fe-6df2-3716-ec6a-63eda75d2839",
 				"correct": true,
-				"answer": "The EVM uses 'gas' to measure computational resources for smart contract execution"
+				"answer": "EVM 使用“gas”来衡量智能合约执行的计算资源。"
 			},
 			{
 				"_id": "d88b21df-00f9-17a1-2e75-d19e9bdc7dbe",
 				"correct": false,
-				"answer": "Smart contracts on the EVM can be written in any programming language"
+				"answer": "EVM 上的智能合约可以用任何编程语言编写。"
 			},
 			{
 				"_id": "c13f9147-db34-5b61-0d0e-3d05010d2d76",
 				"correct": true,
-				"answer": "The EVM ensures consistent execution of smart contracts across all Ethereum nodes"
+				"answer": "EVM 确保智能合约在所有以太坊节点上执行得到一致的地址。"
 			},
 			{
 				"_id": "2670ea68-2ff4-e57a-294e-0a68bbf260c4",
 				"correct": false,
-				"answer": "Gas fees in Ethereum are primarily used to reward validators, not to manage computational resources"
+				"answer": "以太坊的 Gas 费主要用于奖励验证者，而不是管理计算资源。"
 			},
 			{
 				"_id": "e9ab8df6-762a-b368-f397-2f8b65774f25",
 				"correct": true,
-				"answer": "The EVM allows for the creation of decentralized applications (dApps) on the Ethereum network"
+				"answer": "EVM 允许在以太坊网络上创建去中心化应用程序 (dApp)。"
 			},
 			{
 				"_id": "fd41183e-5b4f-4c1e-6f29-6fdc4d1bfcac",
 				"correct": false,
-				"answer": "Smart contracts in the EVM are executed in isolation and cannot interact with other contracts"
+				"answer": "EVM中的智能合约是孤立执行的，不能与其他合约交互。"
 			}
 		],
 		"guidance": "The correct answers are:\n1. The EVM uses 'gas' to measure computational resources for smart contract execution\n2. The EVM ensures consistent execution of smart contracts across all Ethereum nodes\n3. The EVM allows for the creation of decentralized applications (dApps) on the Ethereum network\n\nThese statements accurately reflect the key features of the EVM. It uses gas to manage computational resources, ensures consistency across nodes, and enables dApp creation. \n\nThe incorrect options state that any programming language can be used (while multiple languages are supported, not all are), that gas fees are primarily for validator/miner rewards (they're primarily for computational resource management), and that smart contracts can't interact (they can indeed interact with other contracts).",
@@ -86,5 +86,8 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT evaluate the key features and operations of the Ethereum Virtual Machine in relation to smart contract execution"
-	}
+	},
+	"linkedId": "5a276d88-4b2e-4e8c-813f-e6a7d2ad0e26",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

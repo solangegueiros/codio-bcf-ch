@@ -4,24 +4,24 @@
 	"source": {
 		"name": "Blockchain Structure 01",
 		"showName": false,
-		"instructions": "Which of the following are essential components of a block in a blockchain? Select all that apply.",
+		"instructions": "下面哪些选项是区块链中的区块的关键组成部分？选择所以正确的选项。",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "f3a16270-814c-b3d6-51d5-3596c37bb7a9",
 				"correct": true,
-				"answer": "Transactions"
+				"answer": "交易"
 			},
 			{
 				"_id": "4f3ca9f2-77ec-148f-f7ef-67e6fa637888",
 				"correct": true,
-				"answer": "Timestamp"
+				"answer": "时间戳"
 			},
 			{
 				"_id": "651de69e-6761-d10e-c63e-a2a42a7f866c",
 				"correct": true,
-				"answer": "Hash of the previous block"
+				"answer": "前一个区块的哈希"
 			},
 			{
 				"_id": "d9fcac6e-68bd-2753-d99f-eb8943412616",
@@ -31,12 +31,12 @@
 			{
 				"_id": "ff632fdc-b292-e184-6a58-957cafa13642",
 				"correct": false,
-				"answer": "Smart contract"
+				"answer": "智能合约"
 			},
 			{
 				"_id": "1b4e6d1a-418b-b528-9ebb-fd22aa6e45a7",
 				"correct": false,
-				"answer": "Validator's address"
+				"answer": "验证者的地址"
 			}
 		],
 		"guidance": "The correct answers are Transactions, Timestamp, Hash of the previous block, and Nonce. These are the essential components of a block in a blockchain as described in the topic. Smart contracts and Validator's addresses, while related to blockchain technology, are not core components of every block.",
@@ -89,5 +89,5 @@
 	},
 	"linkedId": "787b4472-4f11-4117-8b1c-f7c813e62540",
 	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
-	"version": 0
+	"version": 1
 }

@@ -4,34 +4,34 @@
 	"source": {
 		"name": "Merkle Tree 01-Describe",
 		"showName": false,
-		"instructions": "Which of the following statements accurately describe what a Merkle Tree is? Select all that apply.",
+		"instructions": "下面哪些选项准确地描述了默克尔树？选出所有的正确的选项。",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "02b72f14-4fba-02d6-684e-7392002b5ac7",
 				"correct": true,
-				"answer": "It is a fundamental data structure component in blockchain technology."
+				"answer": "它是区块链技术中的一种基础数据结构。"
 			},
 			{
 				"_id": "f39cd364-8227-20a1-e919-ed3fc4735900",
 				"correct": true,
-				"answer": "It allows for efficient verification of data integrity in large datasets."
+				"answer": "它可以在大数据集合中高效地验证部分数据的完整性。"
 			},
 			{
 				"_id": "c8b64cd1-8d7f-e6f0-90e4-61efb8ae5829",
 				"correct": true,
-				"answer": "Every leaf node is labeled with the cryptographic hash of a data block."
+				"answer": "每一个叶子节点都存储了区块中数据的哈希值。"
 			},
 			{
 				"_id": "c2475c97-5d14-d6ba-7435-08463f18be2b",
 				"correct": false,
-				"answer": "It is used to store all the data contained in transactions"
+				"answer": "它用于存储交易中包含着的所有数据。"
 			},
 			{
 				"_id": "36ba076a-5b4a-280b-35fb-e3710f7ffd61",
 				"correct": false,
-				"answer": "It is a \"flat\" data structure like an array."
+				"answer": "它是一个像数组一样，存储“扁平”数据的数据结构。"
 			}
 		],
 		"guidance": "The correct answers are:\n\n1. It is a fundamental data structure component in blockchain technology.\n2. It allows for efficient verification of data integrity in large datasets.\n3. Every leaf node is labeled with the cryptographic hash of a data block.\n\nMerkle Trees are indeed used in blockchains, they allow for efficient verification of large datasets, and their leaf nodes contain hashes of data blocks. The incorrect options state that it stores the entire transaction data (it only stores hashes of the transaction data) and that it's a flat structure (it's actually a tree structure with levels).",
@@ -85,5 +85,8 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify the key characteristics and purposes of a Merkle Tree"
-	}
+	},
+	"linkedId": "829be33d-05fd-48fe-bfda-aaf8743e2c5e",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 1
 }

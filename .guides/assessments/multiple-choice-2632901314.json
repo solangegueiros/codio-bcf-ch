@@ -4,29 +4,29 @@
 	"source": {
 		"name": "Consensus Mechanisms in Blockchain",
 		"showName": false,
-		"instructions": "What is the main purpose of consensus mechanisms in blockchain networks?",
+		"instructions": "共识机制在区块链网络中的主要目的是什么？",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "f62698ea-9fdb-eafd-6d14-3e1512ccde13",
 				"correct": false,
-				"answer": "To encrypt transactions for privacy"
+				"answer": "因为隐私原因，对交易数据加密"
 			},
 			{
 				"_id": "df32e793-4c81-5b99-4075-869390637313",
 				"correct": true,
-				"answer": "To ensure all nodes agree on the state of the blockchain"
+				"answer": "保证所有节点对区块链状态达成共识"
 			},
 			{
 				"_id": "13e695e6-8bc7-a763-4318-0928a586787c",
 				"correct": false,
-				"answer": "To mine new cryptocurrencies"
+				"answer": "进行新的加密货币挖矿"
 			},
 			{
 				"_id": "9a0209b2-f595-b75b-3a74-c58024e88a9c",
 				"correct": false,
-				"answer": "To store transaction data off-chain"
+				"answer": "在链下存储交易数据"
 			}
 		],
 		"guidance": "The correct answer is \"To ensure all nodes agree on the state of the blockchain\". Consensus mechanisms are protocols that all participants in a blockchain network follow to maintain the integrity, security, and smooth operation of the blockchain. Their primary purpose is to ensure that all nodes in the network agree on the state of the blockchain, preventing fraud and errors. The other options are incorrect because: encrypting transactions is a separate security feature, not the main purpose of consensus mechanisms; mining new cryptocurrencies is a result of some consensus mechanisms (like Proof of Work) but not their primary purpose; and storing transaction data off-chain is not related to consensus mechanisms at all.",
@@ -80,5 +80,8 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify the primary purpose of consensus mechanisms in blockchain networks"
-	}
+	},
+	"linkedId": "4c4ae8fd-0694-4ccb-97da-9c880e2669c4",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

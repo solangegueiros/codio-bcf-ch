@@ -58,3 +58,5 @@ Hands on part - no questions for now
 {Check It!|assessment}(multiple-choice-1031711245)
 
 ## Using an Ethereum wallet
+
+Hands on part - no questions for now

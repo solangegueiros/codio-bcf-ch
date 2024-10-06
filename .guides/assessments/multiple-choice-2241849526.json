@@ -4,29 +4,29 @@
 	"source": {
 		"name": "Hash Function 02",
 		"showName": false,
-		"instructions": "Which of the following best describes a hash function?",
+		"instructions": "下面哪一个选项准确地描述了哈希函数？",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "0e40a29a-c307-7580-bf20-b514cb36aa57",
 				"correct": true,
-				"answer": "An algorithm that maps variable-length data to fixed-length data in a one-way operation"
+				"answer": "一个算法，这个算法可以进行单向操作，将不同长度的数据映射为固定长度的数据。"
 			},
 			{
 				"_id": "22784d2b-97d1-b38d-8fb8-39b97adc48d4",
 				"correct": false,
-				"answer": "A function that only works with prime numbers"
+				"answer": "一个函数，这个函数只能用作于质数"
 			},
 			{
 				"_id": "7c18bade-1489-3cf5-c935-2fbc8eb57817",
 				"correct": false,
-				"answer": "A method to compress large files"
+				"answer": "一个压缩大文件的方法"
 			},
 			{
 				"_id": "dcb69a27-a199-5f2e-9467-43e3495efde1",
 				"correct": false,
-				"answer": "An algorithm that sorts data in ascending order"
+				"answer": "一个可以从小到大对数据排序的算法"
 			}
 		],
 		"guidance": "A hash function is an algorithm that maps variable-length data to fixed-length data. This is its primary characteristic and function. It does not specifically work with prime numbers, is not used for file compression, and does not sort data. The key feature of a hash function is its ability to take input of any size and produce a fixed-size output, which is useful for indexing and quickly finding items in a data structure.",
@@ -80,5 +80,8 @@
 		},
 		"bloomsObjectiveLevel": "1",
 		"learningObjectives": "SWBAT define a hash function"
-	}
+	},
+	"linkedId": "b94a3fb0-d8d6-48e9-b44b-79fed3e4f02b",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 2
 }

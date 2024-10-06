@@ -4,34 +4,34 @@
 	"source": {
 		"name": "Public key and Private Keys 01",
 		"showName": false,
-		"instructions": "Which of the following statements about public and private keys in blockchain are correct? Select all that apply.",
+		"instructions": "关于区块链中的公钥和私钥，下面哪些选项是正确的？选出所有正确的选项。",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "0d89a668-ec18-f4eb-0c10-f798bcd23adb",
 				"correct": true,
-				"answer": "A public key can be used to encrypt messages that only the corresponding private key holder can decrypt."
+				"answer": "公钥可以用来加密信息，被加密的信息只能被相对应的私钥解密。"
 			},
 			{
 				"_id": "ffabe72d-babd-3d67-9c2c-39949dbebab4",
 				"correct": true,
-				"answer": "A private key is used to sign data, which authenticates that the transaction originated from that specific sender."
+				"answer": "私钥可以用来对数据签名，这个签名可以验证这个数据是来自于特定的发送者。"
 			},
 			{
 				"_id": "b5077f05-51f2-d0a1-b555-eae636d4d971",
 				"correct": false,
-				"answer": "Anyone with access to a public key can decrypt messages encrypted with that public key."
+				"answer": "被公钥加密的信息，可以被拥有这个公钥的人解密。"
 			},
 			{
 				"_id": "2ec3cda1-aa34-77db-b07d-4bde18aaadce",
 				"correct": false,
-				"answer": "It's safe to share your private key with trusted parties."
+				"answer": "把你的私钥分享给值得信任的机构是一件安全的事情。"
 			},
 			{
 				"_id": "da16fd6b-95dc-00d1-1db6-415607f9df09",
 				"correct": true,
-				"answer": "Public keys are used to verify the identity of the sender of a signed transaction"
+				"answer": "对于一个被签名的交易，公钥可以被用来验证这个交易是否来自于特定的发送人。"
 			}
 		],
 		"guidance": "The correct answers are:\n1. A public key can be used to encrypt messages that only the corresponding private key holder can decrypt.\n1. A private key is used to sign data, which authenticates that the transaction originated from that specific sender.\n1. Public keys are used to verify the identity of the sender of a signed transaction\n\nThese statements accurately reflect the roles of public and private keys in blockchain cryptography. The incorrect options are incorrect because  only the private key can decrypt messages encrypted with a public key, and private keys should never be shared!",
@@ -85,5 +85,8 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT understand the roles and uses of public and private keys in blockchain cryptography"
-	}
+	},
+	"linkedId": "ea454865-ecec-4021-a37f-e2c5b6b4f748",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 1
 }

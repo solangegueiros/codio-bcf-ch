@@ -4,29 +4,29 @@
 	"source": {
 		"name": "Game Theory Applications",
 		"showName": false,
-		"instructions": "Which of the following is NOT a typical application of game theory?",
+		"instructions": "下面哪一项不是博弈论的典型应用？",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "98f52e94-757e-0fc5-ee80-1edb8cd5de86",
 				"correct": false,
-				"answer": "Analyzing strategic interactions in economic markets"
+				"answer": "分析经济市场中的行为的策略。"
 			},
 			{
 				"_id": "3d6a9c0c-9be9-9a77-01ce-8e6467590872",
 				"correct": true,
-				"answer": "Predicting weather patterns and climate change"
+				"answer": "在气候变化中预测天气的趋势。"
 			},
 			{
 				"_id": "772e3f08-66b4-a826-27b9-3de75884b47a",
 				"correct": false,
-				"answer": "Modeling decision-making in political science"
+				"answer": "政治学决策建模"
 			},
 			{
 				"_id": "f28abdd4-fe8c-db02-8bbd-070280a17b7b",
 				"correct": false,
-				"answer": "Developing interactive systems in computer science and artificial intelligence"
+				"answer": "开发计算机科学和人工智能中的交互系统"
 			}
 		],
 		"guidance": "\"Predicting weather patterns and climate change\" is NOT a typical use of game theory. \n\nGame theory is primarily used to study strategic interactions and decision-making among rational agents. It has applications in economics, political science, computer science, and other social sciences, as mentioned in the topic. However, predicting weather patterns and climate change typically involves meteorology, climatology, and other earth sciences, which do not rely on game theory as a primary tool. ",
@@ -76,5 +76,8 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify appropriate applications of game theory in various fields"
-	}
+	},
+	"linkedId": "1d75c396-824c-4b67-a34b-dba68da70ff1",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

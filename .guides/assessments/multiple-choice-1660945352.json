@@ -4,19 +4,19 @@
 	"source": {
 		"name": "Blockchain Structure 03",
 		"showName": false,
-		"instructions": "True or False: Each block in a Blockchain contains the hash of the next block in the chain.",
+		"instructions": "正确还是错误：\n区块链中的每一个区块都包含下一个区块的哈希值。",
 		"multipleResponse": false,
 		"isRandomized": false,
 		"answers": [
 			{
 				"_id": "47de59e0-c91a-ebc4-8896-fc4d9ff1700e",
 				"correct": false,
-				"answer": "True"
+				"answer": "正确"
 			},
 			{
 				"_id": "f977d096-6814-382e-0665-4d8a4ee5b07e",
 				"correct": true,
-				"answer": "False"
+				"answer": "错误"
 			}
 		],
 		"guidance": "The statement is false. Each block in a blockchain contains the hash of the *previous* block, not the next block. This is a crucial aspect of blockchain's structure that ensures the integrity and immutability of the chain. The hash of the previous block creates a link between blocks, forming the 'chain' in blockchain.",
@@ -73,5 +73,5 @@
 	},
 	"linkedId": "46b5ec07-685d-4fa2-8adf-19888c42c405",
 	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
-	"version": 0
+	"version": 1
 }

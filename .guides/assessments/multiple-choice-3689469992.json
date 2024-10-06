@@ -4,39 +4,39 @@
 	"source": {
 		"name": "Gas Usage and Implications in Ethereum",
 		"showName": false,
-		"instructions": "Consider the following statements about gas in Ethereum. Select all that are correct:",
+		"instructions": "考虑以下关于以太坊中的 Gas 的陈述。选择所有正确的：",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "fcc8f8a9-ad5d-376b-c382-edaef9ceebb3",
 				"correct": true,
-				"answer": "Gas fees are paid in units of Ether"
+				"answer": "gas费以以太币为单位支付。"
 			},
 			{
 				"_id": "10644a1c-1a4e-282d-a6d4-ea31505f27c8",
 				"correct": false,
-				"answer": "The gas fee for a transaction remains constant regardless of network congestion"
+				"answer": "无论网络拥塞如何，交易的 Gas 费都保持不变。"
 			},
 			{
 				"_id": "9ebd49a2-7c7c-bbee-9888-5c85a6600a3c",
 				"correct": true,
-				"answer": "Gas limits prevent smart contracts from consuming excessive computational resources"
+				"answer": "Gas 限制可防止智能合约消耗过多的计算资源。"
 			},
 			{
 				"_id": "e22e1db7-8faf-8ea6-003d-87a03b4b066d",
 				"correct": false,
-				"answer": "If a transaction runs out of gas, it will still be partially executed and included in the blockchain"
+				"answer": "如果一笔交易耗尽了 Gas，它仍然会被部分执行并包含在区块链中。"
 			},
 			{
 				"_id": "3d938ff2-c3a6-dcfb-1693-f66d2f47efd1",
 				"correct": true,
-				"answer": "Gas fees help prevent spam and potential denial-of-service attacks on the Ethereum network"
+				"answer": "gas 费有助于防止以太坊网络上的垃圾邮件和潜在的拒绝服务攻击。"
 			},
 			{
 				"_id": "b18b5c8e-e18a-80c7-eb85-6b5f93464acc",
 				"correct": false,
-				"answer": "The amount of gas required for a transaction is solely determined by the amount of Ether being transferred"
+				"answer": "一笔交易所需的 Gas 量仅由转账的以太币的数量决定。"
 			}
 		],
 		"guidance": "The correct answers are:\n1. Gas fees are paid in Ether\n2. Gas limits prevent smart contracts from consuming excessive computational resources\n3. Gas fees help prevent spam and potential denial-of-service attacks on the Ethereum network\n\nThese statements accurately reflect the role and implications of gas in Ethereum. Gas fees compensate miners/validators, gas limits control resource consumption, and the fee structure helps secure the network. The incorrect options state that gas fees are constant (they vary with network congestion), that out-of-gas transactions are partially executed (they are reverted entirely), and that gas is determined solely by Ether transferred (it's based on computational complexity).",
@@ -86,5 +86,8 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the role and implications of gas in Ethereum transactions"
-	}
+	},
+	"linkedId": "dc7b94cd-357a-48bc-b9eb-46505bbbbc7f",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

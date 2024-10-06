@@ -4,29 +4,29 @@
 	"source": {
 		"name": "Proof of Authority Consensus",
 		"showName": false,
-		"instructions": "Which of the following statements best describes the Proof of Authority (PoA) consensus mechanism in blockchain networks?",
+		"instructions": "下面哪一项最好地描述了区块链网络中的权威证明（PoA）共识机制？",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "69ec9190-5c69-7cc9-9a74-bc4edc444dd5",
 				"correct": true,
-				"answer": "A system where pre-selected authoritative nodes validate transactions and create new blocks"
+				"answer": "一个系统，在这个系统中，预选权威节点验证交易并创建新区块。"
 			},
 			{
 				"_id": "033549cb-e231-58dc-d08b-ee67ae09c540",
 				"correct": false,
-				"answer": "A mechanism where nodes compete to solve complex mathematical puzzles to add new blocks"
+				"answer": "一种机制，在这个机制中，节点竞争解决复杂数学难题以添加新块。"
 			},
 			{
 				"_id": "063c5e38-3525-2417-d9b6-d05bfae6a0d5",
 				"correct": false,
-				"answer": "A protocol where participants stake their cryptocurrency to gain validation rights"
+				"answer": "一种协议，协议需要参与者抵押其加密货币以获得验证权。"
 			},
 			{
 				"_id": "30417166-c51f-2d06-b53c-497ce5751037",
 				"correct": false,
-				"answer": "A method where all network participants have equal rights to validate transactions"
+				"answer": "一种方法，允许所有网络参与者都有平等权利来验证交易。"
 			}
 		],
 		"guidance": "The correct answer is \"A system where pre-selected authoritative nodes validate transactions and create new blocks\". This accurately describes the Proof of Authority mechanism, which relies on a group of pre-chosen authoritative nodes (validators) to check transactions and create new blocks. The other options are incorrect because: the second option describes Proof of Work, not Proof of Authority; the third option describes Proof of Stake; and the fourth option describes a more decentralized system, which is not characteristic of PoA's permissioned nature.",
@@ -76,5 +76,8 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze the key characteristics and purpose of the Proof of Authority consensus mechanism in blockchain networks"
-	}
+	},
+	"linkedId": "111579d5-a501-49dd-a6b0-63257a5ef915",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

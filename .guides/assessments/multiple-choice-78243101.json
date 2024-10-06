@@ -4,29 +4,29 @@
 	"source": {
 		"name": "Web1 to web3 Evolution ch",
 		"showName": false,
-		"instructions": "Which of the following statements accurately describes the evolution of the web from Web 1.0 to Web3?",
+		"instructions": "以下哪项陈述准确地描述了 Web 1.0 到 Web3 的演变？",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "965f5f10-f16d-2757-8086-c14f708aa451",
 				"correct": false,
-				"answer": "Web 1.0 focused on user-generated content, Web 2.0 introduced decentralization, and Web3 emphasizes static content delivery."
+				"answer": "Web 1.0 专注于用户生成的内容，Web 2.0 引入了去中心化，而 Web3 则强调静态内容交付。"
 			},
 			{
 				"_id": "8494cc20-8986-73a3-ef30-4803087f6551",
 				"correct": true,
-				"answer": "Web 1.0 was characterized by static content, Web 2.0 introduced user participation, and Web3 incorporates decentralization and blockchain technologies."
+				"answer": "Web 1.0 的特点是静态内容，Web 2.0 引入了用户参与，Web3 则融合了去中心化和区块链技术。"
 			},
 			{
 				"_id": "b068d72a-0e0d-a8ba-a975-5cc583e94826",
 				"correct": false,
-				"answer": "Web 1.0 utilized blockchain, Web 2.0 focused on server-provided content, and Web3 emphasizes centralized data storage."
+				"answer": "Web 1.0利用了区块链，Web 2.0侧重于服务器提供的内容，Web3强调集中式数据存储。"
 			},
 			{
 				"_id": "2a5cbe4a-367b-612e-0524-3c9a0f9c76db",
 				"correct": false,
-				"answer": "Web 1.0, Web 2.0, and Web3 are identical in their core functionalities and technologies."
+				"answer": "Web 1.0、Web 2.0 和 Web3 的核心功能和技术是相同的。"
 			}
 		],
 		"guidance": "The correct answer is: \"Web 1.0 was characterized by static content, Web 2.0 introduced user participation, and Web3 incorporates decentralization and blockchain technologies.\" This accurately reflects the evolution of the web as described in the topic. Web 1.0 was primarily about servers providing static content to users. Web 2.0 emphasized user-generated content and participation. Web3 introduces concepts of decentralization and blockchain technologies. The other options are incorrect as they misrepresent the chronology and key features of each web era.",
@@ -80,5 +80,8 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT differentiate between Web 1.0, Web 2.0, and Web3"
-	}
+	},
+	"linkedId": "d0b2a242-abe5-41c8-aef0-7ec58fc5b53c",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

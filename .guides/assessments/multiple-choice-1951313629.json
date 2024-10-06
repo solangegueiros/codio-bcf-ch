@@ -4,29 +4,29 @@
 	"source": {
 		"name": "Understanding Decentralization in Blockchain",
 		"showName": false,
-		"instructions": "Select all the correct statements about the importance of decentralization in blockchain technology:",
+		"instructions": "在下列有关区块链技术的描述中，选择所有对于去中心化重要性的正确陈述：",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "93ca508f-cff2-a24c-be40-43689903eeeb",
 				"correct": true,
-				"answer": "Decentralization enhances security by making it more difficult for attackers to compromise the network."
+				"answer": "去中心化使攻击者更难破坏网络，从而增强安全性。"
 			},
 			{
 				"_id": "b77c576f-2790-4db3-b9af-c7f53adda55c",
 				"correct": false,
-				"answer": "In a decentralized system, if one node fails, the entire network becomes non-operational."
+				"answer": "在去中心化系统中，如果一个节点发生故障，整个网络将无法运行。"
 			},
 			{
 				"_id": "9a137ae5-350e-e7d9-629a-6047736fc9aa",
 				"correct": false,
-				"answer": "Decentralization promotes transparency while maintaining a balance with privacy."
+				"answer": "去中心化提高了数据的透明度，同时还能保证数据的隐私性。"
 			},
 			{
 				"_id": "451a7f50-e393-550f-fd86-ebd238112675",
 				"correct": true,
-				"answer": "Decentralization distributes trust across the network rather than relying on a single authority."
+				"answer": "去中心化在整个网络中分配信任，而不是依赖单一权威。"
 			}
 		],
 		"guidance": "The correct answers are:\n\n1. Decentralization enhances security by making it more difficult for attackers to compromise the network.\n\n2. Decentralization distributes trust across the network rather than relying on a single authority.\n\nThese statements accurately reflect the benefits of decentralization as described in the topic. Decentralization does improve security by requiring multiple nodes to be compromised simultaneously. It also distributes trust across the network rather than relying on a single authority.\n\nThe incorrect statements are:\n\n1. Decentralization promotes transparency while maintaining a balance with privacy. Decentralization does not inherently enhance privacy in blockchain systems - privacy is more a function of the cryptography and public/private key architecture used in blockchains.\n\n2. In a decentralized system, if one node fails, the entire network becomes non-operational. This is false because one of the key benefits of decentralization is that it eliminates single points of failure, allowing the network to continue operating even if individual nodes fail.",
@@ -76,5 +76,8 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify and explain the key benefits of decentralization in blockchain technology"
-	}
+	},
+	"linkedId": "8a9d45f6-21bd-4455-ba0a-fb6e41a4e27c",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

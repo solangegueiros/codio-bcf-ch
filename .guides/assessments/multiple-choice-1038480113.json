@@ -4,19 +4,19 @@
 	"source": {
 		"name": "Merkle Tree 03-data",
 		"showName": false,
-		"instructions": "True or False: \nMerkle Trees store the entire blockchain data.",
+		"instructions": "正确还是错误：\n默克尔树存储了所有的区块链数据。",
 		"multipleResponse": false,
 		"isRandomized": false,
 		"answers": [
 			{
 				"_id": "0207a33f-4132-8695-29ab-8cb6354efd52",
 				"correct": false,
-				"answer": "True"
+				"answer": "正确"
 			},
 			{
 				"_id": "d5f028ef-e9ef-ed8d-0353-55cf22ef7aef",
 				"correct": true,
-				"answer": "False"
+				"answer": "错误"
 			}
 		],
 		"guidance": "The statement is false. Merkle Trees do not store the entire blockchain data. Instead, leaf nodes store hashes of data and all parent nodes contain hashes of their child node hashes.\n\nThis allows for efficient verification of the integrity of large datasets without having to store all the data.\n\n Merkle Trees are used to summarize and verify the integrity of data blocks, not to store the entire blockchain.",
@@ -70,5 +70,8 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify a key characteristic of Merkle Trees in relation to blockchain technology"
-	}
+	},
+	"linkedId": "1a7d14ac-ae67-4555-9b49-6a1076824307",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

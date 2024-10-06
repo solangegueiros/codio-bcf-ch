@@ -4,39 +4,39 @@
 	"source": {
 		"name": "Ethereum Virtual Machine (EVM) and State Transitions",
 		"showName": false,
-		"instructions": "Based on the information provided about state machines and the Ethereum Virtual Machine (EVM), select all statements that accurately describe their characteristics and operations:",
+		"instructions": "根据提供的有关状态机和以太坊虚拟机（EVM）的信息，选择所有准确描述其特征和操作的语句：",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "07e3814e-a49e-f9ce-6d6a-3cb7bf9b827c",
 				"correct": true,
-				"answer": "The EVM is a State Machine that processes transactions to move the blockchain from one state to another"
+				"answer": "EVM 是一种状态机，用于处理事务以将区块链从一种状态移动到另一种状态。"
 			},
 			{
 				"_id": "abefa095-95c2-48dd-06e8-99b726c2162c",
 				"correct": false,
-				"answer": "State transitions in Ethereum are always reversible"
+				"answer": "以太坊中的状态转换总是可逆的。"
 			},
 			{
 				"_id": "424743bf-58f5-2d5a-4410-eaed4d711a24",
 				"correct": true,
-				"answer": "The EVM executes smart contracts in a deterministic manner"
+				"answer": "EVM 以确定性方式执行智能合约。"
 			},
 			{
 				"_id": "4a19ed30-c831-dfce-61d5-6ba0b5838be9",
 				"correct": false,
-				"answer": "Ethereum's state machine has an infinite number of possible states"
+				"answer": "以太坊的状态机有无限多种可能的状态。"
 			},
 			{
 				"_id": "a6519a14-d50b-ff1d-abb7-a371798d5436",
 				"correct": true,
-				"answer": "Each transaction in Ethereum can potentially change the global state"
+				"answer": "以太坊中的每笔交易都可能改变全局状态。"
 			},
 			{
 				"_id": "c256f473-a07b-2c0d-de5f-88bc5251338f",
 				"correct": false,
-				"answer": "The EVM's behaviour is defined by the code in smart contracts running on the EVM"
+				"answer": "EVM 的行为由 EVM 上运行的智能合约中的代码定义。"
 			}
 		],
 		"guidance": "The correct answers are:\n1. The EVM is a State Machine that processes transactions to move the blockchain from one state to another\n2. The EVM executes smart contracts in a deterministic manner\n3. Each transaction in Ethereum can potentially change the global state\n\nThese statements accurately reflect the characteristics of the EVM and state transitions in Ethereum. The EVM is responsible for processing transactions and executing smart contracts, which results in state transitions. It operates deterministically, ensuring consistent results across all nodes. Each transaction has the potential to alter the global state of the Ethereum blockchain.\n\nThe incorrect options state that state transitions are always reversible (they are not, as blockchain transactions are generally irreversible), that Ethereum's state machine has an infinite number of states (it has a large but finite number of possible states), and that the EVM's behaviour is defined by the code in smart contracts running on the EVM (the EVM and smart contracts are isolated and the EVM is unaffected by the logic of smart contracts).",
@@ -86,5 +86,8 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze and evaluate the key characteristics of the Ethereum Virtual Machine (EVM) and its role in state transitions"
-	}
+	},
+	"linkedId": "1e5f3639-14dc-4271-a999-0972e8114523",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

@@ -4,34 +4,34 @@
 	"source": {
 		"name": "Nick Szabo and Smart Contracts",
 		"showName": false,
-		"instructions": "Based on the information provided about Nick Szabo and smart contracts, select all statements that are true:",
+		"instructions": "根据所提供的有关 Nick Szabo 和智能合约的信息，选择所有正确的陈述：",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "952f749e-b6e6-5411-6419-e4d1d5e449d9",
 				"correct": true,
-				"answer": "Nick Szabo proposed the concept of smart contracts in 1994"
+				"answer": "Nick Szabo 于 1994 年提出智能合约的概念。"
 			},
 			{
 				"_id": "9847392e-c849-33f2-5524-6be19712dc2b",
 				"correct": false,
-				"answer": "Smart contracts were immediately implementable when Szabo proposed them"
+				"answer": "当 Nick Szabo 提出智能合约时，智能合约立即可以实施。"
 			},
 			{
 				"_id": "deef9cb6-6b96-b948-6287-c93468db23e3",
 				"correct": true,
-				"answer": "Szabo's vision included reducing the need for trusted intermediaries in transactions"
+				"answer": "Nick Szabo 的愿景包括减少交易中对可信中介的需求。"
 			},
 			{
 				"_id": "e868ef7f-8459-0236-8bb9-cf9711c8625c",
 				"correct": true,
-				"answer": "The launch of Ethereum in 2015 made smart contracts a practical reality"
+				"answer": "2015 年以太坊的推出使智能合约成为现实。"
 			},
 			{
 				"_id": "3cd808b5-ff5a-1726-9998-2ab38457888a",
 				"correct": false,
-				"answer": "Szabo's concept of smart contracts was limited to cryptocurrency transactions"
+				"answer": "Szabo 的智能合约概念仅限于加密货币交易。"
 			}
 		],
 		"guidance": "The correct answers are:\n1. Nick Szabo proposed the concept of smart contracts in 1994\n2. Szabo's vision included reducing the need for trusted intermediaries in transactions\n3. The launch of Ethereum in 2015 made smart contracts a practical reality\n\nThese statements accurately reflect the information provided about Nick Szabo and smart contracts. Szabo indeed proposed the concept in 1994, aiming to reduce the need for intermediaries. The practical implementation of smart contracts became possible with Ethereum's launch in 2015. The incorrect options state that smart contracts were immediately implementable (they weren't due to technological limitations) and that Szabo's concept was limited to cryptocurrency transactions (his vision was broader, encompassing various types of digital transactions and agreements).",
@@ -81,5 +81,8 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT analyze and evaluate the contributions of Nick Szabo to the development of smart contracts"
-	}
+	},
+	"linkedId": "fe2b7994-bf19-4e05-a6cb-e8cb29b6acc9",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

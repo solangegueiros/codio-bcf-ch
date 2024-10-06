@@ -4,29 +4,29 @@
 	"source": {
 		"name": "Understanding Web3 Concepts",
 		"showName": false,
-		"instructions": "Which of the following is a core design principle of Web3?",
+		"instructions": "以下哪项是 Web3 的核心设计原则？",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "6fc20df9-0053-b59b-1b79-b5d23b17c429",
 				"correct": false,
-				"answer": "Centralized data storage controlled by big tech companies"
+				"answer": "由大型科技公司控制的集中数据存储。"
 			},
 			{
 				"_id": "e604f64e-64a0-01d1-9351-e6f9e91a5a70",
 				"correct": false,
-				"answer": "Emphasis on static content delivery"
+				"answer": "强调静态内容交付。"
 			},
 			{
 				"_id": "e86b2b2c-6b8f-a676-a2e8-1a0a87931c54",
 				"correct": true,
-				"answer": "Decentralization using blockchain technologies"
+				"answer": "使用区块链技术进行去中心化。"
 			},
 			{
 				"_id": "d6b264dd-f07c-67bc-aaba-437d7b659f94",
 				"correct": false,
-				"answer": "Focus on user-generated content without tokenization"
+				"answer": "专注于用户生成的内容，无需通证化"
 			}
 		],
 		"guidance": "The correct answer is \"Decentralization using blockchain technologies.\" This is a fundamental concept of Web3 as described in the topic. Web3 incorporates decentralization and blockchain technologies, moving away from the centralized model of Web 2.0. \n\nThe other options are incorrect because: centralized data storage is characteristic of Web 2.0, not Web3; emphasis on static content delivery was a feature of Web 1.0; and while user-generated content was a key aspect of Web 2.0, Web3 adds the element of tokenization and blockchain-based economics to this concept.",
@@ -80,5 +80,8 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify key characteristics of Web3"
-	}
+	},
+	"linkedId": "fa7b00a9-be79-4d1a-999f-41e87f45dabf",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

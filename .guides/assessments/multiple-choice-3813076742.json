@@ -4,19 +4,19 @@
 	"source": {
 		"name": "Blockchain 03",
 		"showName": false,
-		"instructions": "True or False:\n\nOnce a transaction is recorded on the blockchain, it can be easily altered without affecting other blocks.",
+		"instructions": "正确还是错误：\n\n当一个交易被记录在区块链上，在不改变其他的区块的情况下，它可以很容易地被修改。",
 		"multipleResponse": false,
 		"isRandomized": false,
 		"answers": [
 			{
 				"_id": "32e5a5f9-9b39-c2bb-daad-61dac6d837de",
 				"correct": false,
-				"answer": "True"
+				"answer": "正确"
 			},
 			{
 				"_id": "f2db416c-f9da-c69e-87bb-13e371bd0173",
 				"correct": true,
-				"answer": "False"
+				"answer": "错误"
 			}
 		],
 		"guidance": "The statement is false. One of the key features of blockchain is that once a transaction is recorded in a block, it cannot be altered retroactively. This is because each block contains a cryptographic hash of the previous block, creating a chain of blocks that are securely linked together. This property ensures the immutability and integrity of the blockchain.",
@@ -73,5 +73,5 @@
 	},
 	"linkedId": "29c7f93f-5e1c-4c08-83c4-e20b32b3e435",
 	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
-	"version": 0
+	"version": 2
 }

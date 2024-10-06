@@ -4,29 +4,29 @@
 	"source": {
 		"name": "Merkle Tree 02-structure",
 		"showName": false,
-		"instructions": "Which of the following best describes the structure of a Merkle Tree?",
+		"instructions": "下面哪一项最准确的描述了默克尔树的结构？",
 		"multipleResponse": false,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "7ac1788a-5643-d0f3-542b-05ed76b067b6",
 				"correct": true,
-				"answer": "A binary tree (a data structure where each node has no more than 2 child nodes) where each non-leaf node is the hash of its two child nodes"
+				"answer": "一个二叉树（每一个节点都不超过两个子节点的数据结构），这个二叉树中，每一个非叶子节点都是它的两个子节点的哈希值。"
 			},
 			{
 				"_id": "5933da3b-b168-4d6b-b9f1-7d620874b5fe",
 				"correct": false,
-				"answer": "A linked list data structure where each node contains the hash of the previous node"
+				"answer": "一个链表数据结构，这个链表中，每一个数据节点都包含前一个数据节点的哈希值。"
 			},
 			{
 				"_id": "9ed4dbe5-b936-6746-ad9a-978fd1b7d42f",
 				"correct": false,
-				"answer": "A binary tree where all nodes contain both transaction data and the hash of that data"
+				"answer": "一个二叉树，这个二叉树中所有的节点都包含交易数据和这个交易数据的哈希值。"
 			},
 			{
 				"_id": "1bee01e1-35fa-5a40-5945-909bd2b3be3f",
 				"correct": false,
-				"answer": "It is a flat, linear data structure like an array."
+				"answer": "一个扁平，线性的数据结构，就像数组。"
 			}
 		],
 		"guidance": "The correct answer is \"A binary tree (a data structure where each node has no more than 2 child nodes) where each non-leaf node is the hash of its two child nodes\". \n\nThis accurately describes the structure of a Merkle Tree as presented in the topic. In a Merkle Tree, leaf nodes contain hashes of data blocks (not the actual data), and each non-leaf node is the hash of its child nodes' hashes. \n\nThe other options are incorrect: A Merkle Tree is a Tree data structure, and not a linked list. Nodes in a Merkle Tree do not contain both data and hashes (only leaf nodes contain data hashes, while parent nodes contain hashes of their child node hashes).",
@@ -80,5 +80,8 @@
 		},
 		"bloomsObjectiveLevel": "3",
 		"learningObjectives": "SWBAT identify the structure and properties of a Merkle Tree"
-	}
+	},
+	"linkedId": "ccdbaf57-a27c-4106-a4f6-087c6cf42cd8",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

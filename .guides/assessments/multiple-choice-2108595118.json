@@ -4,34 +4,34 @@
 	"source": {
 		"name": "Smart Contracts and DApps Fundamentals",
 		"showName": false,
-		"instructions": "Based on the information provided about smart contracts, select all statements that are true:",
+		"instructions": "根据提供的有关智能合约的信息，选择所有正确的陈述：",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "9ebd4972-1881-fc12-a1b8-d4507df3df48",
 				"correct": true,
-				"answer": "Smart contracts are computer programs that reside at specific addresses on the Ethereum blockchain"
+				"answer": "智能合约是存储在以太坊区块链上特定地址的计算机程序。"
 			},
 			{
 				"_id": "01e75455-f3ff-2eaa-f6a0-a55abd8ce854",
 				"correct": false,
-				"answer": "Smart contracts can be easily deleted or modified once deployed to the Ethereum network"
+				"answer": "智能合约部署到以太坊网络后可以轻松删除或修改。"
 			},
 			{
 				"_id": "5dde9dea-a0ca-0ab2-bf1f-aa9f3e6c3fc2",
 				"correct": true,
-				"answer": "Other smart contracts and uses accounts (wallets) can interact with smart contracts"
+				"answer": "其他智能合约和用户账户（钱包）都可以与智能合约交互。"
 			},
 			{
 				"_id": "eeada018-b2d4-9ccf-677c-ca391a3eefd1",
 				"correct": false,
-				"answer": "Smart contracts are legal contracts"
+				"answer": "智能合约是符合法律法规的合同。"
 			},
 			{
 				"_id": "c1bc1007-8d3b-126b-cbaa-c926dffd520c",
 				"correct": true,
-				"answer": "Smart contracts can hold a taken (value) balance similar to user accounts"
+				"answer": "智能合约可以持有类似于用户帐户的token余额。"
 			}
 		],
 		"guidance": "The correct answers are:\n1. Smart contracts are computer programs that reside at specific addresses on the Ethereum blockchain\n2. Other smart contracts and uses accounts (wallets) can interact with smart contracts\n3. Smart contracts can hold a token(value) balance, similar to user accounts\n\nThese statements accurately reflect the information provided about smart contracts. Smart contracts are indeed programs on the Ethereum blockchain, can be interacted with through transactions, and can hold balances like user accounts. \n\nThe incorrect options state that smart contracts can be easily deleted or modified (they cannot by default, and interactions are irreversible) and that they are legal contracts (they are inspired by binding nature of legal contracts, but they're not themselves legal contracts).",
@@ -85,5 +85,8 @@
 		},
 		"bloomsObjectiveLevel": "4",
 		"learningObjectives": "SWBAT analyze and evaluate the key characteristics and functionality of smart contracts on the Ethereum blockchain"
-	}
+	},
+	"linkedId": "4f69060c-1585-4ab8-a837-93cbf63b3adb",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }

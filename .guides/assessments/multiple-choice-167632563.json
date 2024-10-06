@@ -4,34 +4,34 @@
 	"source": {
 		"name": "Ethereum Fundamentals",
 		"showName": false,
-		"instructions": "Select all statements that accurately describe the Ethereum blockchain:",
+		"instructions": "选择所有准确描述以太坊区块链的陈述：",
 		"multipleResponse": true,
 		"isRandomized": true,
 		"answers": [
 			{
 				"_id": "cec306ac-03b7-ddfc-23a9-cfe257730b48",
 				"correct": true,
-				"answer": "It is a decentralized, open-source blockchain platform"
+				"answer": "它是一个去中心化的开源区块链平台。"
 			},
 			{
 				"_id": "d0acdb6c-c202-b71b-907f-80139f7cb5b1",
 				"correct": true,
-				"answer": "It enables the creation and deployment of smart contracts"
+				"answer": "它支持智能合约的创建和部署。"
 			},
 			{
 				"_id": "7d85ed31-c6dd-186e-4720-16ce63dda574",
 				"correct": false,
-				"answer": "It is controlled by a single central authority"
+				"answer": "它由一个中央机构控制。"
 			},
 			{
 				"_id": "08688c3d-a42a-27d6-9c97-d76ae5d6ab29",
 				"correct": false,
-				"answer": "It only supports cryptocurrency transactions"
+				"answer": "仅支持加密货币交易。"
 			},
 			{
 				"_id": "3188dfc4-077a-9613-87db-a2fa940d51b5",
 				"correct": true,
-				"answer": "Its native token is called ether (ETH)"
+				"answer": "它的原生代币称为以太币（ETH）。"
 			}
 		],
 		"guidance": "The correct answers are:\n\n1. It is a decentralized, open-source blockchain platform\n2. It enables the creation and deployment of smart contracts\n3. Its native token is called ether (ETH)\n\nThese statements accurately describe Ethereum as presented in the topic. Ethereum is indeed a decentralized, open-source platform that allows for smart contract deployment and powers the ETH cryptocurrency. The incorrect options state that it is controlled by a single central authority (it is actually decentralized and community-run) and that it only supports cryptocurrency transactions (it supports a wide range of decentralized applications beyond just transactions).",
@@ -85,5 +85,8 @@
 		},
 		"bloomsObjectiveLevel": "2",
 		"learningObjectives": "SWBAT understand and identify key characteristics of the Ethereum blockchain"
-	}
+	},
+	"linkedId": "c4782902-0c8d-4194-87e4-8fe3237d29d8",
+	"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+	"version": 0
 }
