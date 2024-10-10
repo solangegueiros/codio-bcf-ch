@@ -1,0 +1,17 @@
+{
+	"id": "73c513e9-7bbb-1100-9d9c-f57ac059224c",
+	"title": "Interoperability Use Cases 02",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel",
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}
