@@ -1,0 +1,17 @@
+{
+	"type": "random",
+	"taskId": "random-518947944",
+	"source": {
+		"name": "Tokenization Concepts 02",
+		"points": 1,
+		"useMaximumScore": false,
+		"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+		"search": [
+			{
+				"name": "Topic",
+				"value": "Tokenization concepts"
+			}
+		],
+		"libraryName": "Chinese - Blockchain Fundamentals Assessments Library"
+	}
+}

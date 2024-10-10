@@ -1,0 +1,17 @@
+{
+	"type": "random",
+	"taskId": "random-1090372091",
+	"source": {
+		"name": "Decentralization",
+		"points": 20,
+		"useMaximumScore": false,
+		"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+		"search": [
+			{
+				"name": "Topic",
+				"value": "Decentralization"
+			}
+		],
+		"libraryName": "Chinese - Blockchain Fundamentals Assessments Library"
+	}
+}

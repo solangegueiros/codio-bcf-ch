@@ -1,0 +1,17 @@
+{
+	"type": "random",
+	"taskId": "random-2213153201",
+	"source": {
+		"name": "Token standards 01",
+		"points": 1,
+		"useMaximumScore": false,
+		"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+		"search": [
+			{
+				"name": "Topic",
+				"value": "Token standards"
+			}
+		],
+		"libraryName": "Chinese - Blockchain Fundamentals Assessments Library"
+	}
+}

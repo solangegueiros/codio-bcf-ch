@@ -1,0 +1,17 @@
+{
+	"type": "random",
+	"taskId": "random-171323446",
+	"source": {
+		"name": "Smart contracts",
+		"points": 1,
+		"useMaximumScore": false,
+		"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+		"search": [
+			{
+				"name": "Topic",
+				"value": "Smart Contracts"
+			}
+		],
+		"libraryName": "Chinese - Blockchain Fundamentals Assessments Library"
+	}
+}

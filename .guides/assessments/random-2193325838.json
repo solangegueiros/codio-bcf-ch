@@ -1,0 +1,17 @@
+{
+	"type": "random",
+	"taskId": "random-2193325838",
+	"source": {
+		"name": "Ethereum",
+		"points": 1,
+		"useMaximumScore": false,
+		"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+		"search": [
+			{
+				"name": "Topic",
+				"value": "Ethereum"
+			}
+		],
+		"libraryName": "Chinese - Blockchain Fundamentals Assessments Library"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "random",
+	"taskId": "random-2997341720",
+	"source": {
+		"name": "Merkle Tree",
+		"points": 1,
+		"useMaximumScore": false,
+		"libraryId": "2009afc3-2dbd-412f-91f8-6cb1b2d5b53f",
+		"search": [
+			{
+				"name": "SubTopic",
+				"value": "Merkle Tree"
+			}
+		],
+		"libraryName": "Chinese - Blockchain Fundamentals Assessments Library"
+	}
+}
